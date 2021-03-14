@@ -7,7 +7,7 @@ import * as s from './style';
 const WordPage = ({ word }) => {
   return (
     <s.WordPageContainer>
-      <div>{word?.phrase}</div>
+      <div>{word?.word}</div>
     </s.WordPageContainer>
   );
 };
