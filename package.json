@@ -1,0 +1,53 @@
+{
+  "name": "learning-english",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev -p 9090",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write \"**/*.js\"",
+    "lint": "eslint .",
+    "postbuild": "next-sitemap --config next-sitemap.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "browser-image-compression": "^1.0.13",
+    "cross-env": "^7.0.2",
+    "debug": "~2.6.9",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^10.0.0",
+    "next-seo": "^4.17.0",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.1.0",
+    "react-image-gallery": "^1.0.8",
+    "react-infinite-scroller": "^1.2.4",
+    "react-reveal": "^1.2.2",
+    "react-slick": "^0.25.2",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.11.0-0",
+    "eslint": "^7.5.0",
+    "prettier": "^1.18.2",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "next-sitemap": "latest"
+  },
+  "license": "MIT"
+}

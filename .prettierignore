@@ -1,0 +1,9 @@
+# Dependencies folder
+node_modules/
+.next/
+.pnpm-store/
+
+# Output of next build
+out
+dist
+public
