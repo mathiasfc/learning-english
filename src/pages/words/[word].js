@@ -11,7 +11,8 @@ Word.propTypes = {
     word: PropTypes.string,
     phrase: PropTypes.string,
     image: PropTypes.string,
-    audio: PropTypes.string
+    audio: PropTypes.string,
+    translation: PropTypes.string
   }).isRequired
 };
 

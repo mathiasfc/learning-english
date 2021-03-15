@@ -2,5996 +2,4998 @@ const CONTENTS = {
   a: {
     word: 'a',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ability: {
     word: 'ability',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   able: {
     word: 'able',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   about: {
     word: 'about',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   above: {
     word: 'above',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   accept: {
     word: 'accept',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   according: {
     word: 'according',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   account: {
     word: 'account',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   across: {
     word: 'across',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   act: {
     word: 'act',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   action: {
     word: 'action',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   activity: {
     word: 'activity',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   actually: {
     word: 'actually',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   add: {
     word: 'add',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   address: {
     word: 'address',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   administration: {
     word: 'administration',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   admit: {
     word: 'admit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   adult: {
     word: 'adult',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   affect: {
     word: 'affect',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   after: {
     word: 'after',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   again: {
     word: 'again',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   against: {
     word: 'against',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   age: {
     word: 'age',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   agency: {
     word: 'agency',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   agent: {
     word: 'agent',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ago: {
     word: 'ago',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   agree: {
     word: 'agree',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   agreement: {
     word: 'agreement',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ahead: {
     word: 'ahead',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   air: {
     word: 'air',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   all: {
     word: 'all',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   allow: {
     word: 'allow',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   almost: {
     word: 'almost',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   alone: {
     word: 'alone',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   along: {
     word: 'along',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   already: {
     word: 'already',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   also: {
     word: 'also',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   although: {
     word: 'although',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   always: {
     word: 'always',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   American: {
     word: 'American',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   among: {
     word: 'among',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   amount: {
     word: 'amount',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   analysis: {
     word: 'analysis',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   and: {
     word: 'and',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   animal: {
     word: 'animal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   another: {
     word: 'another',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   answer: {
     word: 'answer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   any: {
     word: 'any',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   anyone: {
     word: 'anyone',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   anything: {
     word: 'anything',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   appear: {
     word: 'appear',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   apply: {
     word: 'apply',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   approach: {
     word: 'approach',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   area: {
     word: 'area',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   argue: {
     word: 'argue',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   arm: {
     word: 'arm',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   around: {
     word: 'around',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   arrive: {
     word: 'arrive',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   art: {
     word: 'art',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   article: {
     word: 'article',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   artist: {
     word: 'artist',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   as: {
     word: 'as',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ask: {
     word: 'ask',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   assume: {
     word: 'assume',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   at: {
     word: 'at',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   attack: {
     word: 'attack',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   attention: {
     word: 'attention',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   attorney: {
     word: 'attorney',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   audience: {
     word: 'audience',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   author: {
     word: 'author',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   authority: {
     word: 'authority',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   available: {
     word: 'available',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   avoid: {
     word: 'avoid',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   away: {
     word: 'away',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   baby: {
     word: 'baby',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   back: {
     word: 'back',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bad: {
     word: 'bad',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bag: {
     word: 'bag',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ball: {
     word: 'ball',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bank: {
     word: 'bank',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bar: {
     word: 'bar',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   base: {
     word: 'base',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   be: {
     word: 'be',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   beat: {
     word: 'beat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   beautiful: {
     word: 'beautiful',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   because: {
     word: 'because',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   become: {
     word: 'become',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bed: {
     word: 'bed',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   before: {
     word: 'before',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   begin: {
     word: 'begin',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   behavior: {
     word: 'behavior',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   behind: {
     word: 'behind',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   believe: {
     word: 'believe',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   benefit: {
     word: 'benefit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   best: {
     word: 'best',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   better: {
     word: 'better',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   between: {
     word: 'between',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   beyond: {
     word: 'beyond',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   big: {
     word: 'big',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bill: {
     word: 'bill',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   billion: {
     word: 'billion',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bit: {
     word: 'bit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   black: {
     word: 'black',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   blood: {
     word: 'blood',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   blue: {
     word: 'blue',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   board: {
     word: 'board',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   body: {
     word: 'body',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   book: {
     word: 'book',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   born: {
     word: 'born',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   both: {
     word: 'both',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   box: {
     word: 'box',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   boy: {
     word: 'boy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   break: {
     word: 'break',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   bring: {
     word: 'bring',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   brother: {
     word: 'brother',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   budget: {
     word: 'budget',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   build: {
     word: 'build',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   building: {
     word: 'building',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   business: {
     word: 'business',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   but: {
     word: 'but',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   buy: {
     word: 'buy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   by: {
     word: 'by',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   call: {
     word: 'call',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   camera: {
     word: 'camera',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   campaign: {
     word: 'campaign',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   can: {
     word: 'can',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cancer: {
     word: 'cancer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   candidate: {
     word: 'candidate',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   capital: {
     word: 'capital',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   car: {
     word: 'car',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   card: {
     word: 'card',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   care: {
     word: 'care',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   career: {
     word: 'career',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   carry: {
     word: 'carry',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   case: {
     word: 'case',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   catch: {
     word: 'catch',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cause: {
     word: 'cause',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cell: {
     word: 'cell',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   center: {
     word: 'center',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   central: {
     word: 'central',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   century: {
     word: 'century',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   certain: {
     word: 'certain',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   certainly: {
     word: 'certainly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   chair: {
     word: 'chair',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   challenge: {
     word: 'challenge',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   chance: {
     word: 'chance',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   change: {
     word: 'change',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   character: {
     word: 'character',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   charge: {
     word: 'charge',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   check: {
     word: 'check',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   child: {
     word: 'child',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   choice: {
     word: 'choice',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   choose: {
     word: 'choose',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   church: {
     word: 'church',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   citizen: {
     word: 'citizen',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   city: {
     word: 'city',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   civil: {
     word: 'civil',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   claim: {
     word: 'claim',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   class: {
     word: 'class',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   clear: {
     word: 'clear',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   clearly: {
     word: 'clearly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   close: {
     word: 'close',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   coach: {
     word: 'coach',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cold: {
     word: 'cold',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   collection: {
     word: 'collection',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   college: {
     word: 'college',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   color: {
     word: 'color',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   come: {
     word: 'come',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   commercial: {
     word: 'commercial',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   common: {
     word: 'common',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   community: {
     word: 'community',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   company: {
     word: 'company',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   compare: {
     word: 'compare',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   computer: {
     word: 'computer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   concern: {
     word: 'concern',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   condition: {
     word: 'condition',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   conference: {
     word: 'conference',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   Congress: {
     word: 'Congress',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   consider: {
     word: 'consider',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   consumer: {
     word: 'consumer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   contain: {
     word: 'contain',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   continue: {
     word: 'continue',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   control: {
     word: 'control',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cost: {
     word: 'cost',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   could: {
     word: 'could',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   country: {
     word: 'country',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   couple: {
     word: 'couple',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   course: {
     word: 'course',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   court: {
     word: 'court',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cover: {
     word: 'cover',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   create: {
     word: 'create',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   crime: {
     word: 'crime',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cultural: {
     word: 'cultural',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   culture: {
     word: 'culture',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cup: {
     word: 'cup',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   current: {
     word: 'current',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   customer: {
     word: 'customer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   cut: {
     word: 'cut',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   dark: {
     word: 'dark',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   data: {
     word: 'data',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   daughter: {
     word: 'daughter',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   day: {
     word: 'day',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   dead: {
     word: 'dead',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   deal: {
     word: 'deal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   death: {
     word: 'death',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   debate: {
     word: 'debate',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   decade: {
     word: 'decade',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   decide: {
     word: 'decide',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   decision: {
     word: 'decision',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   deep: {
     word: 'deep',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   defense: {
     word: 'defense',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   degree: {
     word: 'degree',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   Democrat: {
     word: 'Democrat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   democratic: {
     word: 'democratic',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   describe: {
     word: 'describe',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   design: {
     word: 'design',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   despite: {
     word: 'despite',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   detail: {
     word: 'detail',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   determine: {
     word: 'determine',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   develop: {
     word: 'develop',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   development: {
     word: 'development',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   die: {
     word: 'die',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   difference: {
     word: 'difference',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   different: {
     word: 'different',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   difficult: {
     word: 'difficult',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   dinner: {
     word: 'dinner',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   direction: {
     word: 'direction',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   director: {
     word: 'director',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   discover: {
     word: 'discover',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   discuss: {
     word: 'discuss',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   discussion: {
     word: 'discussion',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   disease: {
     word: 'disease',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   do: {
     word: 'do',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   doctor: {
     word: 'doctor',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   dog: {
     word: 'dog',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   door: {
     word: 'door',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   down: {
     word: 'down',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   draw: {
     word: 'draw',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   dream: {
     word: 'dream',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   drive: {
     word: 'drive',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   drop: {
     word: 'drop',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   drug: {
     word: 'drug',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   during: {
     word: 'during',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   each: {
     word: 'each',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   early: {
     word: 'early',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   east: {
     word: 'east',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   easy: {
     word: 'easy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   eat: {
     word: 'eat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   economic: {
     word: 'economic',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   economy: {
     word: 'economy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   edge: {
     word: 'edge',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   education: {
     word: 'education',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   effect: {
     word: 'effect',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   effort: {
     word: 'effort',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   eight: {
     word: 'eight',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   either: {
     word: 'either',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   election: {
     word: 'election',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   else: {
     word: 'else',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   employee: {
     word: 'employee',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   end: {
     word: 'end',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   energy: {
     word: 'energy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   enjoy: {
     word: 'enjoy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   enough: {
     word: 'enough',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   enter: {
     word: 'enter',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   entire: {
     word: 'entire',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   environment: {
     word: 'environment',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   environmental: {
     word: 'environmental',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   especially: {
     word: 'especially',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   establish: {
     word: 'establish',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   even: {
     word: 'even',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   evening: {
     word: 'evening',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   event: {
     word: 'event',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ever: {
     word: 'ever',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   every: {
     word: 'every',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   everybody: {
     word: 'everybody',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   everyone: {
     word: 'everyone',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   everything: {
     word: 'everything',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   evidence: {
     word: 'evidence',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   exactly: {
     word: 'exactly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   example: {
     word: 'example',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   executive: {
     word: 'executive',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   exist: {
     word: 'exist',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   expect: {
     word: 'expect',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   experience: {
     word: 'experience',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   expert: {
     word: 'expert',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   explain: {
     word: 'explain',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   eye: {
     word: 'eye',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   face: {
     word: 'face',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fact: {
     word: 'fact',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   factor: {
     word: 'factor',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fail: {
     word: 'fail',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fall: {
     word: 'fall',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   family: {
     word: 'family',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   far: {
     word: 'far',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fast: {
     word: 'fast',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   father: {
     word: 'father',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fear: {
     word: 'fear',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   federal: {
     word: 'federal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   feel: {
     word: 'feel',
-    phrase: '',
-    image: '',
-    audio: ''
+    phrase: `Do you feel that wind?`,
+
+    translation: ''
   },
   feeling: {
     word: 'feeling',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   few: {
     word: 'few',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   field: {
     word: 'field',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fight: {
     word: 'fight',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   figure: {
     word: 'figure',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fill: {
     word: 'fill',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   film: {
     word: 'film',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   final: {
     word: 'final',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   finally: {
     word: 'finally',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   financial: {
     word: 'financial',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   find: {
     word: 'find',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fine: {
     word: 'fine',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   finger: {
     word: 'finger',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   finish: {
     word: 'finish',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fire: {
     word: 'fire',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   firm: {
     word: 'firm',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   first: {
     word: 'first',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fish: {
     word: 'fish',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   five: {
     word: 'five',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   floor: {
     word: 'floor',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fly: {
     word: 'fly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   focus: {
     word: 'focus',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   follow: {
     word: 'follow',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   food: {
     word: 'food',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   foot: {
     word: 'foot',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   for: {
     word: 'for',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   force: {
     word: 'force',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   foreign: {
     word: 'foreign',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   forget: {
     word: 'forget',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   form: {
     word: 'form',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   former: {
     word: 'former',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   forward: {
     word: 'forward',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   four: {
     word: 'four',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   free: {
     word: 'free',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   friend: {
     word: 'friend',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   from: {
     word: 'from',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   front: {
     word: 'front',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   full: {
     word: 'full',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   fund: {
     word: 'fund',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   future: {
     word: 'future',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   game: {
     word: 'game',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   garden: {
     word: 'garden',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   gas: {
     word: 'gas',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   general: {
     word: 'general',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   generation: {
     word: 'generation',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   get: {
     word: 'get',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   girl: {
     word: 'girl',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   give: {
     word: 'give',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   glass: {
     word: 'glass',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   go: {
     word: 'go',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   goal: {
     word: 'goal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   good: {
     word: 'good',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   government: {
     word: 'government',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   great: {
     word: 'great',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   green: {
     word: 'green',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ground: {
     word: 'ground',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   group: {
     word: 'group',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   grow: {
     word: 'grow',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   growth: {
     word: 'growth',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   guess: {
     word: 'guess',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   gun: {
     word: 'gun',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   guy: {
     word: 'guy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hair: {
     word: 'hair',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   half: {
     word: 'half',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hand: {
     word: 'hand',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hang: {
     word: 'hang',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   happen: {
     word: 'happen',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   happy: {
     word: 'happy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hard: {
     word: 'hard',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   have: {
     word: 'have',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   he: {
     word: 'he',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   head: {
     word: 'head',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   health: {
     word: 'health',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hear: {
     word: 'hear',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   heart: {
     word: 'heart',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   heat: {
     word: 'heat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   heavy: {
     word: 'heavy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   help: {
     word: 'help',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   her: {
     word: 'her',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   here: {
     word: 'here',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   herself: {
     word: 'herself',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   high: {
     word: 'high',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   him: {
     word: 'him',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   himself: {
     word: 'himself',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   his: {
     word: 'his',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   history: {
     word: 'history',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hit: {
     word: 'hit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hold: {
     word: 'hold',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   home: {
     word: 'home',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hope: {
     word: 'hope',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hospital: {
     word: 'hospital',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hot: {
     word: 'hot',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hotel: {
     word: 'hotel',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hour: {
     word: 'hour',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   house: {
     word: 'house',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   how: {
     word: 'how',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   however: {
     word: 'however',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   huge: {
     word: 'huge',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   human: {
     word: 'human',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   hundred: {
     word: 'hundred',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   husband: {
     word: 'husband',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   I: {
     word: 'I',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   idea: {
     word: 'idea',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   identify: {
     word: 'identify',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   if: {
     word: 'if',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   image: {
     word: 'image',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   imagine: {
     word: 'imagine',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   impact: {
     word: 'impact',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   important: {
     word: 'important',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   improve: {
     word: 'improve',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   in: {
     word: 'in',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   include: {
     word: 'include',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   including: {
     word: 'including',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   increase: {
     word: 'increase',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   indeed: {
     word: 'indeed',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   indicate: {
     word: 'indicate',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   individual: {
     word: 'individual',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   industry: {
     word: 'industry',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   information: {
     word: 'information',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   inside: {
     word: 'inside',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   instead: {
     word: 'instead',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   institution: {
     word: 'institution',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   interest: {
     word: 'interest',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   interesting: {
     word: 'interesting',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   international: {
     word: 'international',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   interview: {
     word: 'interview',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   into: {
     word: 'into',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   investment: {
     word: 'investment',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   involve: {
     word: 'involve',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   issue: {
     word: 'issue',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   it: {
     word: 'it',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   item: {
     word: 'item',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   its: {
     word: 'its',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   itself: {
     word: 'itself',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   job: {
     word: 'job',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   join: {
     word: 'join',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   just: {
     word: 'just',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   keep: {
     word: 'keep',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   key: {
     word: 'key',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   kid: {
     word: 'kid',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   kill: {
     word: 'kill',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   kind: {
     word: 'kind',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   kitchen: {
     word: 'kitchen',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   know: {
     word: 'know',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   knowledge: {
     word: 'knowledge',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   land: {
     word: 'land',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   language: {
     word: 'language',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   large: {
     word: 'large',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   last: {
     word: 'last',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   late: {
     word: 'late',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   later: {
     word: 'later',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   laugh: {
     word: 'laugh',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   law: {
     word: 'law',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   lawyer: {
     word: 'lawyer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   lay: {
     word: 'lay',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   lead: {
     word: 'lead',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   leader: {
     word: 'leader',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   learn: {
     word: 'learn',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   least: {
     word: 'least',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   leave: {
     word: 'leave',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   left: {
     word: 'left',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   leg: {
     word: 'leg',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   legal: {
     word: 'legal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   less: {
     word: 'less',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   let: {
     word: 'let',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   letter: {
     word: 'letter',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   level: {
     word: 'level',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   lie: {
     word: 'lie',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   life: {
     word: 'life',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   light: {
     word: 'light',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   like: {
     word: 'like',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   likely: {
     word: 'likely',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   line: {
     word: 'line',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   list: {
     word: 'list',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   listen: {
     word: 'listen',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   little: {
     word: 'little',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   live: {
     word: 'live',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   local: {
     word: 'local',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   long: {
     word: 'long',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   look: {
     word: 'look',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   lose: {
     word: 'lose',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   loss: {
     word: 'loss',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   lot: {
     word: 'lot',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   love: {
     word: 'love',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   low: {
     word: 'low',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   machine: {
     word: 'machine',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   magazine: {
     word: 'magazine',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   main: {
     word: 'main',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   maintain: {
     word: 'maintain',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   major: {
     word: 'major',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   majority: {
     word: 'majority',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   make: {
     word: 'make',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   man: {
     word: 'man',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   manage: {
     word: 'manage',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   management: {
     word: 'management',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   manager: {
     word: 'manager',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   many: {
     word: 'many',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   market: {
     word: 'market',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   marriage: {
     word: 'marriage',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   material: {
     word: 'material',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   matter: {
     word: 'matter',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   may: {
     word: 'may',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   maybe: {
     word: 'maybe',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   me: {
     word: 'me',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   mean: {
     word: 'mean',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   measure: {
     word: 'measure',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   media: {
     word: 'media',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   medical: {
     word: 'medical',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   meet: {
     word: 'meet',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   meeting: {
     word: 'meeting',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   member: {
     word: 'member',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   memory: {
     word: 'memory',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   mention: {
     word: 'mention',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   message: {
     word: 'message',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   method: {
     word: 'method',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   middle: {
     word: 'middle',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   might: {
     word: 'might',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   military: {
     word: 'military',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   million: {
     word: 'million',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   mind: {
     word: 'mind',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   minute: {
     word: 'minute',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   miss: {
     word: 'miss',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   mission: {
     word: 'mission',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   model: {
     word: 'model',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   modern: {
     word: 'modern',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   moment: {
     word: 'moment',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   money: {
     word: 'money',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   month: {
     word: 'month',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   more: {
     word: 'more',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   morning: {
     word: 'morning',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   most: {
     word: 'most',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   mother: {
     word: 'mother',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   mouth: {
     word: 'mouth',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   move: {
     word: 'move',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   movement: {
     word: 'movement',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   movie: {
     word: 'movie',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   Mr: {
     word: 'Mr',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   Mrs: {
     word: 'Mrs',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   much: {
     word: 'much',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   music: {
     word: 'music',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   must: {
     word: 'must',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   my: {
     word: 'my',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   myself: {
     word: 'myself',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   name: {
     word: 'name',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   nation: {
     word: 'nation',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   national: {
     word: 'national',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   natural: {
     word: 'natural',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   nature: {
     word: 'nature',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   near: {
     word: 'near',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   nearly: {
     word: 'nearly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   necessary: {
     word: 'necessary',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   need: {
     word: 'need',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   network: {
     word: 'network',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   never: {
     word: 'never',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   new: {
     word: 'new',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   news: {
     word: 'news',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   newspaper: {
     word: 'newspaper',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   next: {
     word: 'next',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   nice: {
     word: 'nice',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   night: {
     word: 'night',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   no: {
     word: 'no',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   none: {
     word: 'none',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   nor: {
     word: 'nor',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   north: {
     word: 'north',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   not: {
     word: 'not',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   note: {
     word: 'note',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   nothing: {
     word: 'nothing',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   notice: {
     word: 'notice',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   now: {
     word: 'now',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   number: {
     word: 'number',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   occur: {
     word: 'occur',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   of: {
     word: 'of',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   off: {
     word: 'off',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   offer: {
     word: 'offer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   office: {
     word: 'office',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   officer: {
     word: 'officer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   official: {
     word: 'official',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   often: {
     word: 'often',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   oh: {
     word: 'oh',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   oil: {
     word: 'oil',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ok: {
     word: 'ok',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   old: {
     word: 'old',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   on: {
     word: 'on',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   once: {
     word: 'once',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   one: {
     word: 'one',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   only: {
     word: 'only',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   onto: {
     word: 'onto',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   open: {
     word: 'open',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   operation: {
     word: 'operation',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   opportunity: {
     word: 'opportunity',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   option: {
     word: 'option',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   or: {
     word: 'or',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   order: {
     word: 'order',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   organization: {
     word: 'organization',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   other: {
     word: 'other',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   others: {
     word: 'others',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   our: {
     word: 'our',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   out: {
     word: 'out',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   outside: {
     word: 'outside',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   over: {
     word: 'over',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   own: {
     word: 'own',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   owner: {
     word: 'owner',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   page: {
     word: 'page',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pain: {
     word: 'pain',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   painting: {
     word: 'painting',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   paper: {
     word: 'paper',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   parent: {
     word: 'parent',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   part: {
     word: 'part',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   participant: {
     word: 'participant',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   particular: {
     word: 'particular',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   particularly: {
     word: 'particularly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   partner: {
     word: 'partner',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   party: {
     word: 'party',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pass: {
     word: 'pass',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   past: {
     word: 'past',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   patient: {
     word: 'patient',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pattern: {
     word: 'pattern',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pay: {
     word: 'pay',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   peace: {
     word: 'peace',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   people: {
     word: 'people',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   per: {
     word: 'per',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   perform: {
     word: 'perform',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   performance: {
     word: 'performance',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   perhaps: {
     word: 'perhaps',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   period: {
     word: 'period',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   person: {
     word: 'person',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   personal: {
     word: 'personal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   phone: {
     word: 'phone',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   physical: {
     word: 'physical',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pick: {
     word: 'pick',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   picture: {
     word: 'picture',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   piece: {
     word: 'piece',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   place: {
     word: 'place',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   plan: {
     word: 'plan',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   plant: {
     word: 'plant',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   play: {
     word: 'play',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   player: {
     word: 'player',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   PM: {
     word: 'PM',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   point: {
     word: 'point',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   police: {
     word: 'police',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   policy: {
     word: 'policy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   political: {
     word: 'political',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   politics: {
     word: 'politics',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   poor: {
     word: 'poor',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   popular: {
     word: 'popular',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   population: {
     word: 'population',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   position: {
     word: 'position',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   positive: {
     word: 'positive',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   possible: {
     word: 'possible',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   power: {
     word: 'power',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   practice: {
     word: 'practice',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   prepare: {
     word: 'prepare',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   present: {
     word: 'present',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   president: {
     word: 'president',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pressure: {
     word: 'pressure',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pretty: {
     word: 'pretty',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   prevent: {
     word: 'prevent',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   price: {
     word: 'price',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   private: {
     word: 'private',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   probably: {
     word: 'probably',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   problem: {
     word: 'problem',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   process: {
     word: 'process',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   produce: {
     word: 'produce',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   product: {
     word: 'product',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   production: {
     word: 'production',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   professional: {
     word: 'professional',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   professor: {
     word: 'professor',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   program: {
     word: 'program',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   project: {
     word: 'project',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   property: {
     word: 'property',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   protect: {
     word: 'protect',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   prove: {
     word: 'prove',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   provide: {
     word: 'provide',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   public: {
     word: 'public',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   pull: {
     word: 'pull',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   purpose: {
     word: 'purpose',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   push: {
     word: 'push',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   put: {
     word: 'put',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   quality: {
     word: 'quality',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   question: {
     word: 'question',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   quickly: {
     word: 'quickly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   quite: {
     word: 'quite',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   race: {
     word: 'race',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   radio: {
     word: 'radio',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   raise: {
     word: 'raise',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   range: {
     word: 'range',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rate: {
     word: 'rate',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rather: {
     word: 'rather',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   reach: {
     word: 'reach',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   read: {
     word: 'read',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ready: {
     word: 'ready',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   real: {
     word: 'real',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   reality: {
     word: 'reality',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   realize: {
     word: 'realize',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   really: {
     word: 'really',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   reason: {
     word: 'reason',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   receive: {
     word: 'receive',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   recent: {
     word: 'recent',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   recently: {
     word: 'recently',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   recognize: {
     word: 'recognize',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   record: {
     word: 'record',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   red: {
     word: 'red',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   reduce: {
     word: 'reduce',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   reflect: {
     word: 'reflect',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   region: {
     word: 'region',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   relate: {
     word: 'relate',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   relationship: {
     word: 'relationship',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   religious: {
     word: 'religious',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   remain: {
     word: 'remain',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   remember: {
     word: 'remember',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   remove: {
     word: 'remove',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   report: {
     word: 'report',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   represent: {
     word: 'represent',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   Republican: {
     word: 'Republican',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   require: {
     word: 'require',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   research: {
     word: 'research',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   resource: {
     word: 'resource',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   respond: {
     word: 'respond',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   response: {
     word: 'response',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   responsibility: {
     word: 'responsibility',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rest: {
     word: 'rest',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   result: {
     word: 'result',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   return: {
     word: 'return',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   reveal: {
     word: 'reveal',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rich: {
     word: 'rich',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   right: {
     word: 'right',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rise: {
     word: 'rise',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   risk: {
     word: 'risk',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   road: {
     word: 'road',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rock: {
     word: 'rock',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   role: {
     word: 'role',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   room: {
     word: 'room',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   rule: {
     word: 'rule',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   run: {
     word: 'run',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   safe: {
     word: 'safe',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   same: {
     word: 'same',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   save: {
     word: 'save',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   say: {
     word: 'say',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   scene: {
     word: 'scene',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   school: {
     word: 'school',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   science: {
     word: 'science',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   scientist: {
     word: 'scientist',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   score: {
     word: 'score',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sea: {
     word: 'sea',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   season: {
     word: 'season',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   seat: {
     word: 'seat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   second: {
     word: 'second',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   section: {
     word: 'section',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   security: {
     word: 'security',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   see: {
     word: 'see',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   seek: {
     word: 'seek',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   seem: {
     word: 'seem',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sell: {
     word: 'sell',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   send: {
     word: 'send',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   senior: {
     word: 'senior',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sense: {
     word: 'sense',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   series: {
     word: 'series',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   serious: {
     word: 'serious',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   serve: {
     word: 'serve',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   service: {
     word: 'service',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   set: {
     word: 'set',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   seven: {
     word: 'seven',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   several: {
     word: 'several',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sex: {
     word: 'sex',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sexual: {
     word: 'sexual',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   shake: {
     word: 'shake',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   share: {
     word: 'share',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   she: {
     word: 'she',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   shoot: {
     word: 'shoot',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   short: {
     word: 'short',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   shot: {
     word: 'shot',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   should: {
     word: 'should',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   shoulder: {
     word: 'shoulder',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   show: {
     word: 'show',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   side: {
     word: 'side',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sign: {
     word: 'sign',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   significant: {
     word: 'significant',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   similar: {
     word: 'similar',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   simple: {
     word: 'simple',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   simply: {
     word: 'simply',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   since: {
     word: 'since',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sing: {
     word: 'sing',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   single: {
     word: 'single',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sister: {
     word: 'sister',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sit: {
     word: 'sit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   site: {
     word: 'site',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   situation: {
     word: 'situation',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   six: {
     word: 'six',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   size: {
     word: 'size',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   skill: {
     word: 'skill',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   skin: {
     word: 'skin',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   small: {
     word: 'small',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   smile: {
     word: 'smile',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   so: {
     word: 'so',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   social: {
     word: 'social',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   society: {
     word: 'society',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   soldier: {
     word: 'soldier',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   some: {
     word: 'some',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   somebody: {
     word: 'somebody',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   someone: {
     word: 'someone',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   something: {
     word: 'something',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sometimes: {
     word: 'sometimes',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   son: {
     word: 'son',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   song: {
     word: 'song',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   soon: {
     word: 'soon',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sort: {
     word: 'sort',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sound: {
     word: 'sound',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   source: {
     word: 'source',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   south: {
     word: 'south',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   southern: {
     word: 'southern',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   space: {
     word: 'space',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   speak: {
     word: 'speak',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   special: {
     word: 'special',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   specific: {
     word: 'specific',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   speech: {
     word: 'speech',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   spend: {
     word: 'spend',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sport: {
     word: 'sport',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   spring: {
     word: 'spring',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   staff: {
     word: 'staff',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   stage: {
     word: 'stage',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   stand: {
     word: 'stand',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   standard: {
     word: 'standard',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   star: {
     word: 'star',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   start: {
     word: 'start',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   state: {
     word: 'state',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   statement: {
     word: 'statement',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   station: {
     word: 'station',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   stay: {
     word: 'stay',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   step: {
     word: 'step',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   still: {
     word: 'still',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   stock: {
     word: 'stock',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   stop: {
     word: 'stop',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   store: {
     word: 'store',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   story: {
     word: 'story',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   strategy: {
     word: 'strategy',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   street: {
     word: 'street',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   strong: {
     word: 'strong',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   structure: {
     word: 'structure',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   student: {
     word: 'student',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   study: {
     word: 'study',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   stuff: {
     word: 'stuff',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   style: {
     word: 'style',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   subject: {
     word: 'subject',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   success: {
     word: 'success',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   successful: {
     word: 'successful',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   such: {
     word: 'such',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   suddenly: {
     word: 'suddenly',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   suffer: {
     word: 'suffer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   suggest: {
     word: 'suggest',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   summer: {
     word: 'summer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   support: {
     word: 'support',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   sure: {
     word: 'sure',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   surface: {
     word: 'surface',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   system: {
     word: 'system',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   table: {
     word: 'table',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   take: {
     word: 'take',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   talk: {
     word: 'talk',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   task: {
     word: 'task',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   tax: {
     word: 'tax',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   teach: {
     word: 'teach',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   teacher: {
     word: 'teacher',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   team: {
     word: 'team',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   technology: {
     word: 'technology',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   television: {
     word: 'television',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   tell: {
     word: 'tell',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   ten: {
     word: 'ten',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   tend: {
     word: 'tend',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   term: {
     word: 'term',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   test: {
     word: 'test',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   than: {
     word: 'than',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   thank: {
     word: 'thank',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   that: {
     word: 'that',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   the: {
     word: 'the',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   their: {
     word: 'their',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   them: {
     word: 'them',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   themselves: {
     word: 'themselves',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   then: {
     word: 'then',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   theory: {
     word: 'theory',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   there: {
     word: 'there',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   these: {
     word: 'these',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   they: {
     word: 'they',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   thing: {
     word: 'thing',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   think: {
     word: 'think',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   third: {
     word: 'third',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   this: {
     word: 'this',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   those: {
     word: 'those',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   though: {
     word: 'though',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   thought: {
     word: 'thought',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   thousand: {
     word: 'thousand',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   threat: {
     word: 'threat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   three: {
     word: 'three',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   through: {
     word: 'through',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   throughout: {
     word: 'throughout',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   throw: {
     word: 'throw',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   thus: {
     word: 'thus',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   time: {
     word: 'time',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   to: {
     word: 'to',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   today: {
     word: 'today',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   together: {
     word: 'together',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   tonight: {
     word: 'tonight',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   too: {
     word: 'too',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   top: {
     word: 'top',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   total: {
     word: 'total',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   tough: {
     word: 'tough',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   toward: {
     word: 'toward',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   town: {
     word: 'town',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   trade: {
     word: 'trade',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   traditional: {
     word: 'traditional',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   training: {
     word: 'training',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   travel: {
     word: 'travel',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   treat: {
     word: 'treat',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   treatment: {
     word: 'treatment',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   tree: {
     word: 'tree',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   trial: {
     word: 'trial',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   trip: {
     word: 'trip',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   trouble: {
     word: 'trouble',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   true: {
     word: 'true',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   truth: {
     word: 'truth',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   try: {
     word: 'try',
-    phrase: '',
-    image: '',
-    audio: ''
+    phrase: 'Try to call me on Saturdays',
+    translation: 'tentar'
   },
   turn: {
     word: 'turn',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   TV: {
     word: 'TV',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   two: {
     word: 'two',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   type: {
     word: 'type',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   under: {
     word: 'under',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   understand: {
     word: 'understand',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   unit: {
     word: 'unit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   until: {
     word: 'until',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   up: {
     word: 'up',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   upon: {
     word: 'upon',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   us: {
     word: 'us',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   use: {
     word: 'use',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   usually: {
     word: 'usually',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   value: {
     word: 'value',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   various: {
     word: 'various',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   very: {
     word: 'very',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   victim: {
     word: 'victim',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   view: {
     word: 'view',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   violence: {
     word: 'violence',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   visit: {
     word: 'visit',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   voice: {
     word: 'voice',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   vote: {
     word: 'vote',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wait: {
     word: 'wait',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   walk: {
     word: 'walk',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wall: {
     word: 'wall',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   want: {
     word: 'want',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   war: {
     word: 'war',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   watch: {
     word: 'watch',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   water: {
     word: 'water',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   way: {
     word: 'way',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   we: {
     word: 'we',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   weapon: {
     word: 'weapon',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wear: {
     word: 'wear',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   week: {
     word: 'week',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   weight: {
     word: 'weight',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   well: {
     word: 'well',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   west: {
     word: 'west',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   western: {
     word: 'western',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   what: {
     word: 'what',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   whatever: {
     word: 'whatever',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   when: {
     word: 'when',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   where: {
     word: 'where',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   whether: {
     word: 'whether',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   which: {
     word: 'which',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   while: {
     word: 'while',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   white: {
     word: 'white',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   who: {
     word: 'who',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   whole: {
     word: 'whole',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   whom: {
     word: 'whom',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   whose: {
     word: 'whose',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   why: {
     word: 'why',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wide: {
     word: 'wide',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wife: {
     word: 'wife',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   will: {
     word: 'will',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   win: {
     word: 'win',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wind: {
     word: 'wind',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   window: {
     word: 'window',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wish: {
     word: 'wish',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   with: {
     word: 'with',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   within: {
     word: 'within',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   without: {
     word: 'without',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   woman: {
     word: 'woman',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wonder: {
     word: 'wonder',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   word: {
     word: 'word',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   work: {
     word: 'work',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   worker: {
     word: 'worker',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   world: {
     word: 'world',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   worry: {
     word: 'worry',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   would: {
     word: 'would',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   write: {
     word: 'write',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   writer: {
     word: 'writer',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   wrong: {
     word: 'wrong',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   yard: {
     word: 'yard',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   yeah: {
     word: 'yeah',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   year: {
     word: 'year',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   yes: {
     word: 'yes',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   yet: {
     word: 'yet',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   you: {
     word: 'you',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   young: {
     word: 'young',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   your: {
     word: 'your',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   },
   yourself: {
     word: 'yourself',
     phrase: '',
-    image: '',
-    audio: ''
+    translation: ''
   }
 };
 

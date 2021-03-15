@@ -6,6 +6,8 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 import GlobalStyle from 'custom/globalStyle';
 import { theme } from 'custom/themes';
+import WORDS from 'data/words';
+import { routes } from 'helpers/routes';
 import 'nprogress/nprogress.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -19,11 +21,12 @@ Router.events.on('routeChangeError', () => NProgress.done());
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    const { language } = window.navigator;
-    console.log(
-      '🚀 ~ file: _app.js ~ line 71 ~ useEffect ~ language',
-      language
-    );
+    const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
+    console.log('🚀  randomWord', randomWord);
+
+    if (Router.pathname === routes.home.path) {
+      Router.push(`${routes.words.path}${randomWord}`);
+    }
   }, []);
 
   return (
