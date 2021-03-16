@@ -61,7 +61,7 @@ const pulseBorder = keyframes`
 export const PlayButton = styled.button`
   position: absolute;
   z-index: 10;
-  top: 75%;
+  top: 90%;
   left: 80%;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
