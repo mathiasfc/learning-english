@@ -1,378 +1,379 @@
 const CONTENTS = {
   a: {
     word: 'a',
-    phrase: '',
-    translation: ''
+    phrase: 'Buy me a bag',
+    translation: 'uma/um'
   },
   ability: {
     word: 'ability',
-    phrase: '',
-    translation: ''
+    phrase: `I can only applaud this man's ability to deduce`,
+    translation: 'habilidade'
   },
   able: {
     word: 'able',
-    phrase: '',
-    translation: ''
+    phrase: 'Able to participate in the conversation',
+    translation: 'capaz'
   },
   about: {
     word: 'about',
-    phrase: '',
-    translation: ''
+    phrase: 'The book is about a sea voyage',
+    translation: 'sobre'
   },
   above: {
     word: 'above',
-    phrase: '',
-    translation: ''
+    phrase: 'I trust him above everyone else',
+    translation: 'acima'
   },
   accept: {
     word: 'accept',
-    phrase: '',
-    translation: ''
+    phrase: 'Did he accept the money?',
+    translation: 'aceitar'
   },
   according: {
     word: 'according',
-    phrase: '',
-    translation: ''
+    phrase: 'Cook the rice according to the instructions',
+    translation: 'de acordo com'
   },
   account: {
     word: 'account',
-    phrase: '',
-    translation: ''
+    phrase: 'I asked him to put it on my account',
+    translation: 'conta'
   },
   across: {
     word: 'across',
-    phrase: '',
-    translation: ''
+    phrase: 'Children, across all ages, like it',
+    translation: 'entre'
   },
   act: {
     word: 'act',
-    phrase: '',
-    translation: ''
+    phrase: 'A criminal act',
+    translation: 'ato'
   },
   action: {
     word: 'action',
-    phrase: '',
-    translation: ''
+    phrase: 'People in the media want to be where the action is',
+    translation: 'ação'
   },
   activity: {
     word: 'activity',
-    phrase: '',
-    translation: ''
+    phrase: 'There was a lot of activity',
+    translation: 'atividade'
   },
   actually: {
     word: 'actually',
-    phrase: '',
-    translation: ''
+    phrase: `Actually that's what she said`,
+    translation: 'na realidade'
   },
   add: {
     word: 'add',
-    phrase: '',
-    translation: ''
+    phrase: 'Children learned to add and subtract quickly and accurately',
+    translation: 'adicionar'
   },
   address: {
     word: 'address',
-    phrase: '',
-    translation: ''
+    phrase: `What's his address?`,
+    translation: 'endereço'
   },
   administration: {
     word: 'administration',
-    phrase: '',
-    translation: ''
+    phrase: 'The day-to-day administration of the company',
+    translation: 'administração'
   },
   admit: {
     word: 'admit',
-    phrase: '',
-    translation: ''
+    phrase: 'They need to admit new members',
+    translation: 'admitir'
   },
   adult: {
     word: 'adult',
-    phrase: '',
-    translation: ''
+    phrase: 'Children should be accompanied by an adult',
+    translation: 'adulto'
   },
   affect: {
     word: 'affect',
-    phrase: '',
-    translation: ''
+    phrase: 'Rain will affect some places tonight',
+    translation: 'afetar'
   },
   after: {
     word: 'after',
-    phrase: '',
-    translation: ''
+    phrase: 'After six years of waiting',
+    translation: 'depois'
   },
   again: {
     word: 'again',
-    phrase: '',
-    translation: ''
+    phrase: 'The same amount again',
+    translation: 'novamente'
   },
   against: {
     word: 'against',
-    phrase: '',
-    translation: ''
+    phrase: 'She battled against the system bugs',
+    translation: 'contra'
   },
   age: {
     word: 'age',
-    phrase: '',
-    translation: ''
+    phrase: 'In the modern age',
+    translation: 'idade'
   },
   agency: {
     word: 'agency',
-    phrase: '',
-    translation: ''
+    phrase: 'The movies could be an agency molding the values of the public',
+    translation: 'agência'
   },
   agent: {
     word: 'agent',
-    phrase: '',
-    translation: ''
+    phrase: 'He was an agent of change',
+    translation: 'agente'
   },
   ago: {
     word: 'ago',
-    phrase: '',
-    translation: ''
+    phrase: 'Not long ago he came across a rattlesnake outside his house',
+    translation: 'atrás'
   },
   agree: {
     word: 'agree',
-    phrase: '',
-    translation: ''
+    phrase: 'Your body language does not agree with what you are saying',
+    translation: 'aceitar'
   },
   agreement: {
     word: 'agreement',
-    phrase: '',
-    translation: ''
+    phrase: 'There was agreement that something must be done',
+    translation: 'acordo'
   },
   ahead: {
     word: 'ahead',
-    phrase: '',
-    translation: ''
+    phrase: 'He contemplated the day ahead',
+    translation: 'à frente'
   },
   air: {
     word: 'air',
-    phrase: '',
-    translation: ''
+    phrase: 'Radio stations have successfully sold products over the air',
+    translation: 'ar'
   },
   all: {
     word: 'all',
-    phrase: '',
-    translation: ''
+    phrase: 'She was doing all the work',
+    translation: 'todos'
   },
   allow: {
     word: 'allow',
-    phrase: '',
-    translation: ''
+    phrase: 'He stopped for a moment to allow his eyes to adjust',
+    translation: 'permitir'
   },
   almost: {
     word: 'almost',
-    phrase: '',
-    translation: ''
+    phrase: 'He almost dropped the bottle',
+    translation: 'quase'
   },
   alone: {
     word: 'alone',
-    phrase: '',
-    translation: ''
+    phrase: 'Team members are more effective than individuals working alone',
+    translation: 'sozinho'
   },
   along: {
     word: 'along',
-    phrase: '',
-    translation: ''
+    phrase: 'They can be helped along the road to modernity',
+    translation: 'ao longo'
   },
   already: {
     word: 'already',
-    phrase: '',
-    translation: ''
+    phrase: `There's already a lot of trouble in that area`,
+    translation: 'já'
   },
   also: {
     word: 'also',
-    phrase: '',
-    translation: ''
+    phrase: `They're not only our neighbours but also our friends`,
+    translation: 'também'
   },
   although: {
     word: 'although',
-    phrase: '',
-    translation: ''
+    phrase: 'The hours are flexible although you must do twenty hours',
+    translation: 'embora/apesar'
   },
   always: {
     word: 'always',
-    phrase: '',
-    translation: ''
+    phrase: `It's always been our aim to serve the public`,
+    translation: 'sempre'
   },
-  American: {
-    word: 'American',
-    phrase: '',
-    translation: ''
+  american: {
+    word: 'american',
+    phrase: 'He lives in the United States, he is American',
+    translation: 'americano'
   },
   among: {
     word: 'among',
-    phrase: '',
-    translation: ''
+    phrase: `There's a lot of dissatisfaction among the doctors`,
+    translation: 'entre/dentre'
   },
   amount: {
     word: 'amount',
-    phrase: '',
-    translation: ''
+    phrase: 'They have spent a colossal amount rebuilding the stadium',
+    translation: 'quantia/quantidade'
   },
   analysis: {
     word: 'analysis',
-    phrase: '',
-    translation: ''
+    phrase: 'Samples are sent to the laboratory for analysis',
+    translation: 'análise'
   },
   and: {
     word: 'and',
-    phrase: '',
-    translation: ''
+    phrase: 'We have three hundred and forty four cows',
+    translation: 'e'
   },
   animal: {
     word: 'animal',
-    phrase: '',
-    translation: ''
+    phrase: 'Your animal instincts take over',
+    translation: 'animal'
   },
   another: {
     word: 'another',
-    phrase: '',
-    translation: ''
+    phrase: 'They kept moving from one place to another',
+    translation: 'outro'
   },
   answer: {
     word: 'answer',
-    phrase: '',
-    translation: ''
+    phrase: 'He knocked and entered without waiting for an answer',
+    translation: 'resposta'
   },
   any: {
     word: 'any',
-    phrase: '',
-    translation: ''
+    phrase: `You don't need special bags, any will do`,
+    translation: 'qualquer'
   },
   anyone: {
     word: 'anyone',
-    phrase: '',
-    translation: ''
+    phrase: `Here's a chance for anyone who's interested in music`,
+    translation: 'qualquer um'
   },
   anything: {
     word: 'anything',
-    phrase: '',
-    translation: ''
+    phrase: 'They think they can buy anything',
+    translation: 'nada/qualquer coisa'
   },
   appear: {
     word: 'appear',
-    phrase: '',
-    translation: ''
+    phrase: `I don't want to appear ignorant`,
+    translation: 'aparecer'
   },
   apply: {
     word: 'apply',
-    phrase: '',
-    translation: ''
+    phrase: 'To apply for a job',
+    translation: 'aplicar'
   },
   approach: {
     word: 'approach',
-    phrase: '',
-    translation: ''
+    phrase: `She hadn't heard him approach`,
+    translation: 'aproximar'
   },
   area: {
     word: 'area',
-    phrase: '',
-    translation: ''
+    phrase: 'The people of the area',
+    translation: 'área'
   },
   argue: {
     word: 'argue',
-    phrase: '',
-    translation: ''
+    phrase: `He's able to argue his way out of anything`,
+    translation: 'argumentar'
   },
   arm: {
     word: 'arm',
-    phrase: '',
-    translation: ''
+    phrase: 'She injured her left arm',
+    translation: 'braço'
   },
   around: {
     word: 'around',
-    phrase: '',
-    translation: ''
+    phrase: 'Software costs would be around $1,500',
+    translation: 'ao redor/em torno'
   },
   arrive: {
     word: 'arrive',
-    phrase: '',
-    translation: ''
+    phrase: 'It should arrive in the schools soon',
+    translation: 'chegar'
   },
   art: {
     word: 'art',
-    phrase: '',
-    translation: ''
+    phrase: 'Great art is concerned with moral imperfections',
+    translation: 'arte'
   },
   article: {
     word: 'article',
-    phrase: '',
-    translation: ''
+    phrase: 'An article about the JavaScript language',
+    translation: 'artigo'
   },
   artist: {
     word: 'artist',
-    phrase: '',
-    translation: ''
+    phrase: `She's an artist with the scissors`,
+    translation: 'artista'
   },
   as: {
     word: 'as',
-    phrase: '',
-    translation: ''
+    phrase: 'He had often been sick as a child',
+    translation: 'como'
   },
   ask: {
     word: 'ask',
-    phrase: '',
-    translation: ''
+    phrase: 'I have a favour to ask you',
+    translation: 'perguntar'
   },
   assume: {
     word: 'assume',
-    phrase: '',
-    translation: ''
+    phrase: 'I assume you know the way there',
+    translation: 'presumir/assumir'
   },
   at: {
     word: 'at',
-    phrase: '',
-    translation: ''
+    phrase: 'To be at university',
+    translation: 'no/arroba'
   },
   attack: {
     word: 'attack',
-    phrase: '',
-    translation: ''
+    phrase: 'The disease is thought to attack certain cells in the brain',
+    translation: 'atacar'
   },
   attention: {
     word: 'attention',
-    phrase: '',
-    translation: ''
+    phrase: 'He failed to give the patient adequate medical attention',
+    translation: 'atenção'
   },
   attorney: {
     word: 'attorney',
-    phrase: '',
-    translation: ''
+    phrase: 'Unfortunately, my attorney thinks they have a pretty good case',
+    translation: 'advogado'
   },
   audience: {
     word: 'audience',
-    phrase: '',
-    translation: ''
+    phrase: `This officer's audience lasted a long time`,
+    translation: 'público/audiência'
   },
   author: {
     word: 'author',
-    phrase: '',
-    translation: ''
+    phrase: 'She is the author of some commendable verses',
+    translation: 'autor'
   },
   authority: {
     word: 'authority',
-    phrase: '',
-    translation: ''
+    phrase: 'Now he was exerting his authority in another way',
+    translation: 'autoridade'
   },
   available: {
     word: 'available',
-    phrase: '',
-    translation: ''
+    phrase: 'The number of choices available added to the confusion',
+    translation: 'disponível'
   },
   avoid: {
     word: 'avoid',
-    phrase: '',
-    translation: ''
+    phrase: `You can't avoid conflict all the time`,
+    translation: 'evitar'
   },
   away: {
     word: 'away',
-    phrase: '',
-    translation: ''
+    phrase:
+      'One wicked witch named Mombi stole him and carried him away, keeping him as a prisoner',
+    translation: 'longe/ausente'
   },
   baby: {
     word: 'baby',
     phrase: '',
-    translation: ''
+    translation: 'bebê'
   },
   back: {
     word: 'back',

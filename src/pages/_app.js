@@ -21,10 +21,8 @@ Router.events.on('routeChangeError', () => NProgress.done());
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
-    console.log('🚀  randomWord', randomWord);
-
     if (Router.pathname === routes.home.path) {
+      const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
       Router.push(`${routes.words.path}${randomWord}`);
     }
   }, []);

@@ -38,7 +38,7 @@ const WORDS = [
   'also',
   'although',
   'always',
-  'American',
+  'american',
   'among',
   'amount',
   'analysis',

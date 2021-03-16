@@ -27,7 +27,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // const word = CONTENTS.find(content => content.word === params.word);
   const word = CONTENTS[params.word];
 
   return { props: { word } };

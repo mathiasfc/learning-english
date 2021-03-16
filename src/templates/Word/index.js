@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
@@ -12,10 +13,10 @@ const WordPage = ({ word }) => {
     // eslint-disable-next-line no-undef
     const audio = new window.SpeechSynthesisUtterance();
     const voices = window.speechSynthesis.getVoices();
-    audio.voice = voices[2]; // Note: some voices don't support altering params
+    audio.voice = voices[1]; // Note: some voices don't support altering params
     audio.voiceURI = 'native';
     audio.volume = 1;
-    audio.rate = toggleSpeed ? 0.5 : 1;
+    audio.rate = toggleSpeed ? 0.6 : 1;
     audio.pitch = 1;
     audio.text = word.phrase;
     audio.lang = 'en-US';
@@ -26,20 +27,25 @@ const WordPage = ({ word }) => {
 
   return (
     <s.WordPageContainer>
-      <Image
-        height="200px"
-        width="200px"
-        objectFit="contain"
-        src={`/images/words/${word.word}.png`}
-      />
-      <h1>
-        {word?.word} - {word?.translation}
-      </h1>
+      <s.ImageWrapper>
+        <Image
+          layout="fill"
+          objectFit="contain"
+          src={`/images/words/${word.word}.png`}
+        />
+      </s.ImageWrapper>
+      <s.WordContainer>
+        <s.Word>{word?.word}</s.Word>
+        <s.Translation>({word?.translation})</s.Translation>
+      </s.WordContainer>
 
-      <h2>{word?.phrase}</h2>
-      <button type="button" onClick={playAudio}>
-        PLAY
-      </button>
+      <s.Phrase>
+        <span>"{word?.phrase}"</span>
+      </s.Phrase>
+
+      <s.PlayButton type="button" onClick={playAudio}>
+        <span />
+      </s.PlayButton>
     </s.WordPageContainer>
   );
 };
