@@ -7,7 +7,7 @@
     "start": "next start",
     "prettier": "prettier --write \"**/*.js\"",
     "lint": "eslint .",
-    "postbuild": "next-sitemap --config next-sitemap.js"
+    // "postbuild": "next-sitemap --config next-sitemap.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",

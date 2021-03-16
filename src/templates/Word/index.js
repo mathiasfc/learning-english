@@ -13,7 +13,7 @@ const WordPage = ({ word, nextWord }) => {
     // eslint-disable-next-line no-undef
     const audio = new window.SpeechSynthesisUtterance();
     const voices = window.speechSynthesis.getVoices();
-    audio.voice = voices[1]; // Note: some voices don't support altering params
+    audio.voice = voices[1];
     audio.voiceURI = 'native';
     audio.volume = 1;
     audio.rate = toggleSpeed ? 0.6 : 1;

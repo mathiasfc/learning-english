@@ -372,243 +372,248 @@ const CONTENTS = {
   },
   baby: {
     word: 'baby',
-    phrase: '',
+    phrase: 'Bats only have one baby a year',
     translation: 'bebê'
   },
   back: {
     word: 'back',
-    phrase: '',
-    translation: ''
+    phrase: 'An empty spot in the back of the plane',
+    translation: 'voltar/atrás'
   },
   bad: {
     word: 'bad',
-    phrase: '',
-    translation: ''
+    phrase:
+      'I feel bad that our business is benefiting from something so horrible',
+    translation: 'ruim/mau'
   },
   bag: {
     word: 'bag',
-    phrase: '',
-    translation: ''
+    phrase: 'A bag of apples',
+    translation: 'bolsa/saco'
   },
   ball: {
     word: 'ball',
-    phrase: '',
-    translation: ''
+    phrase: 'He comes across a group of kids playing ball',
+    translation: 'bola/esfera'
   },
   bank: {
     word: 'bank',
-    phrase: '',
-    translation: ''
+    phrase: 'I paid the money straight into my bank',
+    translation: 'banco'
   },
   bar: {
     word: 'bar',
-    phrase: '',
-    translation: ''
+    phrase: 'An iron bar',
+    translation: 'barra'
   },
   base: {
     word: 'base',
-    phrase: '',
-    translation: ''
+    phrase: `Think we're safer at our base camp?`,
+    translation: 'base/suporte'
   },
   be: {
     word: 'be',
-    phrase: '',
-    translation: ''
+    phrase: 'We must not be late',
+    translation: 'ser/estar'
   },
   beat: {
     word: 'beat',
-    phrase: '',
-    translation: ''
+    phrase: 'Her father beat them both',
+    translation: 'batida/ritmo'
   },
   beautiful: {
     word: 'beautiful',
-    phrase: '',
-    translation: ''
+    phrase: 'Look at those big gray eyes and that beautiful red hair',
+    translation: 'bonito/belo'
   },
   because: {
     word: 'because',
-    phrase: '',
-    translation: ''
+    phrase:
+      'I think he felt included because he was helping as much as we were',
+    translation: 'porque/pois'
   },
   become: {
     word: 'become',
-    phrase: '',
-    translation: ''
+    phrase: `It's the only way for him to become a vamp`,
+    translation: 'tornar-se'
   },
   bed: {
     word: 'bed',
-    phrase: '',
-    translation: ''
+    phrase: 'He sat up in the bed and looked around',
+    translation: 'cama'
   },
   before: {
     word: 'before',
-    phrase: '',
-    translation: ''
+    phrase: 'Night came on before he had finished it',
+    translation: 'antes'
   },
   begin: {
     word: 'begin',
-    phrase: '',
-    translation: ''
+    phrase: 'Pierre was about to begin reading',
+    translation: 'começar'
   },
   behavior: {
     word: 'behavior',
-    phrase: '',
-    translation: ''
+    phrase: 'My sisters will instruct you in the behavior I expect of you',
+    translation: 'comportamento'
   },
   behind: {
     word: 'behind',
-    phrase: '',
-    translation: ''
+    phrase: 'The boy got up at once, and sat behind the king',
+    translation: 'atrás'
   },
   believe: {
     word: 'believe',
-    phrase: '',
-    translation: ''
+    phrase:
+      'He is the handsomest and strongest of men, and I believe he is the wisest also',
+    translation: 'acreditar'
   },
   benefit: {
     word: 'benefit',
-    phrase: '',
-    translation: ''
+    phrase: `If you think you'd benefit, you probably will`,
+    translation: 'beneficiar'
   },
   best: {
     word: 'best',
-    phrase: '',
-    translation: ''
+    phrase: 'Best keep her eyes on the trail for any more footless friends',
+    translation: 'melhor'
   },
   better: {
     word: 'better',
-    phrase: '',
-    translation: ''
+    phrase: `We'd better go down for breakfast`,
+    translation: 'melhor'
   },
   between: {
     word: 'between',
-    phrase: '',
-    translation: ''
+    phrase: 'There were sparks between them from the start',
+    translation: 'entre'
   },
   beyond: {
     word: 'beyond',
-    phrase: '',
-    translation: ''
+    phrase: 'To infinity and beyond',
+    translation: 'além'
   },
   big: {
     word: 'big',
-    phrase: '',
-    translation: ''
+    phrase: 'What a big family it was',
+    translation: 'grande'
   },
   bill: {
     word: 'bill',
-    phrase: '',
-    translation: ''
+    phrase: 'I paid the electric and water bill this week.',
+    translation: 'conta'
   },
   billion: {
     word: 'billion',
-    phrase: '',
-    translation: ''
+    phrase: 'A billion different stories and experiences.',
+    translation: 'bilhão'
   },
   bit: {
     word: 'bit',
-    phrase: '',
-    translation: ''
+    phrase: 'From one to two, a bit less',
+    translation: 'mordeu/pedaço'
   },
   black: {
     word: 'black',
-    phrase: '',
-    translation: ''
+    phrase: `It's just a black snake`,
+    translation: 'preto'
   },
   blood: {
     word: 'blood',
-    phrase: '',
-    translation: ''
+    phrase: 'Blood raced up her neck to warm her cheeks',
+    translation: 'sangue'
   },
   blue: {
     word: 'blue',
-    phrase: '',
-    translation: ''
+    phrase: 'She handed him a light blue shirt',
+    translation: 'azul'
   },
   board: {
     word: 'board',
-    phrase: '',
-    translation: ''
+    phrase: 'Pete set the pieces out on the board',
+    translation: 'borda/mesa/tabuleiro'
   },
   body: {
     word: 'body',
-    phrase: '',
-    translation: ''
+    phrase: 'Every muscle in her body was sore',
+    translation: 'corpo'
   },
   book: {
     word: 'book',
-    phrase: '',
-    translation: ''
+    phrase:
+      'A coloring book and crayons kept her busy while they worked and talked',
+    translation: 'livro'
   },
   born: {
     word: 'born',
-    phrase: '',
-    translation: ''
+    phrase: 'Embrace it like a new born child',
+    translation: 'nascido'
   },
   both: {
     word: 'both',
-    phrase: '',
-    translation: ''
+    phrase: 'I  liked them both very much',
+    translation: 'ambos'
   },
   box: {
     word: 'box',
-    phrase: '',
-    translation: ''
+    phrase: 'Her jewelry box was tiny and wooden',
+    translation: 'caixa'
   },
   boy: {
     word: 'boy',
-    phrase: '',
-    translation: ''
+    phrase:
+      'I could see a man and a boy some distance away, pitching hay into a horse drawn wagon',
+    translation: 'menino'
   },
   break: {
     word: 'break',
-    phrase: '',
-    translation: ''
+    phrase: 'If you break it, you replace it.',
+    translation: 'quebrar/intervalo'
   },
   bring: {
     word: 'bring',
-    phrase: '',
-    translation: ''
+    phrase: 'Bring my car around',
+    translation: 'trazer'
   },
   brother: {
     word: 'brother',
-    phrase: '',
-    translation: ''
+    phrase: 'She remembered her brother and his love',
+    translation: 'irmão'
   },
   budget: {
     word: 'budget',
-    phrase: '',
-    translation: ''
+    phrase: `The bike was a trophy from a time when Dean's budget contained more expendable income`,
+    translation: 'orçamento'
   },
   build: {
     word: 'build',
-    phrase: '',
-    translation: ''
+    phrase: 'He paused, to build the suspense',
+    translation: 'construir'
   },
   building: {
     word: 'building',
     phrase: '',
-    translation: ''
+    translation: 'prédio/edifício'
   },
   business: {
     word: 'business',
-    phrase: '',
-    translation: ''
+    phrase: 'I mean, I could still have my business in town',
+    translation: 'negócio/empresa'
   },
   but: {
     word: 'but',
-    phrase: '',
-    translation: ''
+    phrase: 'She objected at first, but finally submitted',
+    translation: 'mas'
   },
   buy: {
     word: 'buy',
-    phrase: '',
-    translation: ''
+    phrase: 'Money is not required to buy one necessary of the soul',
+    translation: 'comprar'
   },
   by: {
     word: 'by',
-    phrase: '',
-    translation: ''
+    phrase: 'I guess he was stunned by my beauty',
+    translation: 'por'
   },
   call: {
     word: 'call',
