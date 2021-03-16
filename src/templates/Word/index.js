@@ -31,7 +31,7 @@ const WordPage = ({ word, nextWord }) => {
         <Image
           layout="fill"
           objectFit="contain"
-          src={`/images/words/${word.word}.png`}
+          src={`/images/words/${word.word.chartAt(0)}/${word.word}.png`}
         />
       </s.ImageWrapper>
       <s.WordContainer>
