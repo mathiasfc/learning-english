@@ -37,6 +37,16 @@ export const Phrase = styled.div`
   }
 `;
 
+export const NextButton = styled.button`
+  background-color: transparent;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border: 1px solid black;
+  margin-top: 30px;
+  cursor: pointer;
+`;
+
 const pulseBorder = keyframes`
   0% {
    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -51,12 +61,12 @@ const pulseBorder = keyframes`
 export const PlayButton = styled.button`
   position: absolute;
   z-index: 10;
-  top: 85%;
-  left: 50%;
+  top: 75%;
+  left: 80%;
   transform: translateX(-50%) translateY(-50%);
   box-sizing: content-box;
-  width: 32px;
-  height: 44px;
+  width: 22px;
+  height: 34px;
   background: none;
   border: none;
   border-radius: 50%;
@@ -72,8 +82,8 @@ export const PlayButton = styled.button`
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     background: #ba1f24;
     border-radius: 50%;
     animation: ${pulseBorder} 1500ms ease-out infinite;
@@ -87,8 +97,8 @@ export const PlayButton = styled.button`
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     background: #fa183d;
     border-radius: 50%;
     transition: all 200ms;
@@ -100,8 +110,8 @@ export const PlayButton = styled.button`
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 32px solid #fff;
-    border-top: 22px solid transparent;
-    border-bottom: 22px solid transparent;
+    border-left: 20px solid #fff;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
   }
 `;

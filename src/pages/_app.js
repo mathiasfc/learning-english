@@ -20,10 +20,14 @@ Router.events.on('routeChangeComplete', () => NProgress.done());
 Router.events.on('routeChangeError', () => NProgress.done());
 
 export default function App({ Component, pageProps }) {
+  const nextWord = () => {
+    const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
+    Router.push(`${routes.words.path}${randomWord}`);
+  };
+
   useEffect(() => {
     if (Router.pathname === routes.home.path) {
-      const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
-      Router.push(`${routes.words.path}${randomWord}`);
+      nextWord();
     }
   }, []);
 
@@ -46,7 +50,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <Component {...pageProps} />
+        <Component {...pageProps} nextWord={nextWord} />
       </ThemeProvider>
     </>
   );

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Image from 'next/image';
 import * as s from './style';
 
-const WordPage = ({ word }) => {
+const WordPage = ({ word, nextWord }) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
 
   const playAudio = () => {
@@ -43,6 +43,9 @@ const WordPage = ({ word }) => {
         <span>"{word?.phrase}"</span>
       </s.Phrase>
 
+      <s.NextButton type="button" onClick={nextWord}>
+        Next
+      </s.NextButton>
       <s.PlayButton type="button" onClick={playAudio}>
         <span />
       </s.PlayButton>
