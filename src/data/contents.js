@@ -418,7 +418,7 @@ const CONTENTS = {
   },
   beat: {
     word: 'beat',
-    phrase: 'Her father beat them both',
+    phrase: 'He heard the beat of a drum',
     translation: 'batida/ritmo'
   },
   beautiful: {
@@ -454,7 +454,7 @@ const CONTENTS = {
   },
   behavior: {
     word: 'behavior',
-    phrase: 'My sisters will instruct you in the behavior I expect of you',
+    phrase: 'My sister will instruct you in the behavior I expect of you',
     translation: 'comportamento'
   },
   behind: {
@@ -475,7 +475,7 @@ const CONTENTS = {
   },
   best: {
     word: 'best',
-    phrase: 'Best keep her eyes on the trail for any more footless friends',
+    phrase: 'Try to look your best',
     translation: 'melhor'
   },
   better: {
@@ -510,7 +510,7 @@ const CONTENTS = {
   },
   bit: {
     word: 'bit',
-    phrase: 'From one to two, a bit less',
+    phrase: 'A little bit of information',
     translation: 'mordeu/pedaço'
   },
   black: {
@@ -551,7 +551,7 @@ const CONTENTS = {
   },
   both: {
     word: 'both',
-    phrase: 'I  liked them both very much',
+    phrase: 'I liked them both very much',
     translation: 'ambos'
   },
   box: {
@@ -561,8 +561,7 @@ const CONTENTS = {
   },
   boy: {
     word: 'boy',
-    phrase:
-      'I could see a man and a boy some distance away, pitching hay into a horse drawn wagon',
+    phrase: `My dear boy, don't say another word`,
     translation: 'menino'
   },
   break: {
@@ -572,7 +571,7 @@ const CONTENTS = {
   },
   bring: {
     word: 'bring',
-    phrase: 'Bring my car around',
+    phrase: 'Bring yourself and your friends to the party',
     translation: 'trazer'
   },
   brother: {
@@ -592,7 +591,7 @@ const CONTENTS = {
   },
   building: {
     word: 'building',
-    phrase: '',
+    phrase: 'They demolished the building',
     translation: 'prédio/edifício'
   },
   business: {
