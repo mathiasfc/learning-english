@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
+    background-color: #e9e9e9;
   }
 
   #nprogress .bar {

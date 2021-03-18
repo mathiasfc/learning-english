@@ -2,9 +2,13 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
+import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
+import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import VolumeUpIcon from '@material-ui/icons/VolumeUp';
+import { nextWord } from 'helpers/index';
 import * as s from './style';
 
-const WordPage = ({ word, nextWord }) => {
+const WordPage = ({ word }) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
 
   const playAudio = () => {
@@ -25,30 +29,38 @@ const WordPage = ({ word, nextWord }) => {
     window.speechSynthesis.speak(audio);
   };
 
+  const loadAnotherWord = () => {
+    setToggleSpeed(false);
+    nextWord();
+  };
+
   return (
     <s.WordPageContainer>
-      <s.ImageWrapper>
-        <Image
-          layout="fill"
-          objectFit="contain"
-          src={`/images/words/${word.word.chartAt(0)}/${word.word}.png`}
-        />
-      </s.ImageWrapper>
-      <s.WordContainer>
-        <s.Word>{word?.word}</s.Word>
-        <s.Translation>({word?.translation})</s.Translation>
-      </s.WordContainer>
+      <s.Content>
+        <s.ImageWrapper>
+          <Image
+            layout="fill"
+            objectFit="contain"
+            src={`/images/words/${word?.word.charAt(0)}/${word?.word}.png`}
+          />
+        </s.ImageWrapper>
+        <s.WordContainer>
+          <s.Word>{word?.word}</s.Word>
+          <s.Translation>({word?.translation})</s.Translation>
+        </s.WordContainer>
 
-      <s.Phrase>
-        <span>"{word?.phrase}"</span>
-      </s.Phrase>
-
-      <s.NextButton type="button" onClick={nextWord}>
-        Next
-      </s.NextButton>
-      <s.PlayButton type="button" onClick={playAudio}>
-        <span />
-      </s.PlayButton>
+        <s.PhraseContainer>
+          <span>"{word?.phrase}"</span>
+          <s.PlayButton aria-label="Ouvir" onClick={playAudio}>
+            <VolumeUpIcon />
+          </s.PlayButton>
+        </s.PhraseContainer>
+      </s.Content>
+      <s.CommandsBar>
+        <s.NextButton aria-label="Próxima" onClick={loadAnotherWord}>
+          <NavigateNextIcon />
+        </s.NextButton>
+      </s.CommandsBar>
     </s.WordPageContainer>
   );
 };

@@ -4,9 +4,7 @@ import WORDS from 'data/words';
 import CONTENTS from 'data/contents';
 import WordPage from 'templates/Word';
 
-const Word = ({ word, nextWord }) => (
-  <WordPage word={word} nextWord={nextWord} />
-);
+const Word = ({ word }) => <WordPage word={word} />;
 
 Word.propTypes = {
   word: PropTypes.shape({

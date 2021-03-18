@@ -1,3 +1,7 @@
+import WORDS from 'data/words';
+import Router from 'next/router';
+import { routes } from './routes';
+
 /**
  * Check if value is a valid e-mail.
  * @param { string } value to be validated
@@ -21,4 +25,9 @@ export const isMobile = () => {
   }
 
   return isMobileDevice;
+};
+
+export const nextWord = () => {
+  const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
+  Router.push(`${routes.words.path}${randomWord}`);
 };
