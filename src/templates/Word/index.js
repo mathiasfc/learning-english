@@ -1,15 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import Image from 'next/image';
-import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
-import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import RefreshIcon from '@material-ui/icons/Refresh';
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
 import { nextWord } from 'helpers/index';
 import * as s from './style';
 
 const WordPage = ({ word }) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
+  const [animateIcon, setAnimateIcon] = useState(false);
+  const phraseRef = useRef(null);
 
   const playAudio = () => {
     window.speechSynthesis.cancel();
@@ -32,7 +33,32 @@ const WordPage = ({ word }) => {
   const loadAnotherWord = () => {
     setToggleSpeed(false);
     nextWord();
+    setAnimateIcon(true);
   };
+
+  const addClassToWord = () => {
+    const regex = new RegExp(`(${word?.word})`, 'gi');
+    const phrase = word?.phrase.replace(
+      regex,
+      `<span class='current-word'>${word?.word}</span>`
+    );
+
+    phraseRef.current.innerHTML = `<span>"${phrase}"</span>`;
+  };
+
+  useEffect(() => {
+    if (phraseRef?.current) {
+      addClassToWord();
+    }
+  });
+
+  useEffect(() => {
+    if (animateIcon) {
+      setTimeout(() => {
+        setAnimateIcon(false);
+      }, 500);
+    }
+  }, [animateIcon]);
 
   return (
     <s.WordPageContainer>
@@ -50,15 +76,19 @@ const WordPage = ({ word }) => {
         </s.WordContainer>
 
         <s.PhraseContainer>
-          <span>"{word?.phrase}"</span>
-          <s.PlayButton aria-label="Ouvir" onClick={playAudio}>
+          <span ref={phraseRef} />
+          <s.PlayAudioButton aria-label="Ouvir" onClick={playAudio}>
             <VolumeUpIcon />
-          </s.PlayButton>
+          </s.PlayAudioButton>
         </s.PhraseContainer>
       </s.Content>
       <s.CommandsBar>
-        <s.NextButton aria-label="Próxima" onClick={loadAnotherWord}>
-          <NavigateNextIcon />
+        <s.NextButton
+          aria-label="Próxima"
+          onClick={loadAnotherWord}
+          animateIcon={animateIcon}
+        >
+          <RefreshIcon />
         </s.NextButton>
       </s.CommandsBar>
     </s.WordPageContainer>
