@@ -119,8 +119,8 @@ export const NextButton = styled(ButtonBase)`
     z-index: 10;
     font-size: 30px;
     fill: #fff;
-    ${({ animateIcon }) =>
-      animateIcon &&
+    ${({ $animateIcon }) =>
+      $animateIcon &&
       css`
         animation: ${spin} 0.5s linear;
       `}

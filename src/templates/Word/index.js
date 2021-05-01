@@ -86,7 +86,7 @@ const WordPage = ({ word }) => {
         <s.NextButton
           aria-label="Próxima"
           onClick={loadAnotherWord}
-          animateIcon={animateIcon}
+          $animateIcon={animateIcon}
         >
           <RefreshIcon />
         </s.NextButton>
