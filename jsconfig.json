@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": "src",
-    "target": "es2019",
-    "strict": true
-  },
-  "exclude": ["node_modules", ".vscode/**/*", "out", ".next"]
-}

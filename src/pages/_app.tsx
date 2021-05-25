@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
+import NextNprogress from 'nextjs-progressbar';
 import { ThemeProvider } from 'styled-components';
+import { AppProps } from 'next/app';
 import Head from 'next/head';
 import Router from 'next/router';
-import NProgress from 'nprogress';
-import GlobalStyle from 'custom/globalStyle';
-import { theme } from 'custom/themes';
+import GlobalStyle from 'styles/globalStyle';
+import { theme } from 'styles/themes';
 import { nextWord } from 'helpers/index';
 import { routes } from 'helpers/routes';
 import 'nprogress/nprogress.css';
@@ -13,13 +13,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
-NProgress.configure({ showSpinner: false });
-
-Router.events.on('routeChangeStart', () => NProgress.start());
-Router.events.on('routeChangeComplete', () => NProgress.done());
-Router.events.on('routeChangeError', () => NProgress.done());
-
-export default function App({ Component, pageProps }) {
+export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
     if (Router.pathname === routes.home.path) {
       nextWord();
@@ -35,23 +29,26 @@ export default function App({ Component, pageProps }) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        {/* <meta name="keywords" content={keywords} /> */}
         <link rel="shortcut icon" href="/images/favicon.ico" />
-        {/* <link rel="canonical" href="" /> */}
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,600,700"
         />
+        <title>Learning English</title>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="description" content="Improve your english skills!" />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
+        <NextNprogress
+          color={theme.primaryColor}
+          startPosition={0.3}
+          stopDelayMs={200}
+          height={5}
+        />
         <Component {...pageProps} />
       </ThemeProvider>
     </>
   );
 }
-
-App.propTypes = {
-  Component: PropTypes.any.isRequired,
-  pageProps: PropTypes.any.isRequired
-};

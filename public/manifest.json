@@ -1,0 +1,10 @@
+{
+    "name": "Learning English",
+    "short_name": "Learning English",    
+    "background_color": "#eca827",
+    "description": "Improve your english skills!",
+    "display": "fullscreen",
+    "start_url": "/",
+    "theme_color": "#eca827"
+  }
+  
