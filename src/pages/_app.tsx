@@ -5,11 +5,13 @@ import GithubCorner from 'react-github-corner';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import Router from 'next/router';
+import SettingsBar from 'components/SettingsBar';
+import AppSettings from 'components/AppSettings';
+import { SettingsProvider } from 'hooks/useSettings';
 import GlobalStyle from 'styles/globalStyle';
 import { theme } from 'styles/themes';
 import { nextWord } from 'helpers/index';
 import { routes } from 'helpers/routes';
-import { SettingsProvider } from 'context/settingsContext/settingsContext';
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -47,7 +49,10 @@ export default function App({ Component, pageProps }: AppProps) {
             height={5}
             options={{ showSpinner: false }}
           />
+          <SettingsBar />
+
           <Component {...pageProps} />
+          <AppSettings />
           <GithubCorner
             href="https://github.com/username/repo"
             bannerColor={theme.primaryColor}
