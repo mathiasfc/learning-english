@@ -44,16 +44,7 @@ const AppSettings = () => {
               />
               <span>Dark mode</span>
             </div>
-            <div>
-              <Switch
-                checked={autoAdvanceWords}
-                onChange={e => setAutoAdvanceWords(e.target.checked)}
-                name="switch-auto-advances-words"
-                inputProps={{ 'aria-label': 'Auto advances words' }}
-                className="setting-switch"
-              />
-              <span>Advances words automatically</span>
-            </div>
+
             <div>
               <Switch
                 checked={autoPlayAudio}
@@ -63,6 +54,17 @@ const AppSettings = () => {
                 className="setting-switch"
               />
               <span>Auto play audio</span>
+            </div>
+
+            <div>
+              <Switch
+                checked={autoAdvanceWords}
+                onChange={e => setAutoAdvanceWords(e.target.checked)}
+                name="switch-auto-advances"
+                inputProps={{ 'aria-label': 'Auto advances words' }}
+                className="setting-switch"
+              />
+              <span>Auto advances</span>
             </div>
           </s.Settings>
         </s.SettingsContainer>

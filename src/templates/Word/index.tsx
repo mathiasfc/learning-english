@@ -1,10 +1,10 @@
-/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import RefreshIcon from '@material-ui/icons/Refresh';
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
 import { nextWord } from 'helpers/index';
 import { Word } from 'types';
+import { useSettings } from 'hooks/useSettings';
 import * as s from './style';
 
 type WordPageTemplateProps = {
@@ -14,12 +14,37 @@ type WordPageTemplateProps = {
 const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
   const [animateIcon, setAnimateIcon] = useState(false);
+  const { autoAdvanceWords, autoPlayAudio } = useSettings();
+
   const phraseRef = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => {
+    if (autoPlayAudio) {
+      setTimeout(() => {
+        playAudio();
+      }, 300);
+    }
+  }, [word]);
+
+  let advanceTimeout: any;
+
+  useEffect(() => {
+    if (autoAdvanceWords && !autoPlayAudio) {
+      advanceTimeout = setTimeout(() => {
+        loadAnotherWord();
+      }, 5000);
+    } else {
+      clearTimeout(advanceTimeout);
+    }
+
+    () => {
+      clearTimeout(advanceTimeout);
+    };
+  }, [word, autoAdvanceWords]);
 
   const playAudio = () => {
     window.speechSynthesis.cancel();
 
-    // eslint-disable-next-line no-undef
     const audio = new window.SpeechSynthesisUtterance();
     const voices = window.speechSynthesis.getVoices();
     audio.voice = voices[1];
@@ -31,6 +56,14 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
 
     setToggleSpeed(!toggleSpeed);
     window.speechSynthesis.speak(audio);
+
+    audio.addEventListener('end', () => {
+      if (autoAdvanceWords) {
+        setTimeout(() => {
+          loadAnotherWord();
+        }, 500);
+      }
+    });
   };
 
   const loadAnotherWord = () => {
