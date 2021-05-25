@@ -25,7 +25,6 @@
         "aspects": ["invalidHref", "preferButton"]
       }
     ],
-    "react/prop-types": ["warn"],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-curly-newline": "off",
     "react/jsx-one-expression-per-line": "off",
@@ -34,7 +33,6 @@
     "import/no-named-as-default": 0,
     "import/no-named-as-default-member": 0,
     "no-param-reassign": [2, { "props": false }],
-    "react/forbid-prop-types": 0,
     "no-underscore-dangle": 0,
     "prefer-destructuring": ["error", { "object": true, "array": false }]
   }

@@ -7,13 +7,13 @@ import { routes } from './routes';
  * @param { string } value to be validated
  * @returns { boolean } if the the value is valid e-mail or not
  */
-export const isEmail = value => {
+export const isEmail = (value: string) => {
   // eslint-disable-next-line no-useless-escape
   const regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return regex.test(value);
 };
 
-export const isMobile = () => {
+export const isMobile = (): Boolean => {
   let isMobileDevice = false;
 
   if (
@@ -27,7 +27,7 @@ export const isMobile = () => {
   return isMobileDevice;
 };
 
-export const nextWord = () => {
+export const nextWord = (): void => {
   const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
   Router.push(`${routes.words.path}${randomWord}`);
 };

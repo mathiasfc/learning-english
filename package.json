@@ -24,16 +24,9 @@
     "next": "^10.0.0",
     "next-seo": "^4.17.0",
     "nextjs-progressbar": "^0.0.9",
-    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-dropzone": "^11.1.0",
-    "react-image-gallery": "^1.0.8",
-    "react-infinite-scroller": "^1.2.4",
-    "react-reveal": "^1.2.2",
-    "react-slick": "^0.25.2",
-    "react-visibility-sensor": "^5.1.1",
-    "slick-carousel": "^1.8.1",
+    "react-github-corner": "^2.5.0",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {

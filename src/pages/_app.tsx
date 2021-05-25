@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import NextNprogress from 'nextjs-progressbar';
 import { ThemeProvider } from 'styled-components';
+import GithubCorner from 'react-github-corner';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import Router from 'next/router';
@@ -8,10 +9,7 @@ import GlobalStyle from 'styles/globalStyle';
 import { theme } from 'styles/themes';
 import { nextWord } from 'helpers/index';
 import { routes } from 'helpers/routes';
-import 'nprogress/nprogress.css';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import 'react-image-gallery/styles/css/image-gallery.css';
+import { SettingsProvider } from 'context/settingsContext/settingsContext';
 
 export default function App({ Component, pageProps }: AppProps) {
   useEffect(() => {
@@ -40,14 +38,22 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="Improve your english skills!" />
       </Head>
       <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <NextNprogress
-          color={theme.primaryColor}
-          startPosition={0.3}
-          stopDelayMs={200}
-          height={5}
-        />
-        <Component {...pageProps} />
+        <SettingsProvider>
+          <GlobalStyle />
+          <NextNprogress
+            color={theme.primaryColor}
+            startPosition={0.3}
+            stopDelayMs={200}
+            height={5}
+            options={{ showSpinner: false }}
+          />
+          <Component {...pageProps} />
+          <GithubCorner
+            href="https://github.com/username/repo"
+            bannerColor={theme.primaryColor}
+            direction="left"
+          />
+        </SettingsProvider>
       </ThemeProvider>
     </>
   );

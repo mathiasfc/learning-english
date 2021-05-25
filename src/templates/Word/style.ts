@@ -1,4 +1,4 @@
-import styled, { css, keyframes } from 'styled-components';
+import styled, { css } from 'styled-components';
 import ButtonBase from '@material-ui/core/ButtonBase';
 
 export const WordPageContainer = styled.div`
@@ -15,6 +15,7 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  margin-top: 30px;
 `;
 
 export const ImageWrapper = styled.div`
@@ -73,21 +74,6 @@ export const PhraseContainer = styled.div`
   }
 `;
 
-const pulseBorder = keyframes`
-  0% {
-   transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-   opacity: 1;
-  }
-  100% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
-    opacity: 0;
-  }
-`;
-
-const spin = keyframes`
-  100% { -webkit-transform: rotate(360deg); transform:rotate(360deg)};
-`;
-
 export const PlayAudioButton = styled(ButtonBase)`
   position: absolute !important;
   background-color: #4d96d5 !important;
@@ -110,7 +96,11 @@ export const CommandsBar = styled.div`
   justify-content: center;
 `;
 
-export const NextButton = styled(ButtonBase)`
+type NextButtonProps = {
+  readonly $animateIcon?: Boolean;
+};
+
+export const NextButton = styled(ButtonBase)<NextButtonProps>`
   background-color: #ff6363 !important;
   border-radius: 50% !important;
   padding: 15px !important;
@@ -122,7 +112,7 @@ export const NextButton = styled(ButtonBase)`
     ${({ $animateIcon }) =>
       $animateIcon &&
       css`
-        animation: ${spin} 0.5s linear;
+        animation: spin 0.5s linear;
       `}
   }
 
@@ -138,6 +128,23 @@ export const NextButton = styled(ButtonBase)`
     height: 45px;
     background: #ff6363;
     border-radius: 50%;
-    animation: ${pulseBorder} 1500ms ease-out infinite;
+    animation: pulseBorder 1500ms ease-out infinite;
+  }
+
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes pulseBorder {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
   }
 `;
