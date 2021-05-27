@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import NextNprogress from 'nextjs-progressbar';
 import { ThemeProvider } from 'styled-components';
 import GithubCorner from 'react-github-corner';
@@ -9,16 +9,20 @@ import SettingsBar from 'components/SettingsBar';
 import AppSettings from 'components/AppSettings';
 import { SettingsProvider } from 'hooks/useSettings';
 import GlobalStyle from 'styles/globalStyle';
-import { theme } from 'styles/themes';
+import { lightTheme, darkTheme } from 'styles/themes';
 import { nextWord } from 'helpers/index';
 import { routes } from 'helpers/routes';
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [darkMode, setDarkMode] = useState<boolean>(false);
+
   useEffect(() => {
     if (Router.pathname === routes.home.path) {
       nextWord();
     }
   }, []);
+
+  const currentTheme = darkMode ? darkTheme : lightTheme;
 
   return (
     <>
@@ -39,23 +43,24 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Improve your english skills!" />
       </Head>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider theme={currentTheme}>
         <SettingsProvider>
           <GlobalStyle />
           <NextNprogress
-            color={theme.primaryColor}
+            color={currentTheme.primaryColor}
             startPosition={0.3}
             stopDelayMs={200}
-            height={5}
+            height={3}
             options={{ showSpinner: false }}
           />
           <SettingsBar />
 
           <Component {...pageProps} />
-          <AppSettings />
+          <AppSettings darkMode={darkMode} setDarkMode={setDarkMode} />
           <GithubCorner
             href="https://github.com/username/repo"
-            bannerColor={theme.primaryColor}
+            bannerColor={currentTheme.githubCorner}
+            octoColor={currentTheme.octoColor}
             direction="left"
           />
         </SettingsProvider>

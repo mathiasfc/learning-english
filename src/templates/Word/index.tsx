@@ -104,7 +104,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
         <s.ImageWrapper>
           <Image
             layout="fill"
-            objectFit="contain"
+            objectFit="cover"
             priority
             src={`/images/words/${word?.word.charAt(0)}/${word?.word}.png`}
           />

@@ -1,8 +1,12 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { zIndex } from 'helpers/constants';
 import { ButtonBase } from '@material-ui/core';
 
 export const SettingsContainer = styled.div`
+  ${({ theme }) => css`
+    color: ${theme.typograph.primaryText};
+  `}
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,21 +15,30 @@ export const SettingsContainer = styled.div`
   position: absolute;
   top: 0px;
   z-index: ${zIndex.high};
-  color: #2b2b2b;
 
-  .setting-switch {
-    color: blue !important;
-    fill: blue !important;
+  .MuiSwitch-root {
+    ${({ theme }) => css`
+      .MuiIconButton-label {
+        color: ${theme.primaryColor};
+      }
+
+      .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+        background-color: ${theme.primaryColor} !important;
+      }
+    `}
   }
 `;
 
 export const Settings = styled.div`
+  ${({ theme }) => css`
+    background-color: ${theme.backgroundColor};
+  `}
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   height: 300px;
   width: 250px;
-  background-color: #e9e9e9;
   border-radius: 3px;
   padding: 20px;
   position: relative;
@@ -53,6 +66,8 @@ export const CloseButton = styled(ButtonBase)`
   border-radius: 50% !important;
 
   svg {
-    color: #4a4a4a;
+    ${({ theme }) => css`
+      color: ${theme.typograph.primaryText};
+    `}
   }
 `;

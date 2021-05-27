@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -12,9 +12,17 @@ const GlobalStyle = createGlobalStyle`
 
 
   body {
+    transition: background, color, background-color 0.5s;
     padding: 0;
     margin: 0;
-    background-color: #e9e9e9;
+    ${({ theme }) => css`
+      background-color: ${theme.backgroundColor};
+      color: ${theme.typograph.primaryText};
+    `}
+
+    #nprogress{
+      z-index: 9999;
+    }
   }
 `;
 

@@ -1,16 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Backdrop } from '@material-ui/core';
 import { useSettings } from 'hooks/useSettings';
 import Switch from '@material-ui/core/Switch';
 import CloseIcon from '@material-ui/icons/Close';
 import * as s from './styles';
 
-const AppSettings = () => {
+type AppSettingsProps = {
+  darkMode: boolean;
+  setDarkMode: (value: boolean) => void;
+};
+
+const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
   const {
     showSettings,
     setShowSettings,
-    darkMode,
-    setDarkMode,
     autoAdvanceWords,
     setAutoAdvanceWords,
     autoPlayAudio,
@@ -38,7 +41,6 @@ const AppSettings = () => {
                 onChange={e => setDarkMode(e.target.checked)}
                 name="switch-dark-mode"
                 inputProps={{ 'aria-label': 'Toggle dark mode' }}
-                color="secondary"
               />
               <span>Dark mode</span>
             </div>

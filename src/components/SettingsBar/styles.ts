@@ -1,20 +1,24 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { ButtonBase } from '@material-ui/core';
 
 export const SettingsBarContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  height: 40px;
+  height: auto;
   top: 0px;
   position: absolute;
 `;
 
 export const ShowSettingsButton = styled(ButtonBase)`
-  width: 40px;
-  border-radius: 50% !important;
-
   svg {
-    color: #4a4a4a;
+    ${({ theme }) => css`
+      color: ${theme.typograph.primaryText};
+    `}
   }
+
+  width: auto;
+  border-radius: 50% !important;
+  margin-top: 30px !important;
+  margin-right: 30px !important;
 `;

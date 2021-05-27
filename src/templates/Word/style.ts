@@ -15,17 +15,22 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 50px;
 `;
 
 export const ImageWrapper = styled.div`
   height: 200px;
-  width: 100%;
+  width: 300px;
   position: relative;
+  box-shadow: 0px 1px 15px -5px rgba(0, 0, 0, 1);
+
+  img {
+    border-radius: 4px;
+  }
 `;
 
 export const WordContainer = styled.div`
-  margin-top: 30px;
+  margin: 30px 0px;
   word-wrap: break-word;
   max-width: 100%;
   display: flex;
@@ -47,11 +52,13 @@ export const Translation = styled.span`
 `;
 
 export const PhraseContainer = styled.div`
+  ${({ theme }) => css`
+    background: ${theme.phraseContainerColor};
+  `}
+
   position: relative;
   padding: 15px;
-  margin-top: 50px;
   text-align: center;
-  background: #fff;
   border-radius: 6px;
   width: 100%;
   height: 160px;
@@ -75,8 +82,12 @@ export const PhraseContainer = styled.div`
 `;
 
 export const PlayAudioButton = styled(ButtonBase)`
+  ${({ theme }) => css`
+    background-color: ${theme.buttons.playAudioButton} !important;
+  `}
+
   position: absolute !important;
-  background-color: #4d96d5 !important;
+
   border-radius: 50% !important;
   padding: 5px !important;
   bottom: -15px;
@@ -84,12 +95,14 @@ export const PlayAudioButton = styled(ButtonBase)`
 
   svg {
     font-size: 20px;
-    fill: #fff;
+    ${({ theme }) => css`
+      fill: ${theme.buttons.playAudioButtonIcon};
+    `}
   }
 `;
 
 export const CommandsBar = styled.div`
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -101,7 +114,10 @@ type NextButtonProps = {
 };
 
 export const NextButton = styled(ButtonBase)<NextButtonProps>`
-  background-color: #ff6363 !important;
+  ${({ theme }) => css`
+    background-color: ${theme.buttons.mainButtonColor} !important;
+  `}
+
   border-radius: 50% !important;
   padding: 15px !important;
 
@@ -117,6 +133,10 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
   }
 
   :before {
+    ${({ theme }) => css`
+      background: ${theme.buttons.mainButtonColor};
+    `}
+
     content: '';
     position: absolute;
     z-index: 0;
@@ -124,9 +144,8 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
     display: block;
-    width: 45px;
-    height: 45px;
-    background: #ff6363;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     animation: pulseBorder 1500ms ease-out infinite;
   }

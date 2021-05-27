@@ -3,8 +3,6 @@ import React, { useState, createContext, useContext } from 'react';
 type SettingsContextData = {
   showSettings: boolean;
   setShowSettings: (value: boolean) => void;
-  darkMode: boolean;
-  setDarkMode: (value: boolean) => void;
   autoAdvanceWords: boolean;
   setAutoAdvanceWords: (value: boolean) => void;
   autoPlayAudio: boolean;
@@ -14,8 +12,6 @@ type SettingsContextData = {
 const SettingsContextDefaultValues = {
   showSettings: false,
   setShowSettings: () => null,
-  darkMode: false,
-  setDarkMode: () => null,
   autoAdvanceWords: false,
   setAutoAdvanceWords: () => null,
   autoPlayAudio: false,
@@ -32,7 +28,6 @@ export type SettingsProviderProps = {
 
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [showSettings, setShowSettings] = useState<boolean>(false);
-  const [darkMode, setDarkMode] = useState<boolean>(false);
   const [autoAdvanceWords, setAutoAdvanceWords] = useState<boolean>(false);
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(false);
 
@@ -41,8 +36,6 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
       value={{
         showSettings,
         setShowSettings,
-        darkMode,
-        setDarkMode,
         autoAdvanceWords,
         setAutoAdvanceWords,
         autoPlayAudio,

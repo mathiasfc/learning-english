@@ -1,11 +1,33 @@
-export const theme = {
-  primaryColor: '#eca827',
-  body: 'transparent',
-  text: '#FFF',
-  reverseText: '#000',
-  floatingMenu: {
-    text: '#FFF',
-    backgroundColor: '#051019',
-    boxShadow: 'rgb(108 105 254 / 12%)'
+export const lightTheme = {
+  primaryColor: '#5062ef',
+  backgroundColor: '#e9e9e9',
+  phraseContainerColor: '#fff',
+  githubCorner: '#000',
+  octoColor: '#fff',
+  buttons: {
+    mainButtonColor: '#5062ef',
+    playAudioButton: '#000',
+    playAudioButtonIcon: '#fff'
+  },
+  typograph: {
+    primaryText: '#000',
+    secondaryText: '#000'
+  }
+};
+
+export const darkTheme = {
+  primaryColor: '#5062ef',
+  backgroundColor: '#212121',
+  phraseContainerColor: '#000',
+  githubCorner: '#676767',
+  octoColor: '#212121',
+  buttons: {
+    mainButtonColor: '#5062ef',
+    playAudioButton: '#fff',
+    playAudioButtonIcon: '#000'
+  },
+  typograph: {
+    primaryText: '#FFF',
+    secondaryText: '#FFF'
   }
 };
