@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import RefreshIcon from '@material-ui/icons/Refresh';
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
-import { nextWord } from 'helpers/index';
+import { loadNextWord, loadWordPage } from 'helpers/index';
 import { Word } from 'types';
 import { useSettings } from 'hooks/useSettings';
 import * as s from './style';
@@ -14,6 +14,7 @@ type WordPageTemplateProps = {
 const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
   const [animateIcon, setAnimateIcon] = useState(false);
+  const [nextWord, setNextWord] = useState<string>('');
   const { autoAdvanceWords, autoPlayAudio } = useSettings();
 
   const phraseRef = useRef<HTMLSpanElement>(null);
@@ -24,6 +25,8 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
         playAudio();
       }, 300);
     }
+
+    setNextWord(loadNextWord());
   }, [word]);
 
   let advanceTimeout: any;
@@ -68,7 +71,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
 
   const loadAnotherWord = () => {
     setToggleSpeed(false);
-    nextWord();
+    loadWordPage(nextWord);
     setAnimateIcon(true);
   };
 
@@ -109,6 +112,15 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
             src={`/images/words/${word?.word.charAt(0)}/${word?.word}.png`}
           />
         </s.ImageWrapper>
+
+        <s.NextWordImageWrapper>
+          <Image
+            layout="fill"
+            objectFit="cover"
+            priority
+            src={`/images/words/${nextWord?.charAt(0)}/${nextWord}.png`}
+          />
+        </s.NextWordImageWrapper>
         <s.WordContainer>
           <s.Word>{word?.word}</s.Word>
           <s.Translation>({word?.translation})</s.Translation>

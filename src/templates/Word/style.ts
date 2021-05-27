@@ -29,6 +29,10 @@ export const ImageWrapper = styled.div`
   }
 `;
 
+export const NextWordImageWrapper = styled.div`
+  display: none;
+`;
+
 export const WordContainer = styled.div`
   margin: 30px 0px;
   word-wrap: break-word;

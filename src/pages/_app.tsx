@@ -10,7 +10,7 @@ import AppSettings from 'components/AppSettings';
 import { SettingsProvider } from 'hooks/useSettings';
 import GlobalStyle from 'styles/globalStyle';
 import { lightTheme, darkTheme } from 'styles/themes';
-import { nextWord } from 'helpers/index';
+import { loadNextWord, loadWordPage } from 'helpers/index';
 import { routes } from 'helpers/routes';
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   useEffect(() => {
     if (Router.pathname === routes.home.path) {
-      nextWord();
+      loadWordPage(loadNextWord());
     }
 
     if (localStorage.getItem(DARK_MODE_THEME) === 'true') {

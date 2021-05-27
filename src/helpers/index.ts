@@ -27,7 +27,11 @@ export const isMobile = (): Boolean => {
   return isMobileDevice;
 };
 
-export const nextWord = (): void => {
+export const loadNextWord = (): string => {
   const randomWord = WORDS[Math.floor(Math.random() * WORDS.length)];
-  Router.push(`${routes.words.path}${randomWord}`);
+  return randomWord;
+};
+
+export const loadWordPage = (word: string): void => {
+  Router.push(`${routes.words.path}${word}`);
 };
