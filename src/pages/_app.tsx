@@ -58,7 +58,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
           <AppSettings darkMode={darkMode} setDarkMode={setDarkMode} />
           <GithubCorner
-            href="https://github.com/username/repo"
+            href="https://github.com/mathiasfc/learning-english"
             bannerColor={currentTheme.githubCorner}
             octoColor={currentTheme.octoColor}
             direction="left"

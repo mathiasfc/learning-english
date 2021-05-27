@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Backdrop } from '@material-ui/core';
 import { useSettings } from 'hooks/useSettings';
 import Switch from '@material-ui/core/Switch';
