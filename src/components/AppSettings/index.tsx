@@ -17,8 +17,6 @@ const AppSettings = () => {
     setAutoPlayAudio
   } = useSettings();
 
-  console.log(darkMode);
-
   const hideSettings = () => {
     setShowSettings(false);
   };
