@@ -15,12 +15,25 @@ import { routes } from 'helpers/routes';
 
 export default function App({ Component, pageProps }: AppProps) {
   const [darkMode, setDarkMode] = useState<boolean>(false);
+  const DARK_MODE_THEME = 'DARK_MODE_THEME';
 
   useEffect(() => {
     if (Router.pathname === routes.home.path) {
       nextWord();
     }
+
+    if (localStorage.getItem(DARK_MODE_THEME) === 'true') {
+      setDarkMode(true);
+    }
   }, []);
+
+  useEffect(() => {
+    if (darkMode) {
+      localStorage.setItem(DARK_MODE_THEME, 'true');
+    } else {
+      localStorage.removeItem(DARK_MODE_THEME);
+    }
+  }, [darkMode]);
 
   const currentTheme = darkMode ? darkTheme : lightTheme;
 
