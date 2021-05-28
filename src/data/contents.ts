@@ -1161,2481 +1161,2913 @@ const CONTENTS: Array<Content> = [
   {
     word: 'each',
     phrase: 'A rope was tied to each end of the boat.',
-    translation: ''
+    translation: 'cada'
   },
   {
     word: 'early',
     phrase: 'the early symptoms of the disease',
-    translation: ''
+    translation: 'cedo'
   },
-  { word: 'east', phrase: 'the east side of town', translation: '' },
-  { word: 'easy', phrase: 'an easy mark for con men', translation: '' },
+  { word: 'east', phrase: 'the east side of town', translation: 'leste' },
+  {
+    word: 'easy',
+    phrase: 'an easy mark for con men',
+    translation: 'fácil'
+  },
   {
     word: 'eat',
     phrase: 'gadgets that eat up too much space',
-    translation: ''
+    translation: 'comer'
   },
   {
     word: 'economic',
     phrase: 'a program to prevent inflation and economic collapse',
-    translation: ''
+    translation: 'económico'
   },
   {
     word: 'economy',
     phrase: "The war altered the country's economy.",
-    translation: ''
+    translation: 'economia'
   },
   {
     word: 'edge',
     phrase: 'They peered over the edge of the roof.',
-    translation: ''
+    translation: 'borda'
   },
   {
     word: 'education',
     phrase:
       'The school is devoted to the education of children with reading difficulties.',
-    translation: ''
+    translation: 'educação'
   },
-  { word: 'effect', phrase: 'performed gymnastics', translation: '' },
+  {
+    word: 'effect',
+    phrase: 'performed gymnastics',
+    translation: 'efeito'
+  },
   {
     word: 'effort',
     phrase: 'He put a lot of effort into finishing the project on time.',
-    translation: ''
+    translation: 'empenho'
   },
-  { word: 'eight', phrase: '', translation: '' },
+  { word: 'eight', phrase: '', translation: 'oito' },
   {
     word: 'either',
     phrase: 'plays either instrument well',
-    translation: ''
+    translation: 'tampouco'
   },
-  { word: 'election', phrase: 'freedom of choice', translation: '' },
-  { word: 'else', phrase: 'here and nowhere else', translation: '' },
+  {
+    word: 'election',
+    phrase: 'freedom of choice',
+    translation: 'eleição'
+  },
+  { word: 'else', phrase: 'here and nowhere else', translation: 'mais' },
   {
     word: 'employee',
     phrase: 'A good boss listens to his employees.',
-    translation: ''
+    translation: 'empregado'
   },
-  { word: 'end', phrase: 'end markets', translation: '' },
+  { word: 'end', phrase: 'end markets', translation: 'terminar' },
   {
     word: 'energy',
     phrase: 'the awesome power of flowing water',
-    translation: ''
+    translation: 'energia'
   },
-  { word: 'enjoy', phrase: 'Relax and enjoy the view.', translation: '' },
+  {
+    word: 'enjoy',
+    phrase: 'Relax and enjoy the view.',
+    translation: 'gozar'
+  },
   {
     word: 'enough',
     phrase: 'had enough of their foolishness',
-    translation: ''
+    translation: 'suficiente'
   },
-  { word: 'enter', phrase: 'enter a race', translation: '' },
-  { word: 'entire', phrase: 'read the whole book', translation: '' },
+  { word: 'enter', phrase: 'enter a race', translation: 'entrar' },
+  {
+    word: 'entire',
+    phrase: 'read the whole book',
+    translation: 'inteiro'
+  },
   {
     word: 'environment',
     phrase: 'the shocking decision was part of the background of the riots',
-    translation: ''
+    translation: 'ambiente'
   },
   {
     word: 'environmental',
     phrase: 'the shocking decision was part of the background of the riots',
-    translation: ''
+    translation: 'ambiental'
   },
   {
     word: 'especially',
     phrase: 'nothing especially radical in the remarks',
-    translation: ''
+    translation: 'especialmente'
   },
   {
     word: 'establish',
     phrase: 'The film established her as a star.',
-    translation: ''
+    translation: 'estabelecer'
   },
   {
     word: 'even',
     phrase: 'the vast prairies are nearly level',
-    translation: ''
+    translation: 'mesmo'
   },
-  { word: 'evening', phrase: 'evening clothes', translation: '' },
+  { word: 'evening', phrase: 'evening clothes', translation: 'noite' },
   {
     word: 'event',
     phrase: 'an encounter that was a chance occurrence',
-    translation: ''
+    translation: 'acontecimento'
   },
   {
     word: 'ever',
     phrase: 'the ever-increasing population',
-    translation: ''
+    translation: 'alguma vez'
   },
-  { word: 'every', phrase: 'every once in a while', translation: '' },
+  { word: 'every', phrase: 'every once in a while', translation: 'cada' },
   {
     word: 'everybody',
     phrase: 'The president waved to everybody in the crowd.',
-    translation: ''
+    translation: 'todos'
   },
   {
     word: 'everyone',
     phrase: 'Not everyone finished their meal.',
-    translation: ''
+    translation: 'todos'
   },
   {
     word: 'everything',
     phrase: 'People will buy everything she paints.',
-    translation: ''
+    translation: 'tudo'
   },
   {
     word: 'evidence',
     phrase: 'careful not to show his true feelings',
-    translation: ''
+    translation: 'evidência'
   },
   {
     word: 'exactly',
     phrase: 'these two pieces are exactly the same size',
-    translation: ''
+    translation: 'exatamente'
   },
   {
     word: 'example',
     phrase: 'an instance of history repeating itself',
-    translation: ''
+    translation: 'exemplo'
   },
   {
     word: 'executive',
     phrase: 'She has good executive skills.',
-    translation: ''
+    translation: 'executivo'
   },
   {
     word: 'exist',
     phrase: 'the largest galaxy known to exist',
-    translation: ''
+    translation: 'existir'
   },
   {
     word: 'expect',
     phrase: 'expect that things will improve',
-    translation: ''
+    translation: 'esperar'
   },
   {
     word: 'experience',
     phrase: 'The best way to learn is by experience.',
-    translation: ''
+    translation: 'experiência'
   },
   {
     word: 'expert',
     phrase: 'proficient in translating foreign languages',
-    translation: ''
+    translation: 'especialista'
   },
-  { word: 'explain', phrase: 'explain the rules', translation: '' },
-  { word: 'eye', phrase: 'in the public eye', translation: '' },
-  { word: 'face', phrase: 'the face of an anvil', translation: '' },
+  {
+    word: 'explain',
+    phrase: 'explain the rules',
+    translation: 'explicar'
+  },
+  { word: 'eye', phrase: 'in the public eye', translation: 'olho' },
+  {
+    word: 'face',
+    phrase: 'the face of an anvil',
+    translation: 'rosto'
+  },
   {
     word: 'fact',
     phrase: 'Rapid electronic communication is now a fact.',
-    translation: ''
+    translation: 'fato'
   },
   {
     word: 'factor',
     phrase: 'There were several factors contributing to their recent decline.',
-    translation: ''
+    translation: 'fator'
   },
   {
     word: 'fail',
     phrase:
       'He failed in his first attempt but succeeded in his second attempt.',
-    translation: ''
+    translation: 'falhar'
   },
-  { word: 'fall', phrase: 'We fell into a trap.', translation: '' },
-  { word: 'family', phrase: 'family movies', translation: '' },
-  { word: 'far', phrase: 'worked far into the night', translation: '' },
-  { word: 'fast', phrase: 'acid-fast bacteria', translation: '' },
+  { word: 'fall', phrase: 'We fell into a trap.', translation: 'cair' },
+  { word: 'family', phrase: 'family movies', translation: 'família' },
+  {
+    word: 'far',
+    phrase: 'worked far into the night',
+    translation: 'longe'
+  },
+  { word: 'fast', phrase: 'acid-fast bacteria', translation: 'rápido' },
   {
     word: 'father',
     phrase: 'He became a father when he was 30.',
-    translation: ''
+    translation: 'father'
   },
-  { word: 'fear', phrase: 'feared to go out at night', translation: '' },
+  {
+    word: 'fear',
+    phrase: 'feared to go out at night',
+    translation: 'medo'
+  },
   {
     word: 'federal',
     phrase: 'We pay federal, state, and local taxes.',
-    translation: ''
+    translation: 'federal'
   },
   {
     word: 'feel',
     phrase: 'He felt a sudden pain in his leg.',
-    translation: ''
+    translation: 'sentir-se'
   },
   {
     word: 'feeling',
     phrase: 'the feelings that once moved me are gone',
-    translation: ''
+    translation: 'sentimento'
   },
-  { word: 'few', phrase: 'few of his stories are true', translation: '' },
-  { word: 'field', phrase: 'a gravitational field', translation: '' },
+  {
+    word: 'few',
+    phrase: 'few of his stories are true',
+    translation: 'pouco'
+  },
+  {
+    word: 'field',
+    phrase: 'a gravitational field',
+    translation: 'campo'
+  },
   {
     word: 'fight',
     phrase: 'was fighting a forest fire',
-    translation: ''
+    translation: 'lutar'
   },
   {
     word: 'figure',
     phrase: 'a score in double figures',
-    translation: ''
+    translation: 'figura'
   },
-  { word: 'fill', phrase: 'fill in the blanks', translation: '' },
-  { word: 'film', phrase: 'film critics', translation: '' },
-  { word: 'final', phrase: 'final exams', translation: '' },
+  { word: 'fill', phrase: 'fill in the blanks', translation: 'encher' },
+  { word: 'film', phrase: 'film critics', translation: 'filme' },
+  { word: 'final', phrase: 'final exams', translation: 'final' },
   {
     word: 'finally',
     phrase: 'He finally got around to calling.',
-    translation: ''
+    translation: 'enfim'
   },
   {
     word: 'financial',
     phrase: 'the financial district',
-    translation: ''
+    translation: 'financeiro'
   },
   {
     word: 'find',
     phrase: 'found himself on the verge of bankruptcy',
-    translation: ''
+    translation: 'encontrar'
   },
-  { word: 'fine', phrase: 'a fine day', translation: '' },
+  { word: 'fine', phrase: 'a fine day', translation: 'multa' },
   {
     word: 'finger',
     phrase: "Don't stick your fingers in the cookie batter!",
-    translation: ''
+    translation: 'dedo'
   },
-  { word: 'finish', phrase: 'close a debate', translation: '' },
+  { word: 'finish', phrase: 'close a debate', translation: 'acabar' },
   {
     word: 'fire',
     phrase: 'They opened fire on [=began shooting at] the enemy.',
-    translation: ''
+    translation: 'despedir'
   },
-  { word: 'firm', phrase: 'a firm date', translation: '' },
-  { word: 'first', phrase: 'his first girlfriend', translation: '' },
-  { word: 'fish', phrase: 'cuttlefish', translation: '' },
-  { word: 'five', phrase: 'I get off work at five.', translation: '' },
+  { word: 'firm', phrase: 'a firm date', translation: 'firme' },
+  {
+    word: 'first',
+    phrase: 'his first girlfriend',
+    translation: 'primeira'
+  },
+  { word: 'fish', phrase: 'cuttlefish', translation: 'peixe' },
+  {
+    word: 'five',
+    phrase: 'I get off work at five.',
+    translation: 'cinco'
+  },
   {
     word: 'floor',
     phrase: 'Keep your feet on the floor.',
-    translation: ''
+    translation: 'chão'
   },
-  { word: 'fly', phrase: 'butterfly', translation: '' },
+  { word: 'fly', phrase: 'butterfly', translation: 'mosca' },
   {
     word: 'focus',
     phrase: 'put immigration into focus as a hot topic for commentators',
-    translation: ''
+    translation: 'foco'
   },
   {
     word: 'follow',
     phrase: 'speeches followed the dinner',
-    translation: ''
+    translation: 'seguir'
   },
   {
     word: 'food',
     phrase: 'Books were his mental food.',
-    translation: ''
+    translation: 'comida'
   },
   {
     word: 'foot',
     phrase: 'He was wearing boots on his feet.',
-    translation: ''
+    translation: 'pé'
   },
-  { word: 'for', phrase: 'acted for the best', translation: '' },
+  { word: 'for', phrase: 'acted for the best', translation: 'durante' },
   {
     word: 'force',
     phrase: 'the motivating force in her life',
-    translation: ''
+    translation: 'força'
   },
-  { word: 'foreign', phrase: 'foreign languages', translation: '' },
+  {
+    word: 'foreign',
+    phrase: 'foreign languages',
+    translation: 'estrangeiro'
+  },
   {
     word: 'forget',
     phrase: "He's now a forgotten hero.",
-    translation: ''
+    translation: 'esquecer'
   },
-  { word: 'form', phrase: 'a form of art', translation: '' },
+  { word: 'form', phrase: 'a form of art', translation: 'forma' },
   {
     word: 'former',
     phrase: 'restoring the theater to its former glory',
-    translation: ''
+    translation: 'antigo'
   },
-  { word: 'forward', phrase: 'moved slowly forward', translation: '' },
+  {
+    word: 'forward',
+    phrase: 'moved slowly forward',
+    translation: 'encaminhar'
+  },
   {
     word: 'four',
     phrase: "What time is it? It's four.",
-    translation: ''
+    translation: 'quatro'
   },
-  { word: 'free', phrase: 'a free ticket', translation: '' },
+  { word: 'free', phrase: 'a free ticket', translation: 'livre' },
   {
     word: 'friend',
     phrase: 'The friends of the library will host a fund-raiser.',
-    translation: ''
+    translation: 'amigo'
   },
-  { word: 'from', phrase: 'a week from today', translation: '' },
+  { word: 'from', phrase: 'a week from today', translation: 'de' },
   {
     word: 'front',
     phrase:
       'the front of the church features a magnificent stained-glass window',
-    translation: ''
+    translation: 'frente'
   },
-  { word: 'full', phrase: 'gone a full hour', translation: '' },
+  { word: 'full', phrase: 'gone a full hour', translation: 'cheio' },
   {
     word: 'fund',
     phrase: 'The fund was established to aid the poor.',
-    translation: ''
+    translation: 'fundo'
   },
   {
     word: 'future',
     phrase: 'We cannot foretell future events.',
-    translation: ''
+    translation: 'futuro'
   },
-  { word: 'game', phrase: 'the game of politics', translation: '' },
-  { word: 'garden', phrase: 'a garden hose', translation: '' },
+  { word: 'game', phrase: 'the game of politics', translation: 'jogo' },
+  { word: 'garden', phrase: 'a garden hose', translation: 'jardim' },
   {
     word: 'gas',
     phrase: 'ran out of gas in the seventh inning',
-    translation: ''
+    translation: 'gás'
   },
   {
     word: 'general',
     phrase: 'They have issued a general warning.',
-    translation: ''
+    translation: 'geral'
   },
   {
     word: 'generation',
     phrase: 'She was worshipped by a generation of moviegoers.',
-    translation: ''
+    translation: 'geração'
   },
-  { word: 'get', phrase: 'get the better of an enemy', translation: '' },
-  { word: 'girl', phrase: 'Is this your little girl?', translation: '' },
-  { word: 'give', phrase: '84 divided by 12 gives 7', translation: '' },
+  {
+    word: 'get',
+    phrase: 'get the better of an enemy',
+    translation: 'obter'
+  },
+  {
+    word: 'girl',
+    phrase: 'Is this your little girl?',
+    translation: 'menina'
+  },
+  {
+    word: 'give',
+    phrase: '84 divided by 12 gives 7',
+    translation: 'dar'
+  },
   {
     word: 'glass',
     phrase: 'The waiter filled our glasses with water.',
-    translation: ''
+    translation: 'vidro'
   },
-  { word: 'go', phrase: 'went by train', translation: '' },
+  { word: 'go', phrase: 'went by train', translation: 'go' },
   {
     word: 'goal',
     phrase: 'announced his intention to marry',
-    translation: ''
+    translation: 'objetivo'
   },
-  { word: 'good', phrase: 'good for a hundred dollars', translation: '' },
+  {
+    word: 'good',
+    phrase: 'good for a hundred dollars',
+    translation: 'bom'
+  },
   {
     word: 'government',
     phrase: 'The government has been slow to react to the crisis.',
-    translation: ''
+    translation: 'governo'
   },
-  { word: 'great', phrase: 'It was just great.', translation: '' },
+  { word: 'great', phrase: 'It was just great.', translation: 'legal' },
   {
     word: 'green',
     phrase: 'fields green with meadow grass',
-    translation: ''
+    translation: 'verde'
   },
-  { word: 'ground', phrase: 'fishing grounds', translation: '' },
+  { word: 'ground', phrase: 'fishing grounds', translation: 'chão' },
   {
     word: 'group',
     phrase: "It'll be easier if we go there as a group.",
-    translation: ''
+    translation: 'grupo'
   },
   {
     word: 'grow',
     phrase: 'The city is growing rapidly.',
-    translation: ''
+    translation: 'crescer'
   },
   {
     word: 'growth',
     phrase: 'He had a growth spurt when he was 16 years old.',
-    translation: ''
+    translation: 'crescimento'
   },
   {
     word: 'guess',
     phrase: 'Can you guess how many people were there?',
-    translation: ''
+    translation: 'adivinhar'
   },
   {
     word: 'gun',
     phrase: 'a gun battle between gang members and the police',
-    translation: ''
+    translation: 'arma'
   },
-  { word: 'guy', phrase: 'This guy is my brother', translation: '' },
+  { word: 'guy', phrase: 'This guy is my brother', translation: 'cara' },
   {
     word: 'hair',
     phrase: 'He plucked a hair from his arm.',
-    translation: ''
+    translation: 'pelo'
   },
   {
     word: 'half',
     phrase: 'the larger half of the fortune',
-    translation: ''
+    translation: 'metade'
   },
   {
     word: 'hand',
     phrase: 'She put her hands over her eyes.',
-    translation: ''
+    translation: 'mão'
   },
-  { word: 'hang', phrase: 'a room hung with streamers', translation: '' },
+  {
+    word: 'hang',
+    phrase: 'a room hung with streamers',
+    translation: 'pendurar'
+  },
   {
     word: 'happen',
     phrase: 'Something like that was bound to happen sooner or later.',
-    translation: ''
+    translation: 'acontecer'
   },
-  { word: 'happy', phrase: 'a happy childhood', translation: '' },
+  { word: 'happy', phrase: 'a happy childhood', translation: 'feliz' },
   {
     word: 'hard',
     phrase: 'an uncomfortably hard chair',
-    translation: ''
+    translation: 'duro'
   },
-  { word: 'have', phrase: 'I have my rights', translation: '' },
+  { word: 'have', phrase: 'I have my rights', translation: 'ter' },
   {
     word: 'he',
     phrase: 'one should do the best he can',
-    translation: ''
+    translation: 'ele'
   },
-  { word: 'head', phrase: 'head of a sail', translation: '' },
-  { word: 'health', phrase: 'in poor health', translation: '' },
-  { word: 'hear', phrase: 'thought I heard them leave', translation: '' },
-  { word: 'heart', phrase: 'a man after my own heart', translation: '' },
+  { word: 'head', phrase: 'head of a sail', translation: 'cabeça' },
+  { word: 'health', phrase: 'in poor health', translation: 'saúde' },
+  {
+    word: 'hear',
+    phrase: 'thought I heard them leave',
+    translation: 'ouvir'
+  },
+  {
+    word: 'heart',
+    phrase: 'a man after my own heart',
+    translation: 'coração'
+  },
   {
     word: 'heat',
     phrase: 'heat the oven to 350 degrees',
-    translation: ''
+    translation: 'calor'
   },
-  { word: 'heavy', phrase: 'heavy clouds', translation: '' },
+  { word: 'heavy', phrase: 'heavy clouds', translation: 'pesado' },
   {
     word: 'help',
     phrase: 'took an aspirin to help her headache',
-    translation: ''
+    translation: 'ajuda'
   },
-  { word: 'her', phrase: 'her research', translation: '' },
-  { word: 'here', phrase: 'this book here', translation: '' },
-  { word: 'herself', phrase: 'she herself did it', translation: '' },
-  { word: 'high', phrase: 'a high fly ball', translation: '' },
-  { word: 'him', phrase: '', translation: '' },
-  { word: 'himself', phrase: 'he himself did it', translation: '' },
-  { word: 'his', phrase: 'his writings', translation: '' },
-  { word: 'history', phrase: "you're history", translation: '' },
-  { word: 'hit', phrase: 'He was hit by a car.', translation: '' },
+  { word: 'her', phrase: 'her research', translation: 'dela' },
+  { word: 'here', phrase: 'this book here', translation: 'aqui' },
+  { word: 'herself', phrase: 'she herself did it', translation: 'se' },
+  { word: 'high', phrase: 'a high fly ball', translation: 'chapado' },
+  { word: 'him', phrase: '', translation: 'ele' },
+  {
+    word: 'himself',
+    phrase: 'he himself did it',
+    translation: 'ele mesmo'
+  },
+  { word: 'his', phrase: 'his writings', translation: 'ihs' },
+  { word: 'history', phrase: "you're history", translation: 'história' },
+  { word: 'hit', phrase: 'He was hit by a car.', translation: 'bater' },
   {
     word: 'hold',
     phrase: 'the bank holds the title to the car',
-    translation: ''
+    translation: 'segurar'
   },
-  { word: 'home', phrase: 'a place to call home', translation: '' },
-  { word: 'hope', phrase: 'hoping for the best', translation: '' },
-  { word: 'hospital', phrase: '', translation: '' },
+  { word: 'home', phrase: 'a place to call home', translation: 'lar' },
+  {
+    word: 'hope',
+    phrase: 'hoping for the best',
+    translation: 'esperança'
+  },
+  { word: 'hospital', phrase: '', translation: 'hospital' },
   {
     word: 'hot',
     phrase: 'serving hot meals to the poor',
-    translation: ''
+    translation: 'quente'
   },
-  { word: 'hotel', phrase: 'check out of a hotel', translation: '' },
-  { word: 'hour', phrase: 'in our hour of need', translation: '' },
-  { word: 'house', phrase: 'a two-family house', translation: '' },
-  { word: 'how', phrase: 'How did he die?', translation: '' },
+  { word: 'hotel', phrase: 'check out of a hotel', translation: 'hotel' },
+  { word: 'hour', phrase: 'in our hour of need', translation: 'hora' },
+  { word: 'house', phrase: 'a two-family house', translation: 'casa' },
+  { word: 'how', phrase: 'How did he die?', translation: 'como' },
   {
     word: 'however',
     phrase: "would like to go; however, I think I'd better not",
-    translation: ''
+    translation: 'contudo'
   },
-  { word: 'huge', phrase: 'a huge undertaking', translation: '' },
-  { word: 'human', phrase: 'human voices', translation: '' },
+  { word: 'huge', phrase: 'a huge undertaking', translation: 'enorme' },
+  { word: 'human', phrase: 'human voices', translation: 'humano' },
   {
     word: 'hundred',
     phrase: "it seems like we've answered this question hundreds of times",
-    translation: ''
+    translation: 'cem'
   },
   {
     word: 'husband',
     phrase: 'Have you met her husband?',
-    translation: ''
+    translation: 'marido'
   },
-  { word: 'I', phrase: 'raticide', translation: '' },
-  { word: 'idea', phrase: 'innovative ideas', translation: '' },
+  { word: 'I', phrase: 'raticide', translation: 'i' },
+  { word: 'idea', phrase: 'innovative ideas', translation: 'idéia' },
   {
     word: 'identify',
     phrase: 'She identified the dog as her lost pet.',
-    translation: ''
+    translation: 'identificar'
   },
   {
     word: 'if',
     phrase: "I doubt if I'll pass the course",
-    translation: ''
+    translation: 'se'
   },
   {
     word: 'image',
     phrase: 'image the bone using X-rays',
-    translation: ''
+    translation: 'imagem'
   },
   {
     word: 'imagine',
     phrase: 'I just thought of a good joke',
-    translation: ''
+    translation: 'imaginar'
   },
   {
     word: 'impact',
     phrase:
       'a study outlining the potential environmental impacts of the construction project',
-    translation: ''
+    translation: 'impacto'
   },
   {
     word: 'important',
     phrase: 'Diet and exercise are important for health.',
-    translation: ''
+    translation: 'importante'
   },
   {
     word: 'improve',
     phrase: 'measures to further improve the quality of medical care',
-    translation: ''
+    translation: 'aprimorar'
   },
-  { word: 'in', phrase: 'wounded in the leg', translation: '' },
+  { word: 'in', phrase: 'wounded in the leg', translation: 'em' },
   {
     word: 'include',
     phrase: 'the price of dinner includes dessert',
-    translation: ''
+    translation: 'incluir'
   },
   {
     word: 'including',
     phrase: 'the price of dinner includes dessert',
-    translation: ''
+    translation: 'incluindo'
   },
   {
     word: 'increase',
     phrase: 'his waistline increased with age',
-    translation: ''
+    translation: 'aumento'
   },
   {
     word: 'indeed',
     phrase: 'I know that you can indeed do better than that.',
-    translation: ''
+    translation: 'realmente'
   },
   {
     word: 'indicate',
     phrase: 'the indicated treatment',
-    translation: ''
+    translation: 'indicar'
   },
-  { word: 'individual', phrase: 'special ingredients', translation: '' },
+  {
+    word: 'individual',
+    phrase: 'special ingredients',
+    translation: 'individual'
+  },
   {
     word: 'industry',
     phrase: 'He favors policies that promote industry.',
-    translation: ''
+    translation: 'indústria'
   },
   {
     word: 'information',
     phrase:
       "They're working to collect information about the early settlers in the region.",
-    translation: ''
+    translation: 'informação'
   },
   {
     word: 'inside',
     phrase: 'The inside of the church is quite beautiful.',
-    translation: ''
+    translation: 'dentro'
   },
   {
     word: 'instead',
     phrase: 'I was offered a ride, but I chose to walk instead.',
-    translation: ''
+    translation: 'em vez de'
   },
   {
     word: 'institution',
     phrase: 'banks and other financial institutions',
-    translation: ''
+    translation: 'instituição'
   },
   {
     word: 'interest',
     phrase: 'She told us about her lifelong interest in music.',
-    translation: ''
+    translation: 'interesse'
   },
   {
     word: 'interesting',
     phrase: "This is one of the most interesting books I've read all year.",
-    translation: ''
+    translation: 'interessante'
   },
   {
     word: 'international',
     phrase: 'an international association of chemists',
-    translation: ''
+    translation: 'internacional'
   },
   {
     word: 'interview',
     phrase: 'was interviewed on television',
-    translation: ''
+    translation: 'entrevista'
   },
-  { word: 'into', phrase: 'enter into an alliance', translation: '' },
-  { word: 'investment', phrase: '', translation: '' },
+  { word: 'into', phrase: 'enter into an alliance', translation: 'em' },
+  { word: 'investment', phrase: '', translation: 'investimento' },
   {
     word: 'involve',
     phrase: 'the price of dinner includes dessert',
-    translation: ''
+    translation: 'envolver'
   },
   {
     word: 'issue',
     phrase: "They misquoted me, but I didn't want to make an issue of it.",
-    translation: ''
+    translation: 'questão'
   },
-  { word: 'it', phrase: '', translation: '' },
-  { word: 'item', phrase: 'every item on the list', translation: '' },
+  { word: 'it', phrase: '', translation: 'ela' },
+  {
+    word: 'item',
+    phrase: 'every item on the list',
+    translation: 'artigo'
+  },
   {
     word: 'its',
     phrase: 'a suite with its own private bathroom',
-    translation: ''
+    translation: 'sua'
   },
   {
     word: 'itself',
     phrase: 'This itself is a good enough reason.',
-    translation: ''
+    translation: 'próprio'
   },
-  { word: 'job', phrase: 'she quit her job', translation: '' },
-  { word: 'join', phrase: 'join the navy', translation: '' },
-  { word: 'just', phrase: 'just be yourself', translation: '' },
+  { word: 'job', phrase: 'she quit her job', translation: 'trabalho' },
+  { word: 'join', phrase: 'join the navy', translation: 'juntar' },
+  { word: 'just', phrase: 'just be yourself', translation: 'só' },
   {
     word: 'keep',
     phrase: 'kept him back with difficulty',
-    translation: ''
+    translation: 'guardar'
   },
-  { word: 'key', phrase: 'a key moment in the game', translation: '' },
-  { word: 'kid', phrase: 'you poor kid', translation: '' },
+  {
+    word: 'key',
+    phrase: 'a key moment in the game',
+    translation: 'chave'
+  },
+  { word: 'kid', phrase: 'you poor kid', translation: 'puto' },
   {
     word: 'kill',
     phrase: 'He threatened to kill them.',
-    translation: ''
+    translation: 'matar'
   },
-  { word: 'kind', phrase: 'They were very kind to us.', translation: '' },
+  {
+    word: 'kind',
+    phrase: 'They were very kind to us.',
+    translation: 'tipo'
+  },
   {
     word: 'kitchen',
     phrase: 'They want a house with a large kitchen.',
-    translation: ''
+    translation: 'cozinha'
   },
   {
     word: 'know',
     phrase: 'He knows a lot about the history of the town.',
-    translation: ''
+    translation: 'saber'
   },
   {
     word: 'knowledge',
     phrase: 'rich in the knowledge of human nature',
-    translation: ''
+    translation: 'conhecimento'
   },
-  { word: 'land', phrase: 'landed the leading role', translation: '' },
-  { word: 'language', phrase: 'medical language', translation: '' },
+  {
+    word: 'land',
+    phrase: 'landed the leading role',
+    translation: 'terra'
+  },
+  { word: 'language', phrase: 'medical language', translation: 'idioma' },
   {
     word: 'large',
     phrase: 'will take a larger role in the negotiations',
-    translation: ''
+    translation: 'grande'
   },
   {
     word: 'last',
     phrase: 'His last book was a failure.',
-    translation: ''
+    translation: 'último'
   },
-  { word: 'late', phrase: 'was late for class', translation: '' },
+  { word: 'late', phrase: 'was late for class', translation: 'tarde' },
   {
     word: 'later',
     phrase: 'they later regretted the decision',
-    translation: ''
+    translation: 'posterior'
   },
   {
     word: 'laugh',
     phrase: 'What are you laughing about?',
-    translation: ''
+    translation: 'rir'
   },
-  { word: 'law', phrase: 'probate law', translation: '' },
+  { word: 'law', phrase: 'probate law', translation: 'lei' },
   {
     word: 'lawyer',
     phrase:
       "their lawyers told them that they couldn't use the park for the concert without permission from the city",
-    translation: ''
+    translation: 'advogado'
   },
-  { word: 'lay', phrase: 'lay plaster', translation: '' },
+  { word: 'lay', phrase: 'lay plaster', translation: 'colocar' },
   {
     word: 'lead',
     phrase: 'guided the scouts through the cave',
-    translation: ''
+    translation: 'conduzir'
   },
   {
     word: 'leader',
     phrase: 'The tour leader suggested several restaurants in the area.',
-    translation: ''
+    translation: 'líder'
   },
-  { word: 'learn', phrase: 'learned to play chess', translation: '' },
+  {
+    word: 'learn',
+    phrase: 'learned to play chess',
+    translation: 'aprender'
+  },
   {
     word: 'least',
     phrase: 'Who was the least at fault in the case?',
-    translation: ''
+    translation: 'menos'
   },
   {
     word: 'leave',
     phrase: 'the wound left an ugly scar',
-    translation: ''
+    translation: 'deixer'
   },
-  { word: 'left', phrase: 'the left arm of a chair', translation: '' },
-  { word: 'leg', phrase: 'legless lizards', translation: '' },
+  {
+    word: 'left',
+    phrase: 'the left arm of a chair',
+    translation: 'esquerda'
+  },
+  { word: 'leg', phrase: 'legless lizards', translation: 'perna' },
   {
     word: 'legal',
     phrase: 'Fishing in this lake is legal.',
-    translation: ''
+    translation: 'legal'
   },
-  { word: 'less', phrase: 'less than half done', translation: '' },
+  { word: 'less', phrase: 'less than half done', translation: 'menos' },
   {
     word: 'let',
     phrase: 'a break in the clouds let us see the summit',
-    translation: ''
+    translation: 'deixar'
   },
-  { word: 'letter', phrase: '', translation: '' },
+  { word: 'letter', phrase: '', translation: 'letra' },
   {
     word: 'level',
     phrase: 'the job appeals to me on many levels',
-    translation: ''
+    translation: 'nível'
   },
-  { word: 'lie', phrase: 'lie asleep', translation: '' },
+  { word: 'lie', phrase: 'lie asleep', translation: 'mentira' },
   {
     word: 'life',
     phrase: 'He believes that God gives life to all creatures.',
-    translation: ''
+    translation: 'vida'
   },
-  { word: 'light', phrase: 'a light lunch', translation: '' },
+  { word: 'light', phrase: 'a light lunch', translation: 'luz' },
   {
     word: 'like',
     phrase: 'my car does not like cold weather',
-    translation: ''
+    translation: 'gostar'
   },
   {
     word: 'likely',
     phrase: 'That seems to be the most likely explanation.',
-    translation: ''
+    translation: 'provável'
   },
-  { word: 'line', phrase: 'stand on line', translation: '' },
-  { word: 'list', phrase: '', translation: '' },
+  { word: 'line', phrase: 'stand on line', translation: 'linha' },
+  { word: 'list', phrase: '', translation: 'lista' },
   {
     word: 'listen',
     phrase:
       "I listened as hard as I could, but I couldn't hear a word of what he said over all that noise.",
-    translation: ''
+    translation: 'escutar'
   },
-  { word: 'little', phrase: 'little towns', translation: '' },
+  { word: 'little', phrase: 'little towns', translation: 'putinha' },
   {
     word: 'live',
     phrase: 'they had always lived in the country',
-    translation: ''
+    translation: 'viver'
   },
   {
     word: 'local',
     phrase: 'We had dinner at a local restaurant.',
-    translation: ''
+    translation: 'local'
   },
-  { word: 'long', phrase: 'long i in sign', translation: '' },
-  { word: 'look', phrase: 'look at the map', translation: '' },
-  { word: 'lose', phrase: 'lost his temper', translation: '' },
-  { word: 'loss', phrase: 'habitat loss', translation: '' },
-  { word: 'lot', phrase: 'lots of friends', translation: '' },
+  { word: 'long', phrase: 'long i in sign', translation: 'longas' },
+  { word: 'look', phrase: 'look at the map', translation: 'olhar' },
+  { word: 'lose', phrase: 'lost his temper', translation: 'perder' },
+  { word: 'loss', phrase: 'habitat loss', translation: 'perda' },
+  { word: 'lot', phrase: 'lots of friends', translation: 'lote' },
   {
     word: 'love',
     phrase: 'Children need unconditional love from their parents.',
-    translation: ''
+    translation: 'amar'
   },
-  { word: 'low', phrase: 'a low income group', translation: '' },
+  { word: 'low', phrase: 'a low income group', translation: 'baixo' },
   {
     word: 'machine',
     phrase: 'Shovels are tools; bulldozers are machines.',
-    translation: ''
+    translation: 'máquina'
   },
-  { word: 'magazine', phrase: 'a gardening magazine', translation: '' },
-  { word: 'main', phrase: 'by main strength', translation: '' },
+  {
+    word: 'magazine',
+    phrase: 'a gardening magazine',
+    translation: 'revista'
+  },
+  { word: 'main', phrase: 'by main strength', translation: 'principal' },
   {
     word: 'maintain',
     phrase: 'steadfastly maintained his innocence',
-    translation: ''
+    translation: 'manter'
   },
   {
     word: 'major',
     phrase: "He's one of the major figures in 19th-century U.S. history.",
-    translation: ''
+    translation: 'principal'
   },
-  { word: 'majority', phrase: 'a two-thirds majority', translation: '' },
-  { word: 'make', phrase: 'makes it possible', translation: '' },
+  {
+    word: 'majority',
+    phrase: 'a two-thirds majority',
+    translation: 'maioria'
+  },
+  { word: 'make', phrase: 'makes it possible', translation: 'fazer' },
   {
     word: 'man',
     phrase: 'He was a shy boy, but he grew to be a strong and confident man.',
-    translation: ''
+    translation: 'homem'
   },
-  { word: 'manage', phrase: 'manage a bond issue', translation: '' },
+  {
+    word: 'manage',
+    phrase: 'manage a bond issue',
+    translation: 'gerenciar'
+  },
   {
     word: 'management',
     phrase: 'Business improved under the management of new owners.',
-    translation: ''
+    translation: 'gestão'
   },
   {
     word: 'manager',
     phrase: "I'd like to speak to the manager, please.",
-    translation: ''
+    translation: 'gerente'
   },
   {
     word: 'many',
     phrase: 'the many advantages of an education',
-    translation: ''
+    translation: 'muito'
   },
   {
     word: 'market',
     phrase: 'I stopped at the market on the way home for some juice.',
-    translation: ''
+    translation: 'mercado'
   },
   {
     word: 'marriage',
     phrase: 'It was his second marriage.',
-    translation: ''
+    translation: 'casamento'
   },
   {
     word: 'material',
     phrase: 'the material aspect of being',
-    translation: ''
+    translation: 'material'
   },
-  { word: 'matter', phrase: 'as a matter of policy', translation: '' },
-  { word: 'may', phrase: 'things you may need', translation: '' },
+  {
+    word: 'matter',
+    phrase: 'as a matter of policy',
+    translation: 'matéria'
+  },
+  { word: 'may', phrase: 'things you may need', translation: 'maio' },
   {
     word: 'maybe',
     phrase: 'maybe we can make it to the concert, if we hurry',
-    translation: ''
+    translation: 'talvez'
   },
-  { word: 'me', phrase: 'who, me?', translation: '' },
-  { word: 'mean', phrase: 'a lean, mean athlete', translation: '' },
+  { word: 'me', phrase: 'who, me?', translation: 'me' },
+  {
+    word: 'mean',
+    phrase: 'a lean, mean athlete',
+    translation: 'significar'
+  },
   {
     word: 'measure',
     phrase: 'She felt equal measures of hope and fear.',
-    translation: ''
+    translation: 'medir'
   },
-  { word: 'media', phrase: '', translation: '' },
-  { word: 'medical', phrase: 'a medical journal', translation: '' },
-  { word: 'meet', phrase: 'fit for battle', translation: '' },
+  { word: 'media', phrase: '', translation: 'mídia' },
+  { word: 'medical', phrase: 'a medical journal', translation: 'médico' },
+  { word: 'meet', phrase: 'fit for battle', translation: 'encontrar' },
   {
     word: 'meeting',
     phrase: "The club's monthly meeting will be held next Monday evening.",
-    translation: ''
+    translation: 'encontro'
   },
   {
     word: 'member',
     phrase: 'they ran only part of the way',
-    translation: ''
+    translation: 'membro'
   },
   {
     word: 'memory',
     phrase: 'gifted with a remarkable memory',
-    translation: ''
+    translation: 'memória'
   },
   {
     word: 'mention',
     phrase: 'In her speech, she carefully avoided any mention of her costar.',
-    translation: ''
+    translation: 'mencionar'
   },
-  { word: 'message', phrase: 'Did you get my message?', translation: '' },
+  {
+    word: 'message',
+    phrase: 'Did you get my message?',
+    translation: 'mensagem'
+  },
   {
     word: 'method',
     phrase: 'effective teaching methods',
-    translation: ''
+    translation: 'método'
   },
   {
     word: 'middle',
     phrase: "during the century's middle decades",
-    translation: ''
+    translation: 'meio'
   },
   {
     word: 'might',
     phrase: 'I might go, but then again, I might not.',
-    translation: ''
+    translation: 'força'
   },
   {
     word: 'military',
     phrase: "the country's military needs",
-    translation: ''
+    translation: 'militar'
   },
-  { word: 'million', phrase: '', translation: '' },
-  { word: 'mind', phrase: 'time out of mind', translation: '' },
+  { word: 'million', phrase: '', translation: 'milhão' },
+  { word: 'mind', phrase: 'time out of mind', translation: 'mente' },
   {
     word: 'minute',
     phrase: 'a relatively small backyard',
-    translation: ''
+    translation: 'minuto'
   },
   {
     word: 'miss',
     phrase: 'He swung and missed the ball completely.',
-    translation: ''
+    translation: 'errar'
   },
-  { word: 'mission', phrase: 'a space mission', translation: '' },
+  { word: 'mission', phrase: 'a space mission', translation: 'missão' },
   {
     word: 'model',
     phrase: 'a decor that is a model of good taste',
-    translation: ''
+    translation: 'modelo'
   },
   {
     word: 'modern',
     phrase: 'Water pollution is a growing problem in the modern world.',
-    translation: ''
+    translation: 'moderno'
   },
   {
     word: 'moment',
     phrase: 'a region with no cities of importance',
-    translation: ''
+    translation: 'momento'
   },
-  { word: 'money', phrase: 'a money pitch', translation: '' },
+  { word: 'money', phrase: 'a money pitch', translation: 'dinheiro' },
   {
     word: 'month',
     phrase: 'July is my favorite month.',
-    translation: ''
+    translation: 'mês'
   },
-  { word: 'more', phrase: 'more was spilled', translation: '' },
+  { word: 'more', phrase: 'more was spilled', translation: 'mais' },
   {
     word: 'morning',
     phrase: 'She liked to get things done early in the morning.',
-    translation: ''
+    translation: 'manhã'
   },
   {
     word: 'most',
     phrase: 'Choosing a color took the most time.',
-    translation: ''
+    translation: 'mais'
   },
   {
     word: 'mother',
     phrase: 'the mother of all ocean liners',
-    translation: ''
+    translation: 'mãe'
   },
-  { word: 'mouth', phrase: 'the mouth of a volcano', translation: '' },
+  {
+    word: 'mouth',
+    phrase: 'the mouth of a volcano',
+    translation: 'boca'
+  },
   {
     word: 'move',
     phrase: 'retiring early was a smart move',
-    translation: ''
+    translation: 'mover'
   },
   {
     word: 'movement',
     phrase: 'a movement to increase the minimum wage',
-    translation: ''
+    translation: 'movimento'
   },
   {
     word: 'movie',
     phrase: 'a movie about the Civil War',
-    translation: ''
+    translation: 'filme'
   },
-  { word: 'Mr', phrase: '', translation: '' },
-  { word: 'Mrs', phrase: '', translation: '' },
-  { word: 'much', phrase: 'taken too much time', translation: '' },
-  { word: 'music', phrase: 'piano music', translation: '' },
+  { word: 'Mr', phrase: '', translation: 'sr' },
+  { word: 'Mrs', phrase: '', translation: 'sra' },
+  { word: 'much', phrase: 'taken too much time', translation: 'muito' },
+  { word: 'music', phrase: 'piano music', translation: 'música' },
   {
     word: 'must',
     phrase: 'we must be quiet during the performance',
-    translation: ''
+    translation: 'deve'
   },
-  { word: 'my', phrase: 'my injuries', translation: '' },
+  { word: 'my', phrase: 'my injuries', translation: 'a minha' },
   {
     word: 'myself',
     phrase: 'others and myself continued to press for the legislation',
-    translation: ''
+    translation: 'me'
   },
   {
     word: 'name',
     phrase: 'Please write your name on this line.',
-    translation: ''
+    translation: 'nome'
   },
   {
     word: 'nation',
     phrase: "It's one of the richest nations in the world.",
-    translation: ''
+    translation: 'nação'
   },
-  { word: 'national', phrase: 'the national flag', translation: '' },
-  { word: 'natural', phrase: 'a natural leader', translation: '' },
-  { word: 'nature', phrase: 'her romantic nature', translation: '' },
-  { word: 'near', phrase: 'seemed to be near death', translation: '' },
-  { word: 'nearly', phrase: 'nearly a year later', translation: '' },
+  {
+    word: 'national',
+    phrase: 'the national flag',
+    translation: 'nacional'
+  },
+  { word: 'natural', phrase: 'a natural leader', translation: 'natural' },
+  {
+    word: 'nature',
+    phrase: 'her romantic nature',
+    translation: 'natureza'
+  },
+  {
+    word: 'near',
+    phrase: 'seemed to be near death',
+    translation: 'perto'
+  },
+  { word: 'nearly', phrase: 'nearly a year later', translation: 'quase' },
   {
     word: 'necessary',
     phrase: 'Is it really necessary for me to have surgery?',
-    translation: ''
+    translation: 'necessário'
   },
   {
     word: 'need',
     phrase: 'refugees in need of shelter and food',
-    translation: ''
+    translation: 'precisar'
   },
   {
     word: 'network',
     phrase: 'a network of blood vessels',
-    translation: ''
+    translation: 'rede'
   },
   {
     word: 'never',
     phrase: 'I will never shop at that store again.',
-    translation: ''
+    translation: 'jamais'
   },
-  { word: 'new', phrase: 'He bought a new car.', translation: '' },
-  { word: 'news', phrase: 'the virus was bad news', translation: '' },
+  { word: 'new', phrase: 'He bought a new car.', translation: 'novo' },
+  {
+    word: 'news',
+    phrase: 'the virus was bad news',
+    translation: 'notícia'
+  },
   {
     word: 'newspaper',
     phrase: 'He used some newspaper to get the fire started.',
-    translation: ''
+    translation: 'jornal'
   },
-  { word: 'next', phrase: 'the next closest school', translation: '' },
-  { word: 'nice', phrase: "That's nice of you to say.", translation: '' },
-  { word: 'night', phrase: 'a night nurse', translation: '' },
-  { word: 'no', phrase: 'no disputing the decision', translation: '' },
+  {
+    word: 'next',
+    phrase: 'the next closest school',
+    translation: 'próximo'
+  },
+  {
+    word: 'nice',
+    phrase: "That's nice of you to say.",
+    translation: 'bacana'
+  },
+  { word: 'night', phrase: 'a night nurse', translation: 'noite' },
+  { word: 'no', phrase: 'no disputing the decision', translation: 'não' },
   {
     word: 'none',
     phrase: 'your help comes none too soon',
-    translation: ''
+    translation: 'nenhum'
   },
   {
     word: 'nor',
     phrase: 'not done by you nor me nor anyone',
-    translation: ''
+    translation: 'nem'
   },
   {
     word: 'north',
     phrase: 'Turn north onto Elm Street.',
-    translation: ''
+    translation: 'norte'
   },
   {
     word: 'not',
     phrase: 'He was standing not six feet away from me.',
-    translation: ''
+    translation: 'naõ'
   },
-  { word: 'note', phrase: 'end on a high note', translation: '' },
+  { word: 'note', phrase: 'end on a high note', translation: 'nota' },
   {
     word: 'nothing',
     phrase: "There's nothing in my hands.",
-    translation: ''
+    translation: 'nada'
   },
   {
     word: 'notice',
     phrase: 'Please give us enough notice to prepare for your arrival.',
-    translation: ''
+    translation: 'aviso prévio'
   },
-  { word: 'now', phrase: 'now you be sure to write', translation: '' },
+  { word: 'now', phrase: 'now you be sure to write', translation: 'ora' },
   {
     word: 'number',
     phrase: 'the number of elderly is rising',
-    translation: ''
+    translation: 'número'
   },
   {
     word: 'occur',
     phrase: 'The event is scheduled to occur at noon tomorrow.',
-    translation: ''
+    translation: 'acontecer'
   },
-  { word: 'of', phrase: 'cup of water', translation: '' },
-  { word: 'off', phrase: 'a long way off', translation: '' },
-  { word: 'offer', phrase: 'an offer of marriage', translation: '' },
+  { word: 'of', phrase: 'cup of water', translation: 'de' },
+  { word: 'off', phrase: 'a long way off', translation: 'desligado' },
+  {
+    word: 'offer',
+    phrase: 'an offer of marriage',
+    translation: 'oferecer'
+  },
   {
     word: 'office',
     phrase: 'She works at our Chicago office.',
-    translation: ''
+    translation: 'escritório'
   },
-  { word: 'officer', phrase: 'chief executive officer', translation: '' },
+  {
+    word: 'officer',
+    phrase: 'chief executive officer',
+    translation: 'oficial'
+  },
   {
     word: 'official',
     phrase: 'A company official responded to our request.',
-    translation: ''
+    translation: 'oficial'
   },
   {
     word: 'often',
     phrase: 'They go out to dinner fairly often.',
-    translation: ''
+    translation: 'amiúde'
   },
-  { word: 'oh', phrase: "Oh, don't stop!", translation: '' },
+  { word: 'oh', phrase: "Oh, don't stop!", translation: 'ah' },
   {
     word: 'oil',
     phrase: 'The price of crude oil is expected to rise.',
-    translation: ''
+    translation: 'óleo'
   },
   {
     word: 'ok',
     phrase: 'We need her OK on this before we place the order.',
-    translation: ''
+    translation: 'okey'
   },
   {
     word: 'old',
     phrase: 'they brought up the same old argument',
-    translation: ''
+    translation: 'de idade'
   },
-  { word: 'on', phrase: 'I have a cut on my finger', translation: '' },
-  { word: 'once', phrase: 'went skydiving once', translation: '' },
-  { word: 'one', phrase: 'She is one year old.', translation: '' },
-  { word: 'only', phrase: 'the only known species', translation: '' },
+  { word: 'on', phrase: 'I have a cut on my finger', translation: 'on' },
+  { word: 'once', phrase: 'went skydiving once', translation: 'uma vez' },
+  { word: 'one', phrase: 'She is one year old.', translation: 'uma' },
+  {
+    word: 'only',
+    phrase: 'the only known species',
+    translation: 'apenas'
+  },
   {
     word: 'onto',
     phrase: 'Turn left onto Fifth Avenue.',
-    translation: ''
+    translation: 'no'
   },
-  { word: 'open', phrase: 'her eyes were open', translation: '' },
+  { word: 'open', phrase: 'her eyes were open', translation: 'abrir' },
   {
     word: 'operation',
     phrase: 'The family runs a small farming operation.',
-    translation: ''
+    translation: 'operação'
   },
   {
     word: 'opportunity',
     phrase:
       "You'll have an opportunity to ask questions after the presentation.",
-    translation: ''
+    translation: 'oportunidade'
   },
-  { word: 'option', phrase: 'freedom of choice', translation: '' },
-  { word: 'or', phrase: 'sink or swim', translation: '' },
+  { word: 'option', phrase: 'freedom of choice', translation: 'opção' },
+  { word: 'or', phrase: 'sink or swim', translation: 'ou' },
   {
     word: 'order',
     phrase: "I ordered the books from the company's website.",
-    translation: ''
+    translation: 'encomendar'
   },
   {
     word: 'organization',
     phrase:
       'She is the leader of an international organization devoted to the protection of natural resources.',
-    translation: ''
+    translation: 'organização'
   },
   {
     word: 'other',
     phrase: 'something other than it seems to be',
-    translation: ''
+    translation: 'outros'
   },
   {
     word: 'others',
     phrase: 'something other than it seems to be',
-    translation: ''
+    translation: 'outros'
   },
-  { word: 'our', phrase: 'our actions', translation: '' },
-  { word: 'out', phrase: 'threw his shoulder out', translation: '' },
-  { word: 'outside', phrase: 'outside the law', translation: '' },
-  { word: 'over', phrase: 'sleep over', translation: '' },
+  { word: 'our', phrase: 'our actions', translation: 'nosso' },
+  { word: 'out', phrase: 'threw his shoulder out', translation: 'fora' },
+  { word: 'outside', phrase: 'outside the law', translation: 'fora' },
+  { word: 'over', phrase: 'sleep over', translation: 'sobre' },
   {
     word: 'own',
     phrase: 'was responsible for his own bad luck',
-    translation: ''
+    translation: 'possuir'
   },
   {
     word: 'owner',
     phrase: 'He and his sister are owners of the restaurant.',
-    translation: ''
+    translation: 'proprietário'
   },
-  { word: 'page', phrase: 'got a page from the client', translation: '' },
+  {
+    word: 'page',
+    phrase: 'got a page from the client',
+    translation: 'página'
+  },
   {
     word: 'pain',
     phrase:
       'The medication may upset your stomach but if you experience acute abdominal pain call your doctor.',
-    translation: ''
+    translation: 'dormento'
   },
   {
     word: 'painting',
     phrase: 'They hung the painting in the living room.',
-    translation: ''
+    translation: 'pintura'
   },
   {
     word: 'paper',
     phrase: "We'll need pens, glue, and some paper.",
-    translation: ''
+    translation: 'papel'
   },
   {
     word: 'parent',
     phrase: 'My parents live in New York.',
-    translation: ''
+    translation: 'pai'
   },
-  { word: 'part', phrase: 'took off for parts unknown', translation: '' },
+  {
+    word: 'part',
+    phrase: 'took off for parts unknown',
+    translation: 'parte'
+  },
   {
     word: 'participant',
     phrase: 'he seemed to be a willing participant in the prank',
-    translation: ''
+    translation: 'participante'
   },
   {
     word: 'particular',
     phrase: 'This computer program will be of particular interest to teachers.',
-    translation: ''
+    translation: 'particular'
   },
   {
     word: 'particularly',
     phrase: 'particularly stormy weather',
-    translation: ''
+    translation: 'particularmente'
   },
   {
     word: 'partner',
     phrase:
       'His partner, his wife of 20 years, was shocked to hear about his accident.',
-    translation: ''
+    translation: 'sócio'
   },
   {
     word: 'party',
     phrase: 'a party to the transaction',
-    translation: ''
+    translation: 'partido'
   },
   {
     word: 'pass',
     phrase: 'title passes to the buyer upon payment in full',
-    translation: ''
+    translation: 'passar'
   },
   {
     word: 'past',
     phrase: 'started working on this project 10 years past',
-    translation: ''
+    translation: 'passado'
   },
-  { word: 'patient', phrase: 'psychiatric patients', translation: '' },
-  { word: 'pattern', phrase: 'the pattern of events', translation: '' },
+  {
+    word: 'patient',
+    phrase: 'psychiatric patients',
+    translation: 'paciente'
+  },
+  {
+    word: 'pattern',
+    phrase: 'the pattern of events',
+    translation: 'padrão'
+  },
   {
     word: 'pay',
     phrase: 'paid a teenager to mow his lawn',
-    translation: ''
+    translation: 'pagar'
   },
   {
     word: 'peace',
     phrase:
       'After many years of war, people on both sides were longing for peace.',
-    translation: ''
+    translation: 'paz'
   },
   {
     word: 'people',
     phrase: 'People can be really cruel sometimes.',
-    translation: ''
+    translation: 'gente'
   },
-  { word: 'per', phrase: 'as per usual', translation: '' },
-  { word: 'perform', phrase: 'performed gymnastics', translation: '' },
+  { word: 'per', phrase: 'as per usual', translation: 'por' },
+  {
+    word: 'perform',
+    phrase: 'performed gymnastics',
+    translation: 'executar'
+  },
   {
     word: 'performance',
     phrase: "This evening's performance will start at 8 o'clock.",
-    translation: ''
+    translation: 'desempenho'
   },
   {
     word: 'perhaps',
     phrase: 'perhaps we will not have to take this exam, but I doubt it',
-    translation: ''
+    translation: 'talvez'
   },
-  { word: 'period', phrase: 'period costumes', translation: '' },
-  { word: 'person', phrase: 'spokesperson', translation: '' },
+  { word: 'period', phrase: 'period costumes', translation: 'período' },
+  { word: 'person', phrase: 'spokesperson', translation: 'pessoa' },
   {
     word: 'personal',
     phrase: 'personal financial gain',
-    translation: ''
+    translation: 'pessoal'
   },
-  { word: 'phone', phrase: 'radiophone', translation: '' },
-  { word: 'physical', phrase: 'physical attraction', translation: '' },
-  { word: 'pick', phrase: '', translation: '' },
+  { word: 'phone', phrase: 'radiophone', translation: 'telefone' },
+  {
+    word: 'physical',
+    phrase: 'physical attraction',
+    translation: 'físico'
+  },
+  { word: 'pick', phrase: '', translation: 'colher' },
   {
     word: 'picture',
     phrase: 'she was the very picture of health',
-    translation: ''
+    translation: 'imagem'
   },
-  { word: 'piece', phrase: 'a three-piece suit', translation: '' },
-  { word: 'place', phrase: 'a fine eating place', translation: '' },
-  { word: 'plan', phrase: 'plans for a house', translation: '' },
-  { word: 'plant', phrase: 'I planted corn this year.', translation: '' },
-  { word: 'play', phrase: 'several issues are at play', translation: '' },
-  { word: 'player', phrase: 'a chess player', translation: '' },
-  { word: 'PM', phrase: '', translation: '' },
-  { word: 'point', phrase: 'in point of fact', translation: '' },
+  { word: 'piece', phrase: 'a three-piece suit', translation: 'peça' },
+  {
+    word: 'place',
+    phrase: 'a fine eating place',
+    translation: 'colocar'
+  },
+  { word: 'plan', phrase: 'plans for a house', translation: 'plano' },
+  {
+    word: 'plant',
+    phrase: 'I planted corn this year.',
+    translation: 'planta'
+  },
+  {
+    word: 'play',
+    phrase: 'several issues are at play',
+    translation: 'brincar'
+  },
+  { word: 'player', phrase: 'a chess player', translation: 'jogador' },
+  { word: 'PM', phrase: '', translation: 'pm' },
+  { word: 'point', phrase: 'in point of fact', translation: 'ponto' },
   {
     word: 'police',
     phrase: 'Police arrested a man whom they identified as the murderer.',
-    translation: ''
+    translation: 'polícia'
   },
-  { word: 'policy', phrase: '', translation: '' },
+  { word: 'policy', phrase: '', translation: 'política' },
   {
     word: 'political',
     phrase: 'The senator has changed political parties.',
-    translation: ''
+    translation: 'político'
   },
-  { word: 'politics', phrase: 'ethnic politics', translation: '' },
+  {
+    word: 'politics',
+    phrase: 'ethnic politics',
+    translation: 'política'
+  },
   {
     word: 'poor',
     phrase: 'We were too poor to buy new clothes.',
-    translation: ''
+    translation: 'pobre'
   },
-  { word: 'popular', phrase: 'a common error', translation: '' },
+  { word: 'popular', phrase: 'a common error', translation: 'popular' },
   {
     word: 'population',
     phrase: "The world's population has increased greatly.",
-    translation: ''
+    translation: 'população'
   },
   {
     word: 'position',
     phrase: 'positioned the company in the global market',
-    translation: ''
+    translation: 'posição'
   },
-  { word: 'positive', phrase: 'positive cash flow', translation: '' },
+  {
+    word: 'positive',
+    phrase: 'positive cash flow',
+    translation: 'positivo'
+  },
   {
     word: 'possible',
     phrase: 'the worst possible circumstance',
-    translation: ''
+    translation: 'possível'
   },
-  { word: 'power', phrase: 'power tools', translation: '' },
+  { word: 'power', phrase: 'power tools', translation: 'podera' },
   {
     word: 'practice',
     phrase: 'had a habit of tapping his fingers',
-    translation: ''
+    translation: 'praticar'
   },
   {
     word: 'prepare',
     phrase: 'The teacher prepared the students for the test.',
-    translation: ''
+    translation: 'preparar'
   },
-  { word: 'present', phrase: 'give alms', translation: '' },
+  { word: 'present', phrase: 'give alms', translation: 'apresentar' },
   {
     word: 'president',
     phrase: 'The President will hold a news conference tomorrow.',
-    translation: ''
+    translation: 'presidente'
   },
-  { word: 'pressure', phrase: 'predation pressure', translation: '' },
-  { word: 'pretty', phrase: 'cost a pretty penny', translation: '' },
+  {
+    word: 'pressure',
+    phrase: 'predation pressure',
+    translation: 'pressão'
+  },
+  {
+    word: 'pretty',
+    phrase: 'cost a pretty penny',
+    translation: 'bonito'
+  },
   {
     word: 'prevent',
     phrase: 'measures taken to prevent leaks',
-    translation: ''
+    translation: 'impedir'
   },
   {
     word: 'price',
     phrase: 'You paid a high price for the car.',
-    translation: ''
+    translation: 'preço'
   },
   {
     word: 'private',
     phrase:
       "It was the first time many had seen works from the artist's private collection.",
-    translation: ''
+    translation: 'privado'
   },
-  { word: 'probably', phrase: 'it will probably rain', translation: '' },
+  {
+    word: 'probably',
+    phrase: 'it will probably rain',
+    translation: 'provavelmente'
+  },
   {
     word: 'problem',
     phrase: 'the mystery of the stone monoliths',
-    translation: ''
+    translation: 'problema'
   },
-  { word: 'process', phrase: 'a nerve cell process', translation: '' },
+  {
+    word: 'process',
+    phrase: 'a nerve cell process',
+    translation: 'processo'
+  },
   {
     word: 'produce',
     phrase: 'Thousands of cars are produced here each year.',
-    translation: ''
+    translation: 'produzir'
   },
   {
     word: 'product',
     phrase: "The company's newest product is selling well.",
-    translation: ''
+    translation: 'produto'
   },
-  { word: 'production', phrase: 'production housing', translation: '' },
+  {
+    word: 'production',
+    phrase: 'production housing',
+    translation: 'produção'
+  },
   {
     word: 'professional',
     phrase: 'Do you have any professional experience?',
-    translation: ''
+    translation: 'profissional'
   },
   {
     word: 'professor',
     phrase: 'Professor Williams will be teaching the class.',
-    translation: ''
+    translation: 'professor'
   },
   {
     word: 'program',
     phrase: 'a program of regular dental checkups',
-    translation: ''
+    translation: 'programa'
   },
-  { word: 'project', phrase: 'plans for a house', translation: '' },
+  {
+    word: 'project',
+    phrase: 'plans for a house',
+    translation: 'projeto'
+  },
   {
     word: 'property',
     phrase: 'material with a silky quality',
-    translation: ''
+    translation: 'imóvel'
   },
-  { word: 'protect', phrase: "protect one's rights", translation: '' },
+  {
+    word: 'protect',
+    phrase: "protect one's rights",
+    translation: 'proteger'
+  },
   {
     word: 'prove',
     phrase: 'the charges were never proved in court',
-    translation: ''
+    translation: 'provar'
   },
   {
     word: 'provide',
     phrase: 'The Web site provides information about local activities.',
-    translation: ''
+    translation: 'fornecer'
   },
   {
     word: 'public',
     phrase: 'a campaign to raise public awareness of the issue',
-    translation: ''
+    translation: 'público'
   },
-  { word: 'pull', phrase: 'pull turnips', translation: '' },
+  { word: 'pull', phrase: 'pull turnips', translation: 'puxar' },
   {
     word: 'purpose',
     phrase: 'announced his intention to marry',
-    translation: ''
+    translation: 'finalidade'
   },
   {
     word: 'push',
     phrase: 'Do you want to push the shopping cart?',
-    translation: ''
+    translation: 'empurrar'
   },
-  { word: 'put', phrase: 'put him on a diet', translation: '' },
+  { word: 'put', phrase: 'put him on a diet', translation: 'pôr' },
   {
     word: 'quality',
     phrase: 'material with a silky quality',
-    translation: ''
+    translation: 'qualidade'
   },
-  { word: 'question', phrase: 'ask for directions', translation: '' },
-  { word: 'quickly', phrase: 'quick thinking', translation: '' },
-  { word: 'quite', phrase: 'quite a beauty', translation: '' },
-  { word: 'race', phrase: 'a bicycle race', translation: '' },
+  {
+    word: 'question',
+    phrase: 'ask for directions',
+    translation: 'pergunta'
+  },
+  { word: 'quickly', phrase: 'quick thinking', translation: 'rápido' },
+  { word: 'quite', phrase: 'quite a beauty', translation: 'bastante' },
+  { word: 'race', phrase: 'a bicycle race', translation: 'corrida' },
   {
     word: 'radio',
     phrase: 'The news was sent by radio.',
-    translation: ''
+    translation: 'rádio'
   },
-  { word: 'raise', phrase: 'raise sunken treasure', translation: '' },
+  {
+    word: 'raise',
+    phrase: 'raise sunken treasure',
+    translation: 'levantar'
+  },
   {
     word: 'range',
     phrase: 'the entire range of human experience',
-    translation: ''
+    translation: 'gama'
   },
   {
     word: 'rate',
     phrase: 'estimated the crowd at two hundred',
-    translation: ''
+    translation: 'taxa'
   },
   {
     word: 'rather',
     phrase: 'would rather read than watch television',
-    translation: ''
+    translation: 'de preferência'
   },
   {
     word: 'reach',
     phrase: 'his voice reached the last rows',
-    translation: ''
+    translation: 'chegar'
   },
-  { word: 'read', phrase: 'a golfer reading a green', translation: '' },
-  { word: 'ready', phrase: 'quick reflexes', translation: '' },
-  { word: 'real', phrase: 'a story of real life', translation: '' },
+  {
+    word: 'read',
+    phrase: 'a golfer reading a green',
+    translation: 'ler'
+  },
+  { word: 'ready', phrase: 'quick reflexes', translation: 'pronto' },
+  { word: 'real', phrase: 'a story of real life', translation: 'real' },
   {
     word: 'reality',
     phrase: 'the difference between fiction and reality',
-    translation: ''
+    translation: 'realidade'
   },
   {
     word: 'realize',
     phrase: 'I just thought of a good joke',
-    translation: ''
+    translation: 'realizar'
   },
-  { word: 'really', phrase: 'he runs really fast', translation: '' },
+  {
+    word: 'really',
+    phrase: 'he runs really fast',
+    translation: 'realmente'
+  },
   {
     word: 'reason',
     phrase: 'teaches students how to think',
-    translation: ''
+    translation: 'razão'
   },
   {
     word: 'receive',
     phrase:
       'You will be charged a late fee if the electric company does not receive your payment on time.',
-    translation: ''
+    translation: 'receber'
   },
   {
     word: 'recent',
     phrase: 'Recent events have brought attention to the problem.',
-    translation: ''
+    translation: 'recente'
   },
   {
     word: 'recently',
     phrase: 'She recently graduated from college.',
-    translation: ''
+    translation: 'recentemente'
   },
   {
     word: 'recognize',
     phrase: "I didn't recognize you at first with your new haircut.",
-    translation: ''
+    translation: 'reconhecer'
   },
-  { word: 'record', phrase: 'a liberal voting record', translation: '' },
-  { word: 'red', phrase: 'red tomatoes', translation: '' },
+  {
+    word: 'record',
+    phrase: 'a liberal voting record',
+    translation: 'registro'
+  },
+  { word: 'red', phrase: 'red tomatoes', translation: 'vermelha' },
   {
     word: 'reduce',
     phrase: 'reduce the likelihood of war',
-    translation: ''
+    translation: 'reduzir'
   },
   {
     word: 'reflect',
     phrase: 'the pulse reflects the condition of the heart',
-    translation: ''
+    translation: 'refletir'
   },
   {
     word: 'region',
     phrase: 'The bird returns to this region every year.',
-    translation: ''
+    translation: 'região'
   },
   {
     word: 'relate',
     phrase: 'characters the reader can easily relate to',
-    translation: ''
+    translation: 'relacionar'
   },
   {
     word: 'relationship',
     phrase: 'The relationship between the two countries has improved.',
-    translation: ''
+    translation: 'relação'
   },
-  { word: 'religious', phrase: 'religious attitudes', translation: '' },
+  {
+    word: 'religious',
+    phrase: 'religious attitudes',
+    translation: 'religioso'
+  },
   {
     word: 'remain',
     phrase: 'Little remained after the fire.',
-    translation: ''
+    translation: 'remanecente'
   },
   {
     word: 'remember',
     phrase: 'remembers that day as though it were yesterday',
-    translation: ''
+    translation: 'lembrar'
   },
   {
     word: 'remove',
     phrase: 'Remove the trash from the front yard.',
-    translation: ''
+    translation: 'retirar'
   },
   {
     word: 'report',
     phrase: 'a special report on health',
-    translation: ''
+    translation: 'relatório'
   },
   {
     word: 'represent',
     phrase: 'He represented his company at the meeting.',
-    translation: ''
+    translation: 'representar'
   },
   {
     word: 'Republican',
     phrase: 'Our state representative is a Republican.',
-    translation: ''
+    translation: 'republicano'
   },
   {
     word: 'require',
     phrase: 'demanded payment of the debt',
-    translation: ''
+    translation: 'requerer'
   },
   {
     word: 'research',
     phrase: "She conducts research into the causes of Alzheimer's disease.",
-    translation: ''
+    translation: 'pesquisa'
   },
   {
     word: 'resource',
     phrase: 'exhausted all of their resources',
-    translation: ''
+    translation: 'recurso'
   },
   {
     word: 'respond',
     phrase: "She hasn't yet responded to my letter.",
-    translation: ''
+    translation: 'responder'
   },
   {
     word: 'response',
     phrase: 'had answers to all their questions',
-    translation: ''
+    translation: 'resposta'
   },
   {
     word: 'responsibility',
     phrase: 'The boys denied any responsibility for the damage to the fence.',
-    translation: ''
+    translation: 'responsabilidade'
   },
   {
     word: 'rest',
     phrase: 'We will not rest until we discover the truth.',
-    translation: ''
+    translation: 'descanso'
   },
   {
     word: 'result',
     phrase: 'If you take this drug, side effects may result.',
-    translation: ''
+    translation: 'resultado'
   },
   {
     word: 'return',
     phrase: 'reciprocated their hospitality by inviting them for a visit',
-    translation: ''
+    translation: 'volta'
   },
   {
     word: 'reveal',
     phrase: 'divine will as revealed in sacred writings',
-    translation: ''
+    translation: 'revelar'
   },
   {
     word: 'rich',
     phrase: 'became rich through shrewd investing',
-    translation: ''
+    translation: 'rico'
   },
-  { word: 'right', phrase: 'his right to decide', translation: '' },
+  {
+    word: 'right',
+    phrase: 'his right to decide',
+    translation: 'direito'
+  },
   {
     word: 'rise',
     phrase: 'an idea that springs to mind',
-    translation: ''
+    translation: 'subir'
   },
   {
     word: 'risk',
     phrase: 'I prefer not to expose my money to too much risk.',
-    translation: ''
+    translation: 'risco'
   },
   {
     word: 'road',
     phrase: "on tour with the musical's road company",
-    translation: ''
+    translation: 'estrada'
   },
-  { word: 'rock', phrase: 'shake well before using', translation: '' },
+  {
+    word: 'rock',
+    phrase: 'shake well before using',
+    translation: 'rocha'
+  },
   {
     word: 'role',
     phrase: 'He plays the role of the villain.',
-    translation: ''
+    translation: 'papel'
   },
   {
     word: 'room',
     phrase: 'Cigarette smoke filled the room.',
-    translation: ''
+    translation: 'quarto'
   },
-  { word: 'rule', phrase: 'ruled his appetites firmly', translation: '' },
+  {
+    word: 'rule',
+    phrase: 'ruled his appetites firmly',
+    translation: 'regra'
+  },
   {
     word: 'run',
     phrase: 'ran with a wild crowd when he was young',
-    translation: ''
+    translation: 'correr'
   },
   {
     word: 'safe',
     phrase: "I don't feel safe in this neighborhood.",
-    translation: ''
+    translation: 'seguro'
   },
-  { word: 'same', phrase: 'took the same route', translation: '' },
+  { word: 'same', phrase: 'took the same route', translation: 'mesmo' },
   {
     word: 'save',
     phrase: 'Remember to save your work frequently.',
-    translation: ''
+    translation: 'salvar'
   },
-  { word: 'say', phrase: 'Is anybody there? he said.', translation: '' },
+  {
+    word: 'say',
+    phrase: 'Is anybody there? he said.',
+    translation: 'dizem'
+  },
   {
     word: 'scene',
     phrase: "The play's opening scene takes place in the courtyard.",
-    translation: ''
+    translation: 'cena'
   },
-  { word: 'school', phrase: 'driving schools', translation: '' },
+  { word: 'school', phrase: 'driving schools', translation: 'letivo' },
   {
     word: 'science',
     phrase: 'The program encourages students to pursue a career in science.',
-    translation: ''
+    translation: 'ciência'
   },
-  { word: 'scientist', phrase: '', translation: '' },
-  { word: 'score', phrase: 'scored three points', translation: '' },
+  { word: 'scientist', phrase: '', translation: 'cientista' },
+  {
+    word: 'score',
+    phrase: 'scored three points',
+    translation: 'pontuação'
+  },
   {
     word: 'sea',
     phrase: 'the seas of the Southern Hemisphere',
-    translation: ''
+    translation: 'mar'
   },
-  { word: 'season', phrase: 'hunting season', translation: '' },
-  { word: 'seat', phrase: 'trouser seat', translation: '' },
+  { word: 'season', phrase: 'hunting season', translation: 'estação' },
+  { word: 'seat', phrase: 'trouser seat', translation: 'assento' },
   {
     word: 'second',
     phrase: 'They are my second favorite band.',
-    translation: ''
+    translation: 'segundo'
   },
   {
     word: 'section',
     phrase: 'the northern section of the route',
-    translation: ''
+    translation: 'seção'
   },
   {
     word: 'security',
     phrase: 'We must insure our national security.',
-    translation: ''
+    translation: 'segurança'
   },
   {
     word: 'see',
     phrase: "I'll see you dead before I accept your terms.",
-    translation: ''
+    translation: 'ver'
   },
   {
     word: 'seek',
     phrase: 'The office is seeking a salesperson.',
-    translation: ''
+    translation: 'buscar'
   },
   {
     word: 'seem',
     phrase: "What they're doing doesn't seem right to me.",
-    translation: ''
+    translation: 'parecer'
   },
   {
     word: 'sell',
     phrase: 'He buys and remodels houses and then sells them at a profit.',
-    translation: ''
+    translation: 'vender'
   },
   {
     word: 'send',
     phrase: 'Satellites receive signals in space and send them back to Earth.',
-    translation: ''
+    translation: 'enviar'
   },
   {
     word: 'senior',
     phrase: 'As his senior, she commanded quite a bit of respect.',
-    translation: ''
+    translation: 'sênior'
   },
-  { word: 'sense', phrase: 'a sense of danger', translation: '' },
+  { word: 'sense', phrase: 'a sense of danger', translation: 'senso' },
   {
     word: 'series',
     phrase: 'the hall opened into a series of small rooms',
-    translation: ''
+    translation: 'série'
   },
-  { word: 'serious', phrase: 'making serious money', translation: '' },
+  {
+    word: 'serious',
+    phrase: 'making serious money',
+    translation: 'sério'
+  },
   {
     word: 'serve',
     phrase: 'Soup was served as the first course.',
-    translation: ''
+    translation: 'servir'
   },
-  { word: 'service', phrase: 'bus service', translation: '' },
-  { word: 'set', phrase: 'set a stone on the grave', translation: '' },
+  { word: 'service', phrase: 'bus service', translation: 'serviço' },
+  { word: 'set', phrase: 'set a stone on the grave', translation: 'set' },
   {
     word: 'seven',
     phrase: "What time is it? It's seven.",
-    translation: ''
+    translation: 'sete'
   },
   {
     word: 'several',
     phrase: 'It took several days for the package to arrive.',
-    translation: ''
+    translation: 'diversos'
   },
   {
     word: 'sex',
     phrase: 'The form asks for your name, age, and sex.',
-    translation: ''
+    translation: 'sexo'
   },
-  { word: 'sexual', phrase: 'sexual conflict', translation: '' },
-  { word: 'shake', phrase: 'shake off a cold', translation: '' },
+  { word: 'sexual', phrase: 'sexual conflict', translation: 'sexual' },
+  { word: 'shake', phrase: 'shake off a cold', translation: 'tremer' },
   {
     word: 'share',
     phrase: 'shared my toys with the others',
-    translation: ''
+    translation: 'compartilhar'
   },
-  { word: 'she', phrase: 'she-cousin', translation: '' },
-  { word: 'shoot', phrase: 'shoot a spitball', translation: '' },
-  { word: 'short', phrase: 'short of cash', translation: '' },
-  { word: 'shot', phrase: 'a shot of espresso', translation: '' },
+  { word: 'she', phrase: 'she-cousin', translation: 'ela' },
+  { word: 'shoot', phrase: 'shoot a spitball', translation: 'atirar' },
+  { word: 'short', phrase: 'short of cash', translation: 'curto' },
+  { word: 'shot', phrase: 'a shot of espresso', translation: 'injeção' },
   {
     word: 'should',
     phrase: 'you should brush your teeth after each meal',
-    translation: ''
+    translation: 'se'
   },
   {
     word: 'shoulder',
     phrase: "He rested the baby's head on his shoulder.",
-    translation: ''
+    translation: 'ombro'
   },
   {
     word: 'show',
     phrase: 'showed her snapshots to the whole group',
-    translation: ''
+    translation: 'mostrar'
   },
-  { word: 'side', phrase: 'the back side of the moon', translation: '' },
-  { word: 'sign', phrase: 'a sign of the times', translation: '' },
+  {
+    word: 'side',
+    phrase: 'the back side of the moon',
+    translation: 'lado'
+  },
+  { word: 'sign', phrase: 'a sign of the times', translation: 'sinal' },
   {
     word: 'significant',
     phrase: 'producing significant profits',
-    translation: ''
+    translation: 'significativo'
   },
-  { word: 'similar', phrase: 'similar polygons', translation: '' },
-  { word: 'simple', phrase: 'a simple leaf', translation: '' },
+  {
+    word: 'similar',
+    phrase: 'similar polygons',
+    translation: 'semelhante'
+  },
+  { word: 'simple', phrase: 'a simple leaf', translation: 'simples' },
   {
     word: 'simply',
     phrase: 'Simply add water to the mix and stir.',
-    translation: ''
+    translation: 'simplesmente'
   },
   {
     word: 'since',
     phrase: 'She graduated four years ago and has since married.',
-    translation: ''
+    translation: 'desde'
   },
-  { word: 'sing', phrase: 'She sings in the choir.', translation: '' },
-  { word: 'single', phrase: 'a single bed', translation: '' },
+  {
+    word: 'sing',
+    phrase: 'She sings in the choir.',
+    translation: 'cantar'
+  },
+  { word: 'single', phrase: 'a single bed', translation: 'solteira' },
   {
     word: 'sister',
     phrase: 'The sisters live in the convent.',
-    translation: ''
+    translation: 'irmã'
   },
   {
     word: 'sit',
     phrase: 'He was sitting in a chair next to the window.',
-    translation: ''
+    translation: 'sentar'
   },
   {
     word: 'site',
     phrase: 'Hard hats must be worn on the construction site.',
-    translation: ''
+    translation: 'local'
   },
   {
     word: 'situation',
     phrase: "He's in a bad situation.",
-    translation: ''
+    translation: 'situação'
   },
-  { word: 'six', phrase: "What time is it? It's six.", translation: '' },
-  { word: 'size', phrase: '', translation: '' },
+  {
+    word: 'six',
+    phrase: "What time is it? It's six.",
+    translation: 'seis'
+  },
+  { word: 'size', phrase: '', translation: 'tamanho' },
   {
     word: 'skill',
     phrase: 'the art of choosing the right word',
-    translation: ''
+    translation: 'habilidade'
   },
-  { word: 'skin', phrase: 'the rough skin of a shark', translation: '' },
+  {
+    word: 'skin',
+    phrase: 'the rough skin of a shark',
+    translation: 'pele'
+  },
   {
     word: 'small',
     phrase: 'a relatively small backyard',
-    translation: ''
+    translation: 'pequeno'
   },
   {
     word: 'smile',
     phrase: 'The photographer asked us to smile for the camera.',
-    translation: ''
+    translation: 'sorrir'
   },
   {
     word: 'so',
     phrase: "I didn't like it and I told her so",
-    translation: ''
+    translation: 'tão'
   },
   {
     word: 'social',
     phrase: 'She has poor social skills.',
-    translation: ''
+    translation: 'social'
   },
   {
     word: 'society',
     phrase: 'Poverty hurts society as a whole.',
-    translation: ''
+    translation: 'sociedade'
   },
   {
     word: 'soldier',
     phrase: 'Many soldiers were wounded in combat.',
-    translation: ''
+    translation: 'soldado'
   },
-  { word: 'some', phrase: 'have some apples', translation: '' },
+  { word: 'some', phrase: 'have some apples', translation: 'algum' },
   {
     word: 'somebody',
     phrase: 'Somebody left you a message.',
-    translation: ''
+    translation: 'alguém'
   },
   {
     word: 'someone',
     phrase: 'Someone left you a message.',
-    translation: ''
+    translation: 'alguém'
   },
   {
     word: 'something',
     phrase: 'a group of fifty-somethings',
-    translation: ''
+    translation: 'alguma coisa'
   },
   {
     word: 'sometimes',
     phrase: 'His jokes are funny, but sometimes he goes too far.',
-    translation: ''
+    translation: 'as vezes'
   },
-  { word: 'son', phrase: 'sonogram', translation: '' },
-  { word: 'song', phrase: 'He sang a love song.', translation: '' },
-  { word: 'soon', phrase: 'the sooner the better', translation: '' },
-  { word: 'sort', phrase: 'sort mail', translation: '' },
+  { word: 'son', phrase: 'sonogram', translation: 'filho' },
+  { word: 'song', phrase: 'He sang a love song.', translation: 'canção' },
+  { word: 'soon', phrase: 'the sooner the better', translation: 'logo' },
+  { word: 'sort', phrase: 'sort mail', translation: 'ordenar' },
   {
     word: 'sound',
     phrase: 'you sound just like your mother',
-    translation: ''
+    translation: 'som'
   },
   {
     word: 'source',
     phrase: 'an investigation into the origin of baseball',
-    translation: ''
+    translation: 'fonte'
   },
   {
     word: 'south',
     phrase: 'Turn south onto Elm Street.',
-    translation: ''
+    translation: 'sul'
   },
   {
     word: 'southern',
     phrase: 'the southern part of the state',
-    translation: ''
+    translation: 'austral'
   },
-  { word: 'space', phrase: 'floor space', translation: '' },
+  { word: 'space', phrase: 'floor space', translation: 'espaço' },
   {
     word: 'speak',
     phrase: 'Have you two spoken since yesterday?',
-    translation: ''
+    translation: 'falar'
   },
-  { word: 'special', phrase: 'special ingredients', translation: '' },
-  { word: 'specific', phrase: 'special ingredients', translation: '' },
+  {
+    word: 'special',
+    phrase: 'special ingredients',
+    translation: 'especial'
+  },
+  {
+    word: 'specific',
+    phrase: 'special ingredients',
+    translation: 'específico'
+  },
   {
     word: 'speech',
     phrase: 'She has to make a speech at the convention.',
-    translation: ''
+    translation: 'fala'
   },
   {
     word: 'spend',
     phrase: 'I spent $30 on his birthday gift.',
-    translation: ''
+    translation: 'gastar'
   },
-  { word: 'sport', phrase: 'a poor sport', translation: '' },
+  { word: 'sport', phrase: 'a poor sport', translation: 'desporto' },
   {
     word: 'spring',
     phrase: 'an idea that springs to mind',
-    translation: ''
+    translation: 'primavera'
   },
   {
     word: 'staff',
     phrase: 'The entire staff has done a great job this year.',
-    translation: ''
+    translation: 'pessoal'
   },
-  { word: 'stage', phrase: 'stage a hunger strike', translation: '' },
+  {
+    word: 'stage',
+    phrase: 'stage a hunger strike',
+    translation: 'etapa'
+  },
   {
     word: 'stand',
     phrase: 'can you stand on your head',
-    translation: ''
+    translation: 'estar em pé'
   },
-  { word: 'standard', phrase: 'standards of behavior', translation: '' },
+  {
+    word: 'standard',
+    phrase: 'standards of behavior',
+    translation: 'padrão'
+  },
   {
     word: 'star',
     phrase: 'She had a starring role in his latest film.',
-    translation: ''
+    translation: 'estrela'
   },
-  { word: 'start', phrase: 'the rain started up again', translation: '' },
+  {
+    word: 'start',
+    phrase: 'the rain started up again',
+    translation: 'iniciar'
+  },
   {
     word: 'state',
     phrase: 'the gaseous state of water',
-    translation: ''
+    translation: 'estado'
   },
   {
     word: 'statement',
     phrase: 'His office issued an official statement concerning his departure.',
-    translation: ''
+    translation: 'declaração'
   },
   {
     word: 'station',
     phrase: 'a marine biological station',
-    translation: ''
+    translation: 'estação'
   },
   {
     word: 'stay',
     phrase: 'went for a short vacation but stayed on for weeks',
-    translation: ''
+    translation: 'estada'
   },
-  { word: 'step', phrase: 'stepsister', translation: '' },
+  { word: 'step', phrase: 'stepsister', translation: 'passo' },
   {
     word: 'still',
     phrase: "drink it while it's still hot",
-    translation: ''
+    translation: 'ainda'
   },
-  { word: 'stock', phrase: 'a stock model', translation: '' },
-  { word: 'stop', phrase: 'the motor stopped', translation: '' },
+  { word: 'stock', phrase: 'a stock model', translation: 'estoque' },
+  { word: 'stop', phrase: 'the motor stopped', translation: 'deter' },
   {
     word: 'store',
     phrase: 'an organism that absorbs and stores DDT',
-    translation: ''
+    translation: 'loja'
   },
-  { word: 'story', phrase: '', translation: '' },
+  { word: 'story', phrase: '', translation: 'história' },
   {
     word: 'strategy',
     phrase:
       'They are proposing a new strategy for treating the disease with a combination of medications.',
-    translation: ''
+    translation: 'estratégia'
   },
   {
     word: 'street',
     phrase: 'success through compromise is a two-way street',
-    translation: ''
+    translation: 'rua'
   },
-  { word: 'strong', phrase: 'strong talk', translation: '' },
+  { word: 'strong', phrase: 'strong talk', translation: 'forte' },
   {
     word: 'structure',
     phrase: 'leaves and other plant structures',
-    translation: ''
+    translation: 'estrutura'
   },
   {
     word: 'student',
     phrase: 'a group of college students',
-    translation: ''
+    translation: 'estudante'
   },
   {
     word: 'study',
     phrase: 'refused even to consider my proposal',
-    translation: ''
+    translation: 'estudo'
   },
-  { word: 'stuff', phrase: 'long-term policy stuff', translation: '' },
+  {
+    word: 'stuff',
+    phrase: 'long-term policy stuff',
+    translation: 'rechear'
+  },
   {
     word: 'style',
     phrase: 'the flowery style of 18th century prose',
-    translation: ''
+    translation: 'estilo'
   },
   {
     word: 'subject',
     phrase: 'the rights of a free citizen',
-    translation: ''
+    translation: 'assunto'
   },
   {
     word: 'success',
     phrase: 'Success came easily to him.',
-    translation: ''
+    translation: 'sucesso'
   },
   {
     word: 'successful',
     phrase: 'the play had a successful run on Broadway',
-    translation: ''
+    translation: 'bem-sucedido'
   },
-  { word: 'such', phrase: 'such a fine person', translation: '' },
+  { word: 'such', phrase: 'such a fine person', translation: 'tal' },
   {
     word: 'suddenly',
     phrase: "the army's precipitate withdrawal",
-    translation: ''
+    translation: 'repentinamente'
   },
   {
     word: 'suffer',
     phrase: 'forced to bear a tragic loss',
-    translation: ''
+    translation: 'sofrer'
   },
   {
     word: 'suggest',
     phrase: 'a film title that suggests its subject matter',
-    translation: ''
+    translation: 'sugerir'
   },
-  { word: 'summer', phrase: 'a summer home', translation: '' },
-  { word: 'support', phrase: 'support a habit', translation: '' },
-  { word: 'sure', phrase: 'a sure hand', translation: '' },
-  { word: 'surface', phrase: "the earth's surface", translation: '' },
-  { word: 'system', phrase: 'a heating system', translation: '' },
+  { word: 'summer', phrase: 'a summer home', translation: 'verão' },
+  { word: 'support', phrase: 'support a habit', translation: 'apoio' },
+  { word: 'sure', phrase: 'a sure hand', translation: 'certo' },
+  {
+    word: 'surface',
+    phrase: "the earth's surface",
+    translation: 'superfície'
+  },
+  { word: 'system', phrase: 'a heating system', translation: 'sistema' },
   {
     word: 'table',
     phrase: 'They were sitting at the dining table.',
-    translation: ''
+    translation: 'tabela'
   },
-  { word: 'take', phrase: 'taken ill', translation: '' },
+  { word: 'take', phrase: 'taken ill', translation: 'tomar' },
   {
     word: 'talk',
     phrase: 'make the computer talk to the printer',
-    translation: ''
+    translation: 'falar'
   },
   {
     word: 'task',
     phrase: 'charged with a variety of tasks',
-    translation: ''
+    translation: 'tarefa'
   },
-  { word: 'tax', phrase: 'taxidermy', translation: '' },
+  { word: 'tax', phrase: 'taxidermy', translation: 'imposto' },
   {
     word: 'teach',
     phrase: 'taught us a lot about our planet',
-    translation: ''
+    translation: 'ensinar'
   },
   {
     word: 'teacher',
     phrase: 'Experience is a good teacher.',
-    translation: ''
+    translation: 'professor'
   },
-  { word: 'team', phrase: 'a doubles team in tennis', translation: '' },
+  {
+    word: 'team',
+    phrase: 'a doubles team in tennis',
+    translation: 'equipe'
+  },
   {
     word: 'technology',
     phrase: 'Recent advances in medical technology have saved countless lives.',
-    translation: ''
+    translation: 'tecnologia'
   },
   {
     word: 'television',
     phrase:
       'people who turn on the television the minute they walk in the door',
-    translation: ''
+    translation: 'televisão'
   },
   {
     word: 'tell',
     phrase: 'divine will as revealed in sacred writings',
-    translation: ''
+    translation: 'contar'
   },
-  { word: 'ten', phrase: "What time is it It's ten.", translation: '' },
-  { word: 'tend', phrase: 'tend to our correspondence', translation: '' },
+  {
+    word: 'ten',
+    phrase: "What time is it It's ten.",
+    translation: 'ten'
+  },
+  {
+    word: 'tend',
+    phrase: 'tend to our correspondence',
+    translation: 'tender'
+  },
   {
     word: 'term',
     phrase: 'lost money in the short term',
-    translation: ''
+    translation: 'prazo'
   },
-  { word: 'test', phrase: 'the cake tested done', translation: '' },
-  { word: 'than', phrase: 'easier said than done', translation: '' },
+  { word: 'test', phrase: 'the cake tested done', translation: 'testar' },
+  { word: 'than', phrase: 'easier said than done', translation: 'que' },
   {
     word: 'thank',
     phrase: 'I want to thank everyone who helped today.',
-    translation: ''
+    translation: 'agradecer'
   },
   {
     word: 'that',
     phrase: 'the senses are that whereby we experience the world',
-    translation: ''
+    translation: 'aquilo'
   },
-  { word: 'the', phrase: 'the Lord', translation: '' },
-  { word: 'their', phrase: 'their verses', translation: '' },
-  { word: 'them', phrase: 'gave it to them', translation: '' },
+  { word: 'the', phrase: 'the Lord', translation: 'as' },
+  { word: 'their', phrase: 'their verses', translation: 'seu' },
+  { word: 'them', phrase: 'gave it to them', translation: 'eles' },
   {
     word: 'themselves',
     phrase: 'they themselves were present',
-    translation: ''
+    translation: 'se'
   },
   {
     word: 'then',
     phrase: 'She lived in the Soviet Union, as it then was called.',
-    translation: ''
+    translation: 'então'
   },
   {
     word: 'theory',
     phrase: 'a hypothesis explaining the extinction of the dinosaurs',
-    translation: ''
+    translation: 'teoria'
   },
   {
     word: 'there',
     phrase: 'Put the package there on the table.',
-    translation: ''
+    translation: 'ali'
   },
-  { word: 'these', phrase: '', translation: '' },
-  { word: 'they', phrase: 'What do they want to do?', translation: '' },
+  { word: 'these', phrase: '', translation: 'estes' },
+  {
+    word: 'they',
+    phrase: 'What do they want to do?',
+    translation: 'elas'
+  },
   {
     word: 'thing',
     phrase: 'What is that thing on the floor?',
-    translation: ''
+    translation: 'coisa'
   },
   {
     word: 'think',
     phrase:
       'If he thinks he can fool me, he has another think coming. [=he is wrong]',
-    translation: ''
+    translation: 'pensar'
   },
-  { word: 'third', phrase: 'We sat in the third row.', translation: '' },
-  { word: 'this', phrase: 'early this morning', translation: '' },
-  { word: 'those', phrase: '', translation: '' },
+  {
+    word: 'third',
+    phrase: 'We sat in the third row.',
+    translation: 'terço'
+  },
+  { word: 'this', phrase: 'early this morning', translation: 'este' },
+  { word: 'those', phrase: '', translation: 'aqueles' },
   {
     word: 'though',
     phrase: 'Though it was raining, we went hiking.',
-    translation: ''
+    translation: 'embora'
   },
-  { word: 'thought', phrase: 'innovative ideas', translation: '' },
-  { word: 'thousand', phrase: '', translation: '' },
+  {
+    word: 'thought',
+    phrase: 'innovative ideas',
+    translation: 'pensamento'
+  },
+  { word: 'thousand', phrase: '', translation: 'mil' },
   {
     word: 'threat',
     phrase: 'He was willing to use violence and threats to get what he wanted.',
-    translation: ''
+    translation: 'ameaça'
   },
   {
     word: 'three',
     phrase: "What time is it? It's three.",
-    translation: ''
+    translation: 'três'
   },
   {
     word: 'through',
     phrase: 'a road through the desert',
-    translation: ''
+    translation: 'através'
   },
   {
     word: 'throughout',
     phrase: 'The company has stores throughout the United States and Canada.',
-    translation: ''
+    translation: 'por todo'
   },
-  { word: 'throw', phrase: 'thrown into chaos', translation: '' },
+  { word: 'throw', phrase: 'thrown into chaos', translation: 'jogar' },
   {
     word: 'thus',
     phrase:
       'The judge expressed it thus: Our obligation is to discover the truth.',
-    translation: ''
+    translation: 'assim'
   },
-  { word: 'time', phrase: 'move with the times', translation: '' },
+  { word: 'time', phrase: 'move with the times', translation: 'vez' },
   {
     word: 'to',
     phrase: 'went back to the original idea',
-    translation: ''
+    translation: 'to'
   },
-  { word: 'today', phrase: 'We have to finish today.', translation: '' },
-  { word: 'together', phrase: 'add together', translation: '' },
+  {
+    word: 'today',
+    phrase: 'We have to finish today.',
+    translation: 'hoje'
+  },
+  { word: 'together', phrase: 'add together', translation: 'juntos' },
   {
     word: 'tonight',
     phrase: "This afternoon I'm busy, but tonight I'm free.",
-    translation: ''
+    translation: 'esta noite'
   },
   {
     word: 'too',
     phrase: 'We are selling the house and the furniture too.',
-    translation: ''
+    translation: 'também'
   },
-  { word: 'top', phrase: 'top form', translation: '' },
-  { word: 'total', phrase: 'a total stranger', translation: '' },
-  { word: 'tough', phrase: 'tough luck', translation: '' },
+  { word: 'top', phrase: 'top form', translation: 'início' },
+  { word: 'total', phrase: 'a total stranger', translation: 'total' },
+  { word: 'tough', phrase: 'tough luck', translation: 'durão' },
   {
     word: 'toward',
     phrase: 'The bus is heading toward town.',
-    translation: ''
+    translation: 'para'
   },
   {
     word: 'town',
     phrase: 'the town of Jackson, Florida',
-    translation: ''
+    translation: 'cidade'
   },
   {
     word: 'trade',
     phrase: 'did a good trade in small appliances',
-    translation: ''
+    translation: 'freguesia'
   },
   {
     word: 'traditional',
     phrase: 'traditional songs/stories',
-    translation: ''
+    translation: 'tradicional'
   },
   {
     word: 'training',
     phrase: 'The job requires special training.',
-    translation: ''
+    translation: 'treinamento'
   },
   {
     word: 'travel',
     phrase: 'The birds are traveling south for the winter.',
-    translation: ''
+    translation: 'viajar'
   },
   {
     word: 'treat',
     phrase: 'The author treats this issue in the next chapter.',
-    translation: ''
+    translation: 'tratar'
   },
   {
     word: 'treatment',
     phrase: 'palliative treatment of inoperable cancer',
-    translation: ''
+    translation: 'tratamento'
   },
-  { word: 'tree', phrase: 'a banana tree', translation: '' },
+  { word: 'tree', phrase: 'a banana tree', translation: 'árvore' },
   {
     word: 'trial',
     phrase: 'He did not get a fair trial.',
-    translation: ''
+    translation: 'julgamento'
   },
-  { word: 'trip', phrase: 'on a nostalgia trip', translation: '' },
-  { word: 'trouble', phrase: 'heading for trouble', translation: '' },
-  { word: 'true', phrase: 'the true faith', translation: '' },
+  { word: 'trip', phrase: 'on a nostalgia trip', translation: 'viagem' },
+  {
+    word: 'trouble',
+    phrase: 'heading for trouble',
+    translation: 'incomodar'
+  },
+  { word: 'true', phrase: 'the true faith', translation: 'verdadeiro' },
   {
     word: 'truth',
     phrase: 'At some point you have to face the simple truth that we failed.',
-    translation: ''
+    translation: 'verdade'
   },
   {
     word: 'try',
     phrase: 'ills that afflict the elderly',
     translation: 'tentar'
   },
-  { word: 'turn', phrase: 'turn a crank', translation: '' },
-  { word: 'TV', phrase: 'We need a new TV.', translation: '' },
-  { word: 'two', phrase: 'It was two in the morning.', translation: '' },
+  { word: 'turn', phrase: 'turn a crank', translation: 'virada' },
+  { word: 'TV', phrase: 'We need a new TV.', translation: 'tevê' },
+  {
+    word: 'two',
+    phrase: 'It was two in the morning.',
+    translation: 'duas'
+  },
   {
     word: 'type',
     phrase: 'one of three basic body types',
-    translation: ''
+    translation: 'digitar'
   },
   {
     word: 'under',
     phrase: 'a soft heart under a stern exterior',
-    translation: ''
+    translation: 'embaixo'
   },
   {
     word: 'understand',
     phrase: 'orders that were fully understood and promptly obeyed',
-    translation: ''
+    translation: 'compreender'
   },
   {
     word: 'unit',
     phrase: 'The family is the basic unit of society.',
-    translation: ''
+    translation: 'unidade'
   },
-  { word: 'until', phrase: "we don't open until ten", translation: '' },
-  { word: 'up', phrase: 'at prices of $10 and up', translation: '' },
+  {
+    word: 'until',
+    phrase: "we don't open until ten",
+    translation: 'até'
+  },
+  {
+    word: 'up',
+    phrase: 'at prices of $10 and up',
+    translation: 'em cima'
+  },
   {
     word: 'upon',
     phrase: 'He carefully placed the vase upon the table.',
-    translation: ''
+    translation: 'sobre'
   },
-  { word: 'us', phrase: 'Does God walk among us?', translation: '' },
-  { word: 'use', phrase: "didn't use to smoke", translation: '' },
+  { word: 'us', phrase: 'Does God walk among us?', translation: 'nos' },
+  { word: 'use', phrase: "didn't use to smoke", translation: 'uso' },
   {
     word: 'usually',
     phrase: 'a time of year when the weather is usually hot',
-    translation: ''
+    translation: 'normalmente'
   },
   {
     word: 'value',
     phrase: 'the value of base stealing in baseball',
-    translation: ''
+    translation: 'valor'
   },
-  { word: 'various', phrase: 'different foods', translation: '' },
-  { word: 'very', phrase: "didn't hurt very much", translation: '' },
+  { word: 'various', phrase: 'different foods', translation: 'vário' },
+  { word: 'very', phrase: "didn't hurt very much", translation: 'muito' },
   {
     word: 'victim',
     phrase: 'a victim of the auto crash',
-    translation: ''
+    translation: 'vítima'
   },
   {
     word: 'view',
     phrase: 'sat high in the bleachers to get a good view',
-    translation: ''
+    translation: 'vista'
   },
   {
     word: 'violence',
     phrase:
       'They need to learn how to settle their arguments without resorting to violence.',
-    translation: ''
+    translation: 'violência'
   },
   {
     word: 'visit',
     phrase: 'She is visiting her aunt in New York.',
-    translation: ''
+    translation: 'visitar'
   },
   {
     word: 'voice',
     phrase: 'expressed her feelings in music',
-    translation: ''
+    translation: 'voz'
   },
   {
     word: 'vote',
     phrase: 'They encouraged everyone to vote in the presidential election.',
-    translation: ''
+    translation: 'votar'
   },
-  { word: 'wait', phrase: 'wait your turn', translation: '' },
-  { word: 'walk', phrase: 'walk a tightrope', translation: '' },
-  { word: 'wall', phrase: 'heart walls', translation: '' },
-  { word: 'want', phrase: 'wants out of the deal', translation: '' },
-  { word: 'war', phrase: 'a war against disease', translation: '' },
-  { word: 'watch', phrase: 'watch a ball game', translation: '' },
+  { word: 'wait', phrase: 'wait your turn', translation: 'esperar' },
+  { word: 'walk', phrase: 'walk a tightrope', translation: 'andar' },
+  { word: 'wall', phrase: 'heart walls', translation: 'parede' },
+  {
+    word: 'want',
+    phrase: 'wants out of the deal',
+    translation: 'querer'
+  },
+  { word: 'war', phrase: 'a war against disease', translation: 'guerra' },
+  { word: 'watch', phrase: 'watch a ball game', translation: 'relógio' },
   {
     word: 'water',
     phrase: 'Would you like a glass of water?',
-    translation: ''
+    translation: 'regar'
   },
-  { word: 'way', phrase: 'a way with words', translation: '' },
-  { word: 'we', phrase: 'We would like to order now.', translation: '' },
+  { word: 'way', phrase: 'a way with words', translation: 'caminho' },
+  {
+    word: 'we',
+    phrase: 'We would like to order now.',
+    translation: 'nós'
+  },
   {
     word: 'weapon',
     phrase: 'assault with a deadly weapon',
-    translation: ''
+    translation: 'arma'
   },
-  { word: 'wear', phrase: 'wear glasses', translation: '' },
-  { word: 'week', phrase: 'the last week of the month', translation: '' },
+  { word: 'wear', phrase: 'wear glasses', translation: 'desgaste' },
+  {
+    word: 'week',
+    phrase: 'the last week of the month',
+    translation: 'semana'
+  },
   {
     word: 'weight',
     phrase: 'a region with no cities of importance',
-    translation: ''
+    translation: 'peso'
   },
-  { word: 'well', phrase: 'works well under pressure', translation: '' },
+  {
+    word: 'well',
+    phrase: 'works well under pressure',
+    translation: 'bem'
+  },
   {
     word: 'west',
     phrase: 'They drove west after they got off the highway.',
-    translation: ''
+    translation: 'poente'
   },
-  { word: 'western', phrase: 'western music', translation: '' },
+  { word: 'western', phrase: 'western music', translation: 'ocidental' },
   {
     word: 'what',
     phrase: 'What is wealth without friends?',
-    translation: ''
+    translation: 'what'
   },
-  { word: 'whatever', phrase: 'no food whatever', translation: '' },
+  {
+    word: 'whatever',
+    phrase: 'no food whatever',
+    translation: 'o que quer que'
+  },
   {
     word: 'when',
     phrase: 'When did the American Civil War begin?',
-    translation: ''
+    translation: 'quando'
   },
-  { word: 'where', phrase: 'where are we going', translation: '' },
+  { word: 'where', phrase: 'where are we going', translation: 'onde' },
   {
     word: 'whether',
     phrase: 'wondered whether to stay',
-    translation: ''
+    translation: 'se'
   },
   {
     word: 'which',
     phrase: 'kept a record of which employees took their vacations in July',
-    translation: ''
+    translation: 'o qual'
   },
   {
     word: 'while',
     phrase: 'It took them a while to find out what was causing the problem.',
-    translation: ''
+    translation: 'enquanto'
   },
-  { word: 'white', phrase: 'a white rabbit', translation: '' },
-  { word: 'who', phrase: 'find out who they are', translation: '' },
-  { word: 'whole', phrase: 'a whole egg', translation: '' },
+  { word: 'white', phrase: 'a white rabbit', translation: 'branca' },
+  { word: 'who', phrase: 'find out who they are', translation: 'quem' },
+  { word: 'whole', phrase: 'a whole egg', translation: 'todo' },
   {
     word: 'whom',
     phrase: 'whom shall I say is calling?',
-    translation: ''
+    translation: 'quem'
   },
   {
     word: 'whose',
     phrase: 'This is the book whose cover is torn.',
-    translation: ''
+    translation: 'de quem'
   },
-  { word: 'why', phrase: 'that is why you did it', translation: '' },
-  { word: 'wide', phrase: 'industry-wide', translation: '' },
-  { word: 'wife', phrase: 'We met him and his wife.', translation: '' },
-  { word: 'will', phrase: 'if we will all do our best', translation: '' },
+  {
+    word: 'why',
+    phrase: 'that is why you did it',
+    translation: 'por que'
+  },
+  { word: 'wide', phrase: 'industry-wide', translation: 'largo' },
+  {
+    word: 'wife',
+    phrase: 'We met him and his wife.',
+    translation: 'esposa'
+  },
+  {
+    word: 'will',
+    phrase: 'if we will all do our best',
+    translation: 'vai'
+  },
   {
     word: 'win',
     phrase: 'The boxer won the match by knockout.',
-    translation: ''
+    translation: 'ganhar'
   },
-  { word: 'wind', phrase: '', translation: '' },
+  { word: 'wind', phrase: '', translation: 'vento' },
   {
     word: 'window',
     phrase: 'She opened a window to let in some air.',
-    translation: ''
+    translation: 'janela'
   },
   {
     word: 'wish',
     phrase: 'desires to start a new life',
-    translation: ''
+    translation: 'desejo'
   },
-  { word: 'with', phrase: 'a talk with a friend', translation: '' },
-  { word: 'within', phrase: 'within sight', translation: '' },
-  { word: 'without', phrase: 'left without him', translation: '' },
+  { word: 'with', phrase: 'a talk with a friend', translation: 'com' },
+  { word: 'within', phrase: 'within sight', translation: 'dentro de' },
+  { word: 'without', phrase: 'left without him', translation: 'sem' },
   {
     word: 'woman',
     phrase: 'She grew up to become a confident and beautiful woman.',
-    translation: ''
+    translation: 'mulher'
   },
   {
     word: 'wonder',
     phrase: 'the pyramid is a wonder to behold',
-    translation: ''
+    translation: 'maravilha'
   },
   {
     word: 'word',
     phrase: 'How do you spell that word?',
-    translation: ''
+    translation: 'palavrao'
   },
-  { word: 'work', phrase: 'work farmland', translation: '' },
+  { word: 'work', phrase: 'work farmland', translation: 'trabalho' },
   {
     word: 'worker',
     phrase: 'The company is planning to hire 200 workers.',
-    translation: ''
+    translation: 'trabalhador'
   },
-  { word: 'world', phrase: 'the digital world', translation: '' },
+  { word: 'world', phrase: 'the digital world', translation: 'mundo' },
   {
     word: 'worry',
     phrase: 'pursued a policy of worrying the enemy',
-    translation: ''
+    translation: 'preocupação'
   },
   {
     word: 'would',
     phrase: 'would be glad to know the answer',
-    translation: ''
+    translation: 'seria'
   },
-  { word: 'write', phrase: 'write a check', translation: '' },
+  { word: 'write', phrase: 'write a check', translation: 'escrever' },
   {
     word: 'writer',
     phrase: 'She is my favorite French writer.',
-    translation: ''
+    translation: 'escritor'
   },
   {
     word: 'wrong',
     phrase: 'the injustices suffered by the lower classes',
-    translation: ''
+    translation: 'errado'
   },
-  { word: 'yard', phrase: '', translation: '' },
+  { word: 'yard', phrase: '', translation: 'pátio' },
   {
     word: 'yeah',
-    phrase: '"Do you want to come?" "Yeah, sure."',
-    translation: ''
+    phrase: 'Do you want to come? Yeah, sure.',
+    translation: 'sim'
   },
   {
     word: 'year',
     phrase: "I haven't seen her in a year.",
-    translation: ''
+    translation: 'ano'
   },
   {
     word: 'yes',
     phrase: "yes, I'll be ready for the test tomorrow",
-    translation: ''
+    translation: 'sim'
   },
   {
     word: 'yet',
     phrase: 'His latest novel is his best one yet.',
-    translation: ''
+    translation: 'ainda'
   },
-  { word: 'you', phrase: '', translation: '' },
-  { word: 'young', phrase: 'a young wine', translation: '' },
+  { word: 'you', phrase: '', translation: 'você' },
+  { word: 'young', phrase: 'a young wine', translation: 'jovem' },
   {
     word: 'your',
     phrase: 'Please wash your hands before dinner.',
-    translation: ''
+    translation: 'tua'
   },
   {
     word: 'yourself',
     phrase: "You're not yourself today. Is something wrong?",
-    translation: ''
+    translation: 'você mesmo'
   }
 ];
 
