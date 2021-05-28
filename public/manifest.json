@@ -7,6 +7,78 @@
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
-  "icons": []
+  "icons": [
+  {
+    "src": "icons/android/android-launchericon-512-512.png",
+    "sizes": "512x512"
+  },
+  {
+    "src": "icons/android/android-launchericon-192-192.png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "icons/android/android-launchericon-144-144.png",
+    "sizes": "144x144"
+  },
+  {
+    "src": "icons/android/android-launchericon-96-96.png",
+    "sizes": "96x96"
+  },
+  {
+    "src": "icons/android/android-launchericon-72-72.png",
+    "sizes": "72x72"
+  },
+  {
+    "src": "icons/android/android-launchericon-48-48.png",
+    "sizes": "48x48"
+  },
+  {
+    "src": "icons/chrome/chrome-extensionmanagementpage-48-48.png",
+    "sizes": "48x48"
+  },
+  {
+    "src": "icons/chrome/chrome-favicon-16-16.png",
+    "sizes": "16x16"
+  },
+  {
+    "src": "icons/chrome/chrome-installprocess-128-128.png",
+    "sizes": "128x128"
+  },
+  {
+    "src": "icons/firefox/firefox-marketplace-512-512.png",
+    "sizes": "512x512"
+  },
+  {
+    "src": "icons/firefox/firefox-marketplace-128-128.png",
+    "sizes": "128x128"
+  },
+  {
+    "src": "icons/firefox/firefox-general-256-256.png",
+    "sizes": "256x256"
+  },
+  {
+    "src": "icons/firefox/firefox-general-128-128.png",
+    "sizes": "128x128"
+  },
+  {
+    "src": "icons/firefox/firefox-general-90-90.png",
+    "sizes": "90x90"
+  },
+  {
+    "src": "icons/firefox/firefox-general-64-64.png",
+    "sizes": "64x64"
+  },
+  {
+    "src": "icons/firefox/firefox-general-48-48.png",
+    "sizes": "48x48"
+  },
+  {
+    "src": "icons/firefox/firefox-general-32-32.png",
+    "sizes": "32x32"
+  },
+  {
+    "src": "icons/firefox/firefox-general-16-16.png",
+    "sizes": "16x16"
+  }]
   }
   

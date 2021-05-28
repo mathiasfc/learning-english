@@ -46,13 +46,16 @@ export default function App({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,600,700"
         />
         <title>Learning English</title>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
+        <link
+          rel="shortcut icon"
+          href="/icons/chrome/chrome-favicon-16-16.png"
+        />
         <link rel="manifest" href="/manifest.json" />
         <meta name="description" content="Improve your english skills!" />
       </Head>

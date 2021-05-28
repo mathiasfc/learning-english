@@ -151,7 +151,7 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    animation: pulseBorder 1500ms ease-out infinite;
+    animation: pulseBorder 2000ms ease-out infinite;
   }
 
   @keyframes spin {
