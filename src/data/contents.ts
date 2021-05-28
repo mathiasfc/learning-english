@@ -502,12 +502,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'bill',
-    phrase: 'I paid the electric and water bill this week.',
+    phrase: 'I paid the electric and water bill this week',
     translation: 'conta'
   },
   {
     word: 'billion',
-    phrase: 'A billion different stories and experiences.',
+    phrase: 'A billion different stories and experiences',
     translation: 'bilhão'
   },
   {
@@ -568,7 +568,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'break',
-    phrase: 'If you break it, you replace it.',
+    phrase: 'If you break it, you replace it',
     translation: 'quebrar/intervalo'
   },
   {
@@ -729,7 +729,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'challenge',
-    phrase: "A number of doctors are challenging the study's claims.",
+    phrase: "A number of doctors are challenging the study's claims",
     translation: 'desafio'
   },
   {
@@ -749,7 +749,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'charge',
-    phrase: 'They were charged as being instigators.',
+    phrase: 'They were charged as being instigators',
     translation: 'carga'
   },
   {
@@ -761,12 +761,12 @@ const CONTENTS: Array<Content> = [
   { word: 'choice', phrase: 'freedom of choice', translation: 'escolha' },
   {
     word: 'choose',
-    phrase: 'The political party chose a leader.',
+    phrase: 'The political party chose a leader',
     translation: 'escolher'
   },
   {
     word: 'church',
-    phrase: 'This is the oldest church in town.',
+    phrase: 'This is the oldest church in town',
     translation: 'igreja'
   },
   {
@@ -776,22 +776,22 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'city',
-    phrase: 'Getting lost in the maze was panic city.',
+    phrase: 'Getting lost in the maze was panic city',
     translation: 'cidade'
   },
   {
     word: 'civil',
-    phrase: 'It was hard to be civil when I felt so angry.',
+    phrase: 'It was hard to be civil when I felt so angry',
     translation: 'civil'
   },
   {
     word: 'claim',
-    phrase: 'The driver claimed the right to a hearing.',
+    phrase: 'The driver claimed the right to a hearing',
     translation: 'afirmação'
   },
   {
     word: 'class',
-    phrase: 'There are 20 students in the class.',
+    phrase: 'There are 20 students in the class',
     translation: 'aula'
   },
   {
@@ -801,7 +801,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'clearly',
-    phrase: 'You should try to speak more clearly.',
+    phrase: 'You should try to speak more clearly',
     translation: 'claramente'
   },
   {
@@ -829,7 +829,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'come',
-    phrase: "Come and see what's going on.",
+    phrase: "Come and see what's going on",
     translation: 'venha'
   },
   {
@@ -854,17 +854,17 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'compare',
-    phrase: 'The test was easy compared with the last one.',
+    phrase: 'The test was easy compared with the last one',
     translation: 'comparar'
   },
   {
     word: 'computer',
-    phrase: 'He works all day on a computer.',
+    phrase: 'He works all day on a computer',
     translation: 'computador'
   },
   {
     word: 'concern',
-    phrase: 'The report concerns global warming.',
+    phrase: 'The report concerns global warming',
     translation: 'interesse'
   },
   {
@@ -874,13 +874,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'conference',
-    phrase:
-      'The organization held its annual conference in New York this year.',
+    phrase: 'The organization held its annual conference in New York this year',
     translation: 'conferência'
   },
   {
     word: 'congress',
-    phrase: "She was recently elected to the country's congress.",
+    phrase: "She was recently elected to the country's congress",
     translation: 'congresso'
   },
   {
@@ -891,12 +890,12 @@ const CONTENTS: Array<Content> = [
   {
     word: 'consumer',
     phrase:
-      'Many consumers are still not comfortable making purchases on the Internet.',
+      'Many consumers are still not comfortable making purchases on the Internet',
     translation: 'consumidor(a)'
   },
   {
     word: 'contain',
-    phrase: 'Firefighters contained the wildfire.',
+    phrase: 'Firefighters contained the wildfire',
     translation: 'conter'
   },
   {
@@ -911,17 +910,17 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'cost',
-    phrase: 'She attends college at a cost of $15,000 a year.',
+    phrase: 'She attends college at a cost of $15,000 a year',
     translation: 'custo'
   },
   {
     word: 'could',
-    phrase: 'You could have been hurt.',
+    phrase: 'You could have been hurt',
     translation: 'poderia'
   },
   {
     word: 'country',
-    phrase: 'The two countries have a lot in common.',
+    phrase: 'The two countries have a lot in common',
     translation: 'país'
   },
   { word: 'couple', phrase: 'a couple weeks', translation: 'casal' },
@@ -932,12 +931,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'court',
-    phrase: 'Both candidates were courting the independent voters.',
+    phrase: 'Both candidates were courting the independent voters',
     translation: 'tribunal'
   },
   {
     word: 'cover',
-    phrase: 'The gardener covered the soil with mulch.',
+    phrase: 'The gardener covered the soil with mulch',
     translation: 'cobrir'
   },
   { word: 'create', phrase: 'create new jobs', translation: 'criar' },
@@ -948,7 +947,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'cultural',
-    phrase: 'We studied our cultural heritage.',
+    phrase: 'We studied our cultural heritage',
     translation: 'cultural'
   },
   { word: 'culture', phrase: 'Southern culture', translation: 'cultura' },
@@ -960,7 +959,7 @@ const CONTENTS: Array<Content> = [
   { word: 'current', phrase: 'current supplies', translation: 'atual' },
   {
     word: 'customer',
-    phrase: 'She is one of our best customers.',
+    phrase: 'She is one of our best customers',
     translation: 'cliente'
   },
   { word: 'cut', phrase: 'cut a commercial', translation: 'cortar' },
@@ -971,7 +970,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'data',
-    phrase: 'These data have been questioned.',
+    phrase: 'These data have been questioned',
     translation: 'dados'
   },
   {
@@ -997,7 +996,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'debate',
-    phrase: 'The case sparked a raging public debate on property rights.',
+    phrase: 'The case sparked a raging public debate on property rights',
     translation: 'debate'
   },
   {
@@ -1039,7 +1038,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'describe',
-    phrase: 'The police asked her to describe the thief.',
+    phrase: 'The police asked her to describe the thief',
     translation: 'descrever'
   },
   {
@@ -1075,7 +1074,7 @@ const CONTENTS: Array<Content> = [
   { word: 'die', phrase: 'die young', translation: 'morrer' },
   {
     word: 'difference',
-    phrase: 'She knows the difference between right and wrong.',
+    phrase: 'She knows the difference between right and wrong',
     translation: 'diferença'
   },
   {
@@ -1090,7 +1089,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'dinner',
-    phrase: 'We had many pleasant dinners together.',
+    phrase: 'We had many pleasant dinners together',
     translation: 'jantar'
   },
   {
@@ -1115,7 +1114,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'discussion',
-    phrase: 'The class was involved in a heated discussion about politics.',
+    phrase: 'The class was involved in a heated discussion about politics',
     translation: 'discusão'
   },
   {
@@ -1126,7 +1125,7 @@ const CONTENTS: Array<Content> = [
   { word: 'do', phrase: 'did his duty', translation: 'faz/fazer' },
   {
     word: 'doctor',
-    phrase: 'The class is being taught by Doctor Menzer.',
+    phrase: 'The class is being taught by Doctor Menzer',
     translation: 'doutor'
   },
   {
@@ -1137,7 +1136,7 @@ const CONTENTS: Array<Content> = [
   { word: 'door', phrase: 'door to success', translation: 'porta' },
   {
     word: 'down',
-    phrase: 'Pull down the blind.',
+    phrase: 'Pull down the blind',
     translation: 'baixo(a)'
   },
   { word: 'draw', phrase: 'drew a gun', translation: 'desenhar' },
@@ -1155,12 +1154,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'during',
-    phrase: 'She swims every day during the summer.',
+    phrase: 'She swims every day during the summer',
     translation: 'durante'
   },
   {
     word: 'each',
-    phrase: 'A rope was tied to each end of the boat.',
+    phrase: 'A rope was tied to each end of the boat',
     translation: 'cada'
   },
   {
@@ -1186,18 +1185,18 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'economy',
-    phrase: "The war altered the country's economy.",
+    phrase: "The war altered the country's economy",
     translation: 'economia'
   },
   {
     word: 'edge',
-    phrase: 'They peered over the edge of the roof.',
+    phrase: 'They peered over the edge of the roof',
     translation: 'borda'
   },
   {
     word: 'education',
     phrase:
-      'The school is devoted to the education of children with reading difficulties.',
+      'The school is devoted to the education of children with reading difficulties',
     translation: 'educação'
   },
   {
@@ -1207,7 +1206,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'effort',
-    phrase: 'He put a lot of effort into finishing the project on time.',
+    phrase: 'He put a lot of effort into finishing the project on time',
     translation: 'empenho'
   },
   { word: 'eight', phrase: '', translation: 'oito' },
@@ -1224,7 +1223,7 @@ const CONTENTS: Array<Content> = [
   { word: 'else', phrase: 'here and nowhere else', translation: 'mais' },
   {
     word: 'employee',
-    phrase: 'A good boss listens to his employees.',
+    phrase: 'A good boss listens to his employees',
     translation: 'empregado'
   },
   { word: 'end', phrase: 'end markets', translation: 'terminar' },
@@ -1235,7 +1234,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'enjoy',
-    phrase: 'Relax and enjoy the view.',
+    phrase: 'Relax and enjoy the view',
     translation: 'gozar'
   },
   {
@@ -1266,7 +1265,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'establish',
-    phrase: 'The film established her as a star.',
+    phrase: 'The film established her as a star',
     translation: 'estabelecer'
   },
   {
@@ -1288,17 +1287,17 @@ const CONTENTS: Array<Content> = [
   { word: 'every', phrase: 'every once in a while', translation: 'cada' },
   {
     word: 'everybody',
-    phrase: 'The president waved to everybody in the crowd.',
+    phrase: 'The president waved to everybody in the crowd',
     translation: 'todos'
   },
   {
     word: 'everyone',
-    phrase: 'Not everyone finished their meal.',
+    phrase: 'Not everyone finished their meal',
     translation: 'todos'
   },
   {
     word: 'everything',
-    phrase: 'People will buy everything she paints.',
+    phrase: 'People will buy everything she paints',
     translation: 'tudo'
   },
   {
@@ -1318,7 +1317,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'executive',
-    phrase: 'She has good executive skills.',
+    phrase: 'She has good executive skills',
     translation: 'executivo'
   },
   {
@@ -1333,7 +1332,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'experience',
-    phrase: 'The best way to learn is by experience.',
+    phrase: 'The best way to learn is by experience',
     translation: 'experiência'
   },
   {
@@ -1354,21 +1353,21 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'fact',
-    phrase: 'Rapid electronic communication is now a fact.',
+    phrase: 'Rapid electronic communication is now a fact',
     translation: 'fato'
   },
   {
     word: 'factor',
-    phrase: 'There were several factors contributing to their recent decline.',
+    phrase: 'There were several factors contributing to their recent decline',
     translation: 'fator'
   },
   {
     word: 'fail',
     phrase:
-      'He failed in his first attempt but succeeded in his second attempt.',
+      'He failed in his first attempt but succeeded in his second attempt',
     translation: 'falhar'
   },
-  { word: 'fall', phrase: 'We fell into a trap.', translation: 'cair' },
+  { word: 'fall', phrase: 'We fell into a trap', translation: 'cair' },
   { word: 'family', phrase: 'family movies', translation: 'família' },
   {
     word: 'far',
@@ -1378,7 +1377,7 @@ const CONTENTS: Array<Content> = [
   { word: 'fast', phrase: 'acid-fast bacteria', translation: 'rápido' },
   {
     word: 'father',
-    phrase: 'He became a father when he was 30.',
+    phrase: 'He became a father when he was 30',
     translation: 'father'
   },
   {
@@ -1388,12 +1387,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'federal',
-    phrase: 'We pay federal, state, and local taxes.',
+    phrase: 'We pay federal, state, and local taxes',
     translation: 'federal'
   },
   {
     word: 'feel',
-    phrase: 'He felt a sudden pain in his leg.',
+    phrase: 'He felt a sudden pain in his leg',
     translation: 'sentir-se'
   },
   {
@@ -1426,7 +1425,7 @@ const CONTENTS: Array<Content> = [
   { word: 'final', phrase: 'final exams', translation: 'final' },
   {
     word: 'finally',
-    phrase: 'He finally got around to calling.',
+    phrase: 'He finally got around to calling',
     translation: 'enfim'
   },
   {
@@ -1448,7 +1447,7 @@ const CONTENTS: Array<Content> = [
   { word: 'finish', phrase: 'close a debate', translation: 'acabar' },
   {
     word: 'fire',
-    phrase: 'They opened fire on [=began shooting at] the enemy.',
+    phrase: 'They opened fire on [=began shooting at] the enemy',
     translation: 'despedir'
   },
   { word: 'firm', phrase: 'a firm date', translation: 'firme' },
@@ -1460,12 +1459,12 @@ const CONTENTS: Array<Content> = [
   { word: 'fish', phrase: 'cuttlefish', translation: 'peixe' },
   {
     word: 'five',
-    phrase: 'I get off work at five.',
+    phrase: 'I get off work at five',
     translation: 'cinco'
   },
   {
     word: 'floor',
-    phrase: 'Keep your feet on the floor.',
+    phrase: 'Keep your feet on the floor',
     translation: 'chão'
   },
   { word: 'fly', phrase: 'butterfly', translation: 'mosca' },
@@ -1481,12 +1480,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'food',
-    phrase: 'Books were his mental food.',
+    phrase: 'Books were his mental food',
     translation: 'comida'
   },
   {
     word: 'foot',
-    phrase: 'He was wearing boots on his feet.',
+    phrase: 'He was wearing boots on his feet',
     translation: 'pé'
   },
   { word: 'for', phrase: 'acted for the best', translation: 'durante' },
@@ -1502,7 +1501,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'forget',
-    phrase: "He's now a forgotten hero.",
+    phrase: "He's now a forgotten hero",
     translation: 'esquecer'
   },
   { word: 'form', phrase: 'a form of art', translation: 'forma' },
@@ -1518,13 +1517,13 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'four',
-    phrase: "What time is it? It's four.",
+    phrase: "What time is it? It's four",
     translation: 'quatro'
   },
   { word: 'free', phrase: 'a free ticket', translation: 'livre' },
   {
     word: 'friend',
-    phrase: 'The friends of the library will host a fund-raiser.',
+    phrase: 'The friends of the library will host a fund-raiser',
     translation: 'amigo'
   },
   { word: 'from', phrase: 'a week from today', translation: 'de' },
@@ -1537,12 +1536,12 @@ const CONTENTS: Array<Content> = [
   { word: 'full', phrase: 'gone a full hour', translation: 'cheio' },
   {
     word: 'fund',
-    phrase: 'The fund was established to aid the poor.',
+    phrase: 'The fund was established to aid the poor',
     translation: 'fundo'
   },
   {
     word: 'future',
-    phrase: 'We cannot foretell future events.',
+    phrase: 'We cannot foretell future events',
     translation: 'futuro'
   },
   { word: 'game', phrase: 'the game of politics', translation: 'jogo' },
@@ -1554,12 +1553,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'general',
-    phrase: 'They have issued a general warning.',
+    phrase: 'They have issued a general warning',
     translation: 'geral'
   },
   {
     word: 'generation',
-    phrase: 'She was worshipped by a generation of moviegoers.',
+    phrase: 'She was worshipped by a generation of moviegoers',
     translation: 'geração'
   },
   {
@@ -1579,7 +1578,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'glass',
-    phrase: 'The waiter filled our glasses with water.',
+    phrase: 'The waiter filled our glasses with water',
     translation: 'vidro'
   },
   { word: 'go', phrase: 'went by train', translation: 'go' },
@@ -1595,10 +1594,10 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'government',
-    phrase: 'The government has been slow to react to the crisis.',
+    phrase: 'The government has been slow to react to the crisis',
     translation: 'governo'
   },
-  { word: 'great', phrase: 'It was just great.', translation: 'legal' },
+  { word: 'great', phrase: 'It was just great', translation: 'legal' },
   {
     word: 'green',
     phrase: 'fields green with meadow grass',
@@ -1607,17 +1606,17 @@ const CONTENTS: Array<Content> = [
   { word: 'ground', phrase: 'fishing grounds', translation: 'chão' },
   {
     word: 'group',
-    phrase: "It'll be easier if we go there as a group.",
+    phrase: "It'll be easier if we go there as a group",
     translation: 'grupo'
   },
   {
     word: 'grow',
-    phrase: 'The city is growing rapidly.',
+    phrase: 'The city is growing rapidly',
     translation: 'crescer'
   },
   {
     word: 'growth',
-    phrase: 'He had a growth spurt when he was 16 years old.',
+    phrase: 'He had a growth spurt when he was 16 years old',
     translation: 'crescimento'
   },
   {
@@ -1633,7 +1632,7 @@ const CONTENTS: Array<Content> = [
   { word: 'guy', phrase: 'This guy is my brother', translation: 'cara' },
   {
     word: 'hair',
-    phrase: 'He plucked a hair from his arm.',
+    phrase: 'He plucked a hair from his arm',
     translation: 'pelo'
   },
   {
@@ -1643,7 +1642,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'hand',
-    phrase: 'She put her hands over her eyes.',
+    phrase: 'She put her hands over her eyes',
     translation: 'mão'
   },
   {
@@ -1653,7 +1652,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'happen',
-    phrase: 'Something like that was bound to happen sooner or later.',
+    phrase: 'Something like that was bound to happen sooner or later',
     translation: 'acontecer'
   },
   { word: 'happy', phrase: 'a happy childhood', translation: 'feliz' },
@@ -1703,7 +1702,7 @@ const CONTENTS: Array<Content> = [
   },
   { word: 'his', phrase: 'his writings', translation: 'ihs' },
   { word: 'history', phrase: "you're history", translation: 'história' },
-  { word: 'hit', phrase: 'He was hit by a car.', translation: 'bater' },
+  { word: 'hit', phrase: 'He was hit by a car', translation: 'bater' },
   {
     word: 'hold',
     phrase: 'the bank holds the title to the car',
@@ -1746,7 +1745,7 @@ const CONTENTS: Array<Content> = [
   { word: 'idea', phrase: 'innovative ideas', translation: 'idéia' },
   {
     word: 'identify',
-    phrase: 'She identified the dog as her lost pet.',
+    phrase: 'She identified the dog as her lost pet',
     translation: 'identificar'
   },
   {
@@ -1772,7 +1771,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'important',
-    phrase: 'Diet and exercise are important for health.',
+    phrase: 'Diet and exercise are important for health',
     translation: 'importante'
   },
   {
@@ -1798,7 +1797,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'indeed',
-    phrase: 'I know that you can indeed do better than that.',
+    phrase: 'I know that you can indeed do better than that',
     translation: 'realmente'
   },
   {
@@ -1813,23 +1812,23 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'industry',
-    phrase: 'He favors policies that promote industry.',
+    phrase: 'He favors policies that promote industry',
     translation: 'indústria'
   },
   {
     word: 'information',
     phrase:
-      "They're working to collect information about the early settlers in the region.",
+      "They're working to collect information about the early settlers in the region",
     translation: 'informação'
   },
   {
     word: 'inside',
-    phrase: 'The inside of the church is quite beautiful.',
+    phrase: 'The inside of the church is quite beautiful',
     translation: 'dentro'
   },
   {
     word: 'instead',
-    phrase: 'I was offered a ride, but I chose to walk instead.',
+    phrase: 'I was offered a ride, but I chose to walk instead',
     translation: 'em vez de'
   },
   {
@@ -1839,12 +1838,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'interest',
-    phrase: 'She told us about her lifelong interest in music.',
+    phrase: 'She told us about her lifelong interest in music',
     translation: 'interesse'
   },
   {
     word: 'interesting',
-    phrase: "This is one of the most interesting books I've read all year.",
+    phrase: "This is one of the most interesting books I've read all year",
     translation: 'interessante'
   },
   {
@@ -1866,7 +1865,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'issue',
-    phrase: "They misquoted me, but I didn't want to make an issue of it.",
+    phrase: "They misquoted me, but I didn't want to make an issue of it",
     translation: 'questão'
   },
   { word: 'it', phrase: '', translation: 'ela' },
@@ -1882,7 +1881,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'itself',
-    phrase: 'This itself is a good enough reason.',
+    phrase: 'This itself is a good enough reason',
     translation: 'próprio'
   },
   { word: 'job', phrase: 'she quit her job', translation: 'trabalho' },
@@ -1901,22 +1900,22 @@ const CONTENTS: Array<Content> = [
   { word: 'kid', phrase: 'you poor kid', translation: 'puto' },
   {
     word: 'kill',
-    phrase: 'He threatened to kill them.',
+    phrase: 'He threatened to kill them',
     translation: 'matar'
   },
   {
     word: 'kind',
-    phrase: 'They were very kind to us.',
+    phrase: 'They were very kind to us',
     translation: 'tipo'
   },
   {
     word: 'kitchen',
-    phrase: 'They want a house with a large kitchen.',
+    phrase: 'They want a house with a large kitchen',
     translation: 'cozinha'
   },
   {
     word: 'know',
-    phrase: 'He knows a lot about the history of the town.',
+    phrase: 'He knows a lot about the history of the town',
     translation: 'saber'
   },
   {
@@ -1937,7 +1936,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'last',
-    phrase: 'His last book was a failure.',
+    phrase: 'His last book was a failure',
     translation: 'último'
   },
   { word: 'late', phrase: 'was late for class', translation: 'tarde' },
@@ -1966,7 +1965,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'leader',
-    phrase: 'The tour leader suggested several restaurants in the area.',
+    phrase: 'The tour leader suggested several restaurants in the area',
     translation: 'líder'
   },
   {
@@ -1992,7 +1991,7 @@ const CONTENTS: Array<Content> = [
   { word: 'leg', phrase: 'legless lizards', translation: 'perna' },
   {
     word: 'legal',
-    phrase: 'Fishing in this lake is legal.',
+    phrase: 'Fishing in this lake is legal',
     translation: 'legal'
   },
   { word: 'less', phrase: 'less than half done', translation: 'menos' },
@@ -2010,7 +2009,7 @@ const CONTENTS: Array<Content> = [
   { word: 'lie', phrase: 'lie asleep', translation: 'mentira' },
   {
     word: 'life',
-    phrase: 'He believes that God gives life to all creatures.',
+    phrase: 'He believes that God gives life to all creatures',
     translation: 'vida'
   },
   { word: 'light', phrase: 'a light lunch', translation: 'luz' },
@@ -2021,7 +2020,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'likely',
-    phrase: 'That seems to be the most likely explanation.',
+    phrase: 'That seems to be the most likely explanation',
     translation: 'provável'
   },
   { word: 'line', phrase: 'stand on line', translation: 'linha' },
@@ -2029,7 +2028,7 @@ const CONTENTS: Array<Content> = [
   {
     word: 'listen',
     phrase:
-      "I listened as hard as I could, but I couldn't hear a word of what he said over all that noise.",
+      "I listened as hard as I could, but I couldn't hear a word of what he said over all that noise",
     translation: 'escutar'
   },
   { word: 'little', phrase: 'little towns', translation: 'putinha' },
@@ -2040,7 +2039,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'local',
-    phrase: 'We had dinner at a local restaurant.',
+    phrase: 'We had dinner at a local restaurant',
     translation: 'local'
   },
   { word: 'long', phrase: 'long i in sign', translation: 'longas' },
@@ -2050,13 +2049,13 @@ const CONTENTS: Array<Content> = [
   { word: 'lot', phrase: 'lots of friends', translation: 'lote' },
   {
     word: 'love',
-    phrase: 'Children need unconditional love from their parents.',
+    phrase: 'Children need unconditional love from their parents',
     translation: 'amar'
   },
   { word: 'low', phrase: 'a low income group', translation: 'baixo' },
   {
     word: 'machine',
-    phrase: 'Shovels are tools; bulldozers are machines.',
+    phrase: 'Shovels are tools; bulldozers are machines',
     translation: 'máquina'
   },
   {
@@ -2072,7 +2071,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'major',
-    phrase: "He's one of the major figures in 19th-century U.S. history.",
+    phrase: "He's one of the major figures in 19th-century U.S. history",
     translation: 'principal'
   },
   {
@@ -2083,7 +2082,7 @@ const CONTENTS: Array<Content> = [
   { word: 'make', phrase: 'makes it possible', translation: 'fazer' },
   {
     word: 'man',
-    phrase: 'He was a shy boy, but he grew to be a strong and confident man.',
+    phrase: 'He was a shy boy, but he grew to be a strong and confident man',
     translation: 'homem'
   },
   {
@@ -2093,12 +2092,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'management',
-    phrase: 'Business improved under the management of new owners.',
+    phrase: 'Business improved under the management of new owners',
     translation: 'gestão'
   },
   {
     word: 'manager',
-    phrase: "I'd like to speak to the manager, please.",
+    phrase: "I'd like to speak to the manager, please",
     translation: 'gerente'
   },
   {
@@ -2108,12 +2107,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'market',
-    phrase: 'I stopped at the market on the way home for some juice.',
+    phrase: 'I stopped at the market on the way home for some juice',
     translation: 'mercado'
   },
   {
     word: 'marriage',
-    phrase: 'It was his second marriage.',
+    phrase: 'It was his second marriage',
     translation: 'casamento'
   },
   {
@@ -2140,7 +2139,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'measure',
-    phrase: 'She felt equal measures of hope and fear.',
+    phrase: 'She felt equal measures of hope and fear',
     translation: 'medir'
   },
   { word: 'media', phrase: '', translation: 'mídia' },
@@ -2148,7 +2147,7 @@ const CONTENTS: Array<Content> = [
   { word: 'meet', phrase: 'fit for battle', translation: 'encontrar' },
   {
     word: 'meeting',
-    phrase: "The club's monthly meeting will be held next Monday evening.",
+    phrase: "The club's monthly meeting will be held next Monday evening",
     translation: 'encontro'
   },
   {
@@ -2163,7 +2162,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'mention',
-    phrase: 'In her speech, she carefully avoided any mention of her costar.',
+    phrase: 'In her speech, she carefully avoided any mention of her costar',
     translation: 'mencionar'
   },
   {
@@ -2183,7 +2182,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'might',
-    phrase: 'I might go, but then again, I might not.',
+    phrase: 'I might go, but then again, I might not',
     translation: 'força'
   },
   {
@@ -2200,7 +2199,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'miss',
-    phrase: 'He swung and missed the ball completely.',
+    phrase: 'He swung and missed the ball completely',
     translation: 'errar'
   },
   { word: 'mission', phrase: 'a space mission', translation: 'missão' },
@@ -2211,7 +2210,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'modern',
-    phrase: 'Water pollution is a growing problem in the modern world.',
+    phrase: 'Water pollution is a growing problem in the modern world',
     translation: 'moderno'
   },
   {
@@ -2222,18 +2221,18 @@ const CONTENTS: Array<Content> = [
   { word: 'money', phrase: 'a money pitch', translation: 'dinheiro' },
   {
     word: 'month',
-    phrase: 'July is my favorite month.',
+    phrase: 'July is my favorite month',
     translation: 'mês'
   },
   { word: 'more', phrase: 'more was spilled', translation: 'mais' },
   {
     word: 'morning',
-    phrase: 'She liked to get things done early in the morning.',
+    phrase: 'She liked to get things done early in the morning',
     translation: 'manhã'
   },
   {
     word: 'most',
-    phrase: 'Choosing a color took the most time.',
+    phrase: 'Choosing a color took the most time',
     translation: 'mais'
   },
   {
@@ -2278,12 +2277,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'name',
-    phrase: 'Please write your name on this line.',
+    phrase: 'Please write your name on this line',
     translation: 'nome'
   },
   {
     word: 'nation',
-    phrase: "It's one of the richest nations in the world.",
+    phrase: "It's one of the richest nations in the world",
     translation: 'nação'
   },
   {
@@ -2320,10 +2319,10 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'never',
-    phrase: 'I will never shop at that store again.',
+    phrase: 'I will never shop at that store again',
     translation: 'jamais'
   },
-  { word: 'new', phrase: 'He bought a new car.', translation: 'novo' },
+  { word: 'new', phrase: 'He bought a new car', translation: 'novo' },
   {
     word: 'news',
     phrase: 'the virus was bad news',
@@ -2331,7 +2330,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'newspaper',
-    phrase: 'He used some newspaper to get the fire started.',
+    phrase: 'He used some newspaper to get the fire started',
     translation: 'jornal'
   },
   {
@@ -2341,7 +2340,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'nice',
-    phrase: "That's nice of you to say.",
+    phrase: "That's nice of you to say",
     translation: 'bacana'
   },
   { word: 'night', phrase: 'a night nurse', translation: 'noite' },
@@ -2358,23 +2357,23 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'north',
-    phrase: 'Turn north onto Elm Street.',
+    phrase: 'Turn north onto Elm Street',
     translation: 'norte'
   },
   {
     word: 'not',
-    phrase: 'He was standing not six feet away from me.',
+    phrase: 'He was standing not six feet away from me',
     translation: 'naõ'
   },
   { word: 'note', phrase: 'end on a high note', translation: 'nota' },
   {
     word: 'nothing',
-    phrase: "There's nothing in my hands.",
+    phrase: "There's nothing in my hands",
     translation: 'nada'
   },
   {
     word: 'notice',
-    phrase: 'Please give us enough notice to prepare for your arrival.',
+    phrase: 'Please give us enough notice to prepare for your arrival',
     translation: 'aviso prévio'
   },
   { word: 'now', phrase: 'now you be sure to write', translation: 'ora' },
@@ -2385,7 +2384,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'occur',
-    phrase: 'The event is scheduled to occur at noon tomorrow.',
+    phrase: 'The event is scheduled to occur at noon tomorrow',
     translation: 'acontecer'
   },
   { word: 'of', phrase: 'cup of water', translation: 'de' },
@@ -2397,7 +2396,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'office',
-    phrase: 'She works at our Chicago office.',
+    phrase: 'She works at our Chicago office',
     translation: 'escritório'
   },
   {
@@ -2407,23 +2406,23 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'official',
-    phrase: 'A company official responded to our request.',
+    phrase: 'A company official responded to our request',
     translation: 'oficial'
   },
   {
     word: 'often',
-    phrase: 'They go out to dinner fairly often.',
+    phrase: 'They go out to dinner fairly often',
     translation: 'amiúde'
   },
   { word: 'oh', phrase: "Oh, don't stop!", translation: 'ah' },
   {
     word: 'oil',
-    phrase: 'The price of crude oil is expected to rise.',
+    phrase: 'The price of crude oil is expected to rise',
     translation: 'óleo'
   },
   {
     word: 'ok',
-    phrase: 'We need her OK on this before we place the order.',
+    phrase: 'We need her OK on this before we place the order',
     translation: 'okey'
   },
   {
@@ -2433,7 +2432,7 @@ const CONTENTS: Array<Content> = [
   },
   { word: 'on', phrase: 'I have a cut on my finger', translation: 'on' },
   { word: 'once', phrase: 'went skydiving once', translation: 'uma vez' },
-  { word: 'one', phrase: 'She is one year old.', translation: 'uma' },
+  { word: 'one', phrase: 'She is one year old', translation: 'uma' },
   {
     word: 'only',
     phrase: 'the only known species',
@@ -2441,32 +2440,32 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'onto',
-    phrase: 'Turn left onto Fifth Avenue.',
+    phrase: 'Turn left onto Fifth Avenue',
     translation: 'no'
   },
   { word: 'open', phrase: 'her eyes were open', translation: 'abrir' },
   {
     word: 'operation',
-    phrase: 'The family runs a small farming operation.',
+    phrase: 'The family runs a small farming operation',
     translation: 'operação'
   },
   {
     word: 'opportunity',
     phrase:
-      "You'll have an opportunity to ask questions after the presentation.",
+      "You'll have an opportunity to ask questions after the presentation",
     translation: 'oportunidade'
   },
   { word: 'option', phrase: 'freedom of choice', translation: 'opção' },
   { word: 'or', phrase: 'sink or swim', translation: 'ou' },
   {
     word: 'order',
-    phrase: "I ordered the books from the company's website.",
+    phrase: "I ordered the books from the company's website",
     translation: 'encomendar'
   },
   {
     word: 'organization',
     phrase:
-      'She is the leader of an international organization devoted to the protection of natural resources.',
+      'She is the leader of an international organization devoted to the protection of natural resources',
     translation: 'organização'
   },
   {
@@ -2490,7 +2489,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'owner',
-    phrase: 'He and his sister are owners of the restaurant.',
+    phrase: 'He and his sister are owners of the restaurant',
     translation: 'proprietário'
   },
   {
@@ -2501,22 +2500,22 @@ const CONTENTS: Array<Content> = [
   {
     word: 'pain',
     phrase:
-      'The medication may upset your stomach but if you experience acute abdominal pain call your doctor.',
+      'The medication may upset your stomach but if you experience acute abdominal pain call your doctor',
     translation: 'dormento'
   },
   {
     word: 'painting',
-    phrase: 'They hung the painting in the living room.',
+    phrase: 'They hung the painting in the living room',
     translation: 'pintura'
   },
   {
     word: 'paper',
-    phrase: "We'll need pens, glue, and some paper.",
+    phrase: "We'll need pens, glue, and some paper",
     translation: 'papel'
   },
   {
     word: 'parent',
-    phrase: 'My parents live in New York.',
+    phrase: 'My parents live in New York',
     translation: 'pai'
   },
   {
@@ -2531,7 +2530,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'particular',
-    phrase: 'This computer program will be of particular interest to teachers.',
+    phrase: 'This computer program will be of particular interest to teachers',
     translation: 'particular'
   },
   {
@@ -2542,7 +2541,7 @@ const CONTENTS: Array<Content> = [
   {
     word: 'partner',
     phrase:
-      'His partner, his wife of 20 years, was shocked to hear about his accident.',
+      'His partner, his wife of 20 years, was shocked to hear about his accident',
     translation: 'sócio'
   },
   {
@@ -2578,12 +2577,12 @@ const CONTENTS: Array<Content> = [
   {
     word: 'peace',
     phrase:
-      'After many years of war, people on both sides were longing for peace.',
+      'After many years of war, people on both sides were longing for peace',
     translation: 'paz'
   },
   {
     word: 'people',
-    phrase: 'People can be really cruel sometimes.',
+    phrase: 'People can be really cruel sometimes',
     translation: 'gente'
   },
   { word: 'per', phrase: 'as per usual', translation: 'por' },
@@ -2594,7 +2593,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'performance',
-    phrase: "This evening's performance will start at 8 o'clock.",
+    phrase: "This evening's performance will start at 8 o'clock",
     translation: 'desempenho'
   },
   {
@@ -2630,7 +2629,7 @@ const CONTENTS: Array<Content> = [
   { word: 'plan', phrase: 'plans for a house', translation: 'plano' },
   {
     word: 'plant',
-    phrase: 'I planted corn this year.',
+    phrase: 'I planted corn this year',
     translation: 'planta'
   },
   {
@@ -2643,13 +2642,13 @@ const CONTENTS: Array<Content> = [
   { word: 'point', phrase: 'in point of fact', translation: 'ponto' },
   {
     word: 'police',
-    phrase: 'Police arrested a man whom they identified as the murderer.',
+    phrase: 'Police arrested a man whom they identified as the murderer',
     translation: 'polícia'
   },
   { word: 'policy', phrase: '', translation: 'política' },
   {
     word: 'political',
-    phrase: 'The senator has changed political parties.',
+    phrase: 'The senator has changed political parties',
     translation: 'político'
   },
   {
@@ -2659,13 +2658,13 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'poor',
-    phrase: 'We were too poor to buy new clothes.',
+    phrase: 'We were too poor to buy new clothes',
     translation: 'pobre'
   },
   { word: 'popular', phrase: 'a common error', translation: 'popular' },
   {
     word: 'population',
-    phrase: "The world's population has increased greatly.",
+    phrase: "The world's population has increased greatly",
     translation: 'população'
   },
   {
@@ -2691,13 +2690,13 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'prepare',
-    phrase: 'The teacher prepared the students for the test.',
+    phrase: 'The teacher prepared the students for the test',
     translation: 'preparar'
   },
   { word: 'present', phrase: 'give alms', translation: 'apresentar' },
   {
     word: 'president',
-    phrase: 'The President will hold a news conference tomorrow.',
+    phrase: 'The President will hold a news conference tomorrow',
     translation: 'presidente'
   },
   {
@@ -2717,13 +2716,13 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'price',
-    phrase: 'You paid a high price for the car.',
+    phrase: 'You paid a high price for the car',
     translation: 'preço'
   },
   {
     word: 'private',
     phrase:
-      "It was the first time many had seen works from the artist's private collection.",
+      "It was the first time many had seen works from the artist's private collection",
     translation: 'privado'
   },
   {
@@ -2743,12 +2742,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'produce',
-    phrase: 'Thousands of cars are produced here each year.',
+    phrase: 'Thousands of cars are produced here each year',
     translation: 'produzir'
   },
   {
     word: 'product',
-    phrase: "The company's newest product is selling well.",
+    phrase: "The company's newest product is selling well",
     translation: 'produto'
   },
   {
@@ -2763,7 +2762,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'professor',
-    phrase: 'Professor Williams will be teaching the class.',
+    phrase: 'Professor Williams will be teaching the class',
     translation: 'professor'
   },
   {
@@ -2793,7 +2792,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'provide',
-    phrase: 'The Web site provides information about local activities.',
+    phrase: 'The Web site provides information about local activities',
     translation: 'fornecer'
   },
   {
@@ -2828,7 +2827,7 @@ const CONTENTS: Array<Content> = [
   { word: 'race', phrase: 'a bicycle race', translation: 'corrida' },
   {
     word: 'radio',
-    phrase: 'The news was sent by radio.',
+    phrase: 'The news was sent by radio',
     translation: 'rádio'
   },
   {
@@ -2886,22 +2885,22 @@ const CONTENTS: Array<Content> = [
   {
     word: 'receive',
     phrase:
-      'You will be charged a late fee if the electric company does not receive your payment on time.',
+      'You will be charged a late fee if the electric company does not receive your payment on time',
     translation: 'receber'
   },
   {
     word: 'recent',
-    phrase: 'Recent events have brought attention to the problem.',
+    phrase: 'Recent events have brought attention to the problem',
     translation: 'recente'
   },
   {
     word: 'recently',
-    phrase: 'She recently graduated from college.',
+    phrase: 'She recently graduated from college',
     translation: 'recentemente'
   },
   {
     word: 'recognize',
-    phrase: "I didn't recognize you at first with your new haircut.",
+    phrase: "I didn't recognize you at first with your new haircut",
     translation: 'reconhecer'
   },
   {
@@ -2922,7 +2921,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'region',
-    phrase: 'The bird returns to this region every year.',
+    phrase: 'The bird returns to this region every year',
     translation: 'região'
   },
   {
@@ -2932,7 +2931,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'relationship',
-    phrase: 'The relationship between the two countries has improved.',
+    phrase: 'The relationship between the two countries has improved',
     translation: 'relação'
   },
   {
@@ -2942,7 +2941,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'remain',
-    phrase: 'Little remained after the fire.',
+    phrase: 'Little remained after the fire',
     translation: 'remanecente'
   },
   {
@@ -2952,7 +2951,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'remove',
-    phrase: 'Remove the trash from the front yard.',
+    phrase: 'Remove the trash from the front yard',
     translation: 'retirar'
   },
   {
@@ -2962,12 +2961,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'represent',
-    phrase: 'He represented his company at the meeting.',
+    phrase: 'He represented his company at the meeting',
     translation: 'representar'
   },
   {
     word: 'Republican',
-    phrase: 'Our state representative is a Republican.',
+    phrase: 'Our state representative is a Republican',
     translation: 'republicano'
   },
   {
@@ -2977,7 +2976,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'research',
-    phrase: "She conducts research into the causes of Alzheimer's disease.",
+    phrase: "She conducts research into the causes of Alzheimer's disease",
     translation: 'pesquisa'
   },
   {
@@ -2987,7 +2986,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'respond',
-    phrase: "She hasn't yet responded to my letter.",
+    phrase: "She hasn't yet responded to my letter",
     translation: 'responder'
   },
   {
@@ -2997,17 +2996,17 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'responsibility',
-    phrase: 'The boys denied any responsibility for the damage to the fence.',
+    phrase: 'The boys denied any responsibility for the damage to the fence',
     translation: 'responsabilidade'
   },
   {
     word: 'rest',
-    phrase: 'We will not rest until we discover the truth.',
+    phrase: 'We will not rest until we discover the truth',
     translation: 'descanso'
   },
   {
     word: 'result',
-    phrase: 'If you take this drug, side effects may result.',
+    phrase: 'If you take this drug, side effects may result',
     translation: 'resultado'
   },
   {
@@ -3037,7 +3036,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'risk',
-    phrase: 'I prefer not to expose my money to too much risk.',
+    phrase: 'I prefer not to expose my money to too much risk',
     translation: 'risco'
   },
   {
@@ -3052,12 +3051,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'role',
-    phrase: 'He plays the role of the villain.',
+    phrase: 'He plays the role of the villain',
     translation: 'papel'
   },
   {
     word: 'room',
-    phrase: 'Cigarette smoke filled the room.',
+    phrase: 'Cigarette smoke filled the room',
     translation: 'quarto'
   },
   {
@@ -3072,29 +3071,29 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'safe',
-    phrase: "I don't feel safe in this neighborhood.",
+    phrase: "I don't feel safe in this neighborhood",
     translation: 'seguro'
   },
   { word: 'same', phrase: 'took the same route', translation: 'mesmo' },
   {
     word: 'save',
-    phrase: 'Remember to save your work frequently.',
+    phrase: 'Remember to save your work frequently',
     translation: 'salvar'
   },
   {
     word: 'say',
-    phrase: 'Is anybody there? he said.',
+    phrase: 'Is anybody there? he said',
     translation: 'dizem'
   },
   {
     word: 'scene',
-    phrase: "The play's opening scene takes place in the courtyard.",
+    phrase: "The play's opening scene takes place in the courtyard",
     translation: 'cena'
   },
   { word: 'school', phrase: 'driving schools', translation: 'letivo' },
   {
     word: 'science',
-    phrase: 'The program encourages students to pursue a career in science.',
+    phrase: 'The program encourages students to pursue a career in science',
     translation: 'ciência'
   },
   { word: 'scientist', phrase: '', translation: 'cientista' },
@@ -3112,7 +3111,7 @@ const CONTENTS: Array<Content> = [
   { word: 'seat', phrase: 'trouser seat', translation: 'assento' },
   {
     word: 'second',
-    phrase: 'They are my second favorite band.',
+    phrase: 'They are my second favorite band',
     translation: 'segundo'
   },
   {
@@ -3122,37 +3121,37 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'security',
-    phrase: 'We must insure our national security.',
+    phrase: 'We must insure our national security',
     translation: 'segurança'
   },
   {
     word: 'see',
-    phrase: "I'll see you dead before I accept your terms.",
+    phrase: "I'll see you dead before I accept your terms",
     translation: 'ver'
   },
   {
     word: 'seek',
-    phrase: 'The office is seeking a salesperson.',
+    phrase: 'The office is seeking a salesperson',
     translation: 'buscar'
   },
   {
     word: 'seem',
-    phrase: "What they're doing doesn't seem right to me.",
+    phrase: "What they're doing doesn't seem right to me",
     translation: 'parecer'
   },
   {
     word: 'sell',
-    phrase: 'He buys and remodels houses and then sells them at a profit.',
+    phrase: 'He buys and remodels houses and then sells them at a profit',
     translation: 'vender'
   },
   {
     word: 'send',
-    phrase: 'Satellites receive signals in space and send them back to Earth.',
+    phrase: 'Satellites receive signals in space and send them back to Earth',
     translation: 'enviar'
   },
   {
     word: 'senior',
-    phrase: 'As his senior, she commanded quite a bit of respect.',
+    phrase: 'As his senior, she commanded quite a bit of respect',
     translation: 'sênior'
   },
   { word: 'sense', phrase: 'a sense of danger', translation: 'senso' },
@@ -3168,24 +3167,24 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'serve',
-    phrase: 'Soup was served as the first course.',
+    phrase: 'Soup was served as the first course',
     translation: 'servir'
   },
   { word: 'service', phrase: 'bus service', translation: 'serviço' },
   { word: 'set', phrase: 'set a stone on the grave', translation: 'set' },
   {
     word: 'seven',
-    phrase: "What time is it? It's seven.",
+    phrase: "What time is it? It's seven",
     translation: 'sete'
   },
   {
     word: 'several',
-    phrase: 'It took several days for the package to arrive.',
+    phrase: 'It took several days for the package to arrive',
     translation: 'diversos'
   },
   {
     word: 'sex',
-    phrase: 'The form asks for your name, age, and sex.',
+    phrase: 'The form asks for your name, age, and sex',
     translation: 'sexo'
   },
   { word: 'sexual', phrase: 'sexual conflict', translation: 'sexual' },
@@ -3206,7 +3205,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'shoulder',
-    phrase: "He rested the baby's head on his shoulder.",
+    phrase: "He rested the baby's head on his shoulder",
     translation: 'ombro'
   },
   {
@@ -3233,43 +3232,43 @@ const CONTENTS: Array<Content> = [
   { word: 'simple', phrase: 'a simple leaf', translation: 'simples' },
   {
     word: 'simply',
-    phrase: 'Simply add water to the mix and stir.',
+    phrase: 'Simply add water to the mix and stir',
     translation: 'simplesmente'
   },
   {
     word: 'since',
-    phrase: 'She graduated four years ago and has since married.',
+    phrase: 'She graduated four years ago and has since married',
     translation: 'desde'
   },
   {
     word: 'sing',
-    phrase: 'She sings in the choir.',
+    phrase: 'She sings in the choir',
     translation: 'cantar'
   },
   { word: 'single', phrase: 'a single bed', translation: 'solteira' },
   {
     word: 'sister',
-    phrase: 'The sisters live in the convent.',
+    phrase: 'The sisters live in the convent',
     translation: 'irmã'
   },
   {
     word: 'sit',
-    phrase: 'He was sitting in a chair next to the window.',
+    phrase: 'He was sitting in a chair next to the window',
     translation: 'sentar'
   },
   {
     word: 'site',
-    phrase: 'Hard hats must be worn on the construction site.',
+    phrase: 'Hard hats must be worn on the construction site',
     translation: 'local'
   },
   {
     word: 'situation',
-    phrase: "He's in a bad situation.",
+    phrase: "He's in a bad situation",
     translation: 'situação'
   },
   {
     word: 'six',
-    phrase: "What time is it? It's six.",
+    phrase: "What time is it? It's six",
     translation: 'seis'
   },
   { word: 'size', phrase: '', translation: 'tamanho' },
@@ -3290,7 +3289,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'smile',
-    phrase: 'The photographer asked us to smile for the camera.',
+    phrase: 'The photographer asked us to smile for the camera',
     translation: 'sorrir'
   },
   {
@@ -3300,28 +3299,28 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'social',
-    phrase: 'She has poor social skills.',
+    phrase: 'She has poor social skills',
     translation: 'social'
   },
   {
     word: 'society',
-    phrase: 'Poverty hurts society as a whole.',
+    phrase: 'Poverty hurts society as a whole',
     translation: 'sociedade'
   },
   {
     word: 'soldier',
-    phrase: 'Many soldiers were wounded in combat.',
+    phrase: 'Many soldiers were wounded in combat',
     translation: 'soldado'
   },
   { word: 'some', phrase: 'have some apples', translation: 'algum' },
   {
     word: 'somebody',
-    phrase: 'Somebody left you a message.',
+    phrase: 'Somebody left you a message',
     translation: 'alguém'
   },
   {
     word: 'someone',
-    phrase: 'Someone left you a message.',
+    phrase: 'Someone left you a message',
     translation: 'alguém'
   },
   {
@@ -3331,11 +3330,11 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'sometimes',
-    phrase: 'His jokes are funny, but sometimes he goes too far.',
+    phrase: 'His jokes are funny, but sometimes he goes too far',
     translation: 'as vezes'
   },
   { word: 'son', phrase: 'sonogram', translation: 'filho' },
-  { word: 'song', phrase: 'He sang a love song.', translation: 'canção' },
+  { word: 'song', phrase: 'He sang a love song', translation: 'canção' },
   { word: 'soon', phrase: 'the sooner the better', translation: 'logo' },
   { word: 'sort', phrase: 'sort mail', translation: 'ordenar' },
   {
@@ -3350,7 +3349,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'south',
-    phrase: 'Turn south onto Elm Street.',
+    phrase: 'Turn south onto Elm Street',
     translation: 'sul'
   },
   {
@@ -3376,12 +3375,12 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'speech',
-    phrase: 'She has to make a speech at the convention.',
+    phrase: 'She has to make a speech at the convention',
     translation: 'fala'
   },
   {
     word: 'spend',
-    phrase: 'I spent $30 on his birthday gift.',
+    phrase: 'I spent $30 on his birthday gift',
     translation: 'gastar'
   },
   { word: 'sport', phrase: 'a poor sport', translation: 'desporto' },
@@ -3392,7 +3391,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'staff',
-    phrase: 'The entire staff has done a great job this year.',
+    phrase: 'The entire staff has done a great job this year',
     translation: 'pessoal'
   },
   {
@@ -3412,7 +3411,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'star',
-    phrase: 'She had a starring role in his latest film.',
+    phrase: 'She had a starring role in his latest film',
     translation: 'estrela'
   },
   {
@@ -3427,7 +3426,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'statement',
-    phrase: 'His office issued an official statement concerning his departure.',
+    phrase: 'His office issued an official statement concerning his departure',
     translation: 'declaração'
   },
   {
@@ -3457,7 +3456,7 @@ const CONTENTS: Array<Content> = [
   {
     word: 'strategy',
     phrase:
-      'They are proposing a new strategy for treating the disease with a combination of medications.',
+      'They are proposing a new strategy for treating the disease with a combination of medications',
     translation: 'estratégia'
   },
   {
@@ -3498,7 +3497,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'success',
-    phrase: 'Success came easily to him.',
+    phrase: 'Success came easily to him',
     translation: 'sucesso'
   },
   {
@@ -3533,7 +3532,7 @@ const CONTENTS: Array<Content> = [
   { word: 'system', phrase: 'a heating system', translation: 'sistema' },
   {
     word: 'table',
-    phrase: 'They were sitting at the dining table.',
+    phrase: 'They were sitting at the dining table',
     translation: 'tabela'
   },
   { word: 'take', phrase: 'taken ill', translation: 'tomar' },
@@ -3555,7 +3554,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'teacher',
-    phrase: 'Experience is a good teacher.',
+    phrase: 'Experience is a good teacher',
     translation: 'professor'
   },
   {
@@ -3565,7 +3564,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'technology',
-    phrase: 'Recent advances in medical technology have saved countless lives.',
+    phrase: 'Recent advances in medical technology have saved countless lives',
     translation: 'tecnologia'
   },
   {
@@ -3581,7 +3580,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'ten',
-    phrase: "What time is it It's ten.",
+    phrase: "What time is it It's ten",
     translation: 'ten'
   },
   {
@@ -3598,7 +3597,7 @@ const CONTENTS: Array<Content> = [
   { word: 'than', phrase: 'easier said than done', translation: 'que' },
   {
     word: 'thank',
-    phrase: 'I want to thank everyone who helped today.',
+    phrase: 'I want to thank everyone who helped today',
     translation: 'agradecer'
   },
   {
@@ -3616,7 +3615,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'then',
-    phrase: 'She lived in the Soviet Union, as it then was called.',
+    phrase: 'She lived in the Soviet Union, as it then was called',
     translation: 'então'
   },
   {
@@ -3626,7 +3625,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'there',
-    phrase: 'Put the package there on the table.',
+    phrase: 'Put the package there on the table',
     translation: 'ali'
   },
   { word: 'these', phrase: '', translation: 'estes' },
@@ -3648,14 +3647,14 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'third',
-    phrase: 'We sat in the third row.',
+    phrase: 'We sat in the third row',
     translation: 'terço'
   },
   { word: 'this', phrase: 'early this morning', translation: 'este' },
   { word: 'those', phrase: '', translation: 'aqueles' },
   {
     word: 'though',
-    phrase: 'Though it was raining, we went hiking.',
+    phrase: 'Though it was raining, we went hiking',
     translation: 'embora'
   },
   {
@@ -3666,12 +3665,12 @@ const CONTENTS: Array<Content> = [
   { word: 'thousand', phrase: '', translation: 'mil' },
   {
     word: 'threat',
-    phrase: 'He was willing to use violence and threats to get what he wanted.',
+    phrase: 'He was willing to use violence and threats to get what he wanted',
     translation: 'ameaça'
   },
   {
     word: 'three',
-    phrase: "What time is it? It's three.",
+    phrase: "What time is it? It's three",
     translation: 'três'
   },
   {
@@ -3681,14 +3680,14 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'throughout',
-    phrase: 'The company has stores throughout the United States and Canada.',
+    phrase: 'The company has stores throughout the United States and Canada',
     translation: 'por todo'
   },
   { word: 'throw', phrase: 'thrown into chaos', translation: 'jogar' },
   {
     word: 'thus',
     phrase:
-      'The judge expressed it thus: Our obligation is to discover the truth.',
+      'The judge expressed it thus: Our obligation is to discover the truth',
     translation: 'assim'
   },
   { word: 'time', phrase: 'move with the times', translation: 'vez' },
@@ -3699,18 +3698,18 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'today',
-    phrase: 'We have to finish today.',
+    phrase: 'We have to finish today',
     translation: 'hoje'
   },
   { word: 'together', phrase: 'add together', translation: 'juntos' },
   {
     word: 'tonight',
-    phrase: "This afternoon I'm busy, but tonight I'm free.",
+    phrase: "This afternoon I'm busy, but tonight I'm free",
     translation: 'esta noite'
   },
   {
     word: 'too',
-    phrase: 'We are selling the house and the furniture too.',
+    phrase: 'We are selling the house and the furniture too',
     translation: 'também'
   },
   { word: 'top', phrase: 'top form', translation: 'início' },
@@ -3718,7 +3717,7 @@ const CONTENTS: Array<Content> = [
   { word: 'tough', phrase: 'tough luck', translation: 'durão' },
   {
     word: 'toward',
-    phrase: 'The bus is heading toward town.',
+    phrase: 'The bus is heading toward town',
     translation: 'para'
   },
   {
@@ -3738,17 +3737,17 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'training',
-    phrase: 'The job requires special training.',
+    phrase: 'The job requires special training',
     translation: 'treinamento'
   },
   {
     word: 'travel',
-    phrase: 'The birds are traveling south for the winter.',
+    phrase: 'The birds are traveling south for the winter',
     translation: 'viajar'
   },
   {
     word: 'treat',
-    phrase: 'The author treats this issue in the next chapter.',
+    phrase: 'The author treats this issue in the next chapter',
     translation: 'tratar'
   },
   {
@@ -3759,7 +3758,7 @@ const CONTENTS: Array<Content> = [
   { word: 'tree', phrase: 'a banana tree', translation: 'árvore' },
   {
     word: 'trial',
-    phrase: 'He did not get a fair trial.',
+    phrase: 'He did not get a fair trial',
     translation: 'julgamento'
   },
   { word: 'trip', phrase: 'on a nostalgia trip', translation: 'viagem' },
@@ -3771,7 +3770,7 @@ const CONTENTS: Array<Content> = [
   { word: 'true', phrase: 'the true faith', translation: 'verdadeiro' },
   {
     word: 'truth',
-    phrase: 'At some point you have to face the simple truth that we failed.',
+    phrase: 'At some point you have to face the simple truth that we failed',
     translation: 'verdade'
   },
   {
@@ -3780,10 +3779,10 @@ const CONTENTS: Array<Content> = [
     translation: 'tentar'
   },
   { word: 'turn', phrase: 'turn a crank', translation: 'virada' },
-  { word: 'TV', phrase: 'We need a new TV.', translation: 'tevê' },
+  { word: 'TV', phrase: 'We need a new TV', translation: 'TV' },
   {
     word: 'two',
-    phrase: 'It was two in the morning.',
+    phrase: 'It was two in the morning',
     translation: 'duas'
   },
   {
@@ -3803,7 +3802,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'unit',
-    phrase: 'The family is the basic unit of society.',
+    phrase: 'The family is the basic unit of society',
     translation: 'unidade'
   },
   {
@@ -3818,10 +3817,10 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'upon',
-    phrase: 'He carefully placed the vase upon the table.',
+    phrase: 'He carefully placed the vase upon the table',
     translation: 'sobre'
   },
-  { word: 'us', phrase: 'Does God walk among us?', translation: 'nos' },
+  { word: 'us', phrase: 'Does God walk among us?', translation: 'nós' },
   { word: 'use', phrase: "didn't use to smoke", translation: 'uso' },
   {
     word: 'usually',
@@ -3833,7 +3832,7 @@ const CONTENTS: Array<Content> = [
     phrase: 'the value of base stealing in baseball',
     translation: 'valor'
   },
-  { word: 'various', phrase: 'different foods', translation: 'vário' },
+  { word: 'various', phrase: 'different foods', translation: 'vários' },
   { word: 'very', phrase: "didn't hurt very much", translation: 'muito' },
   {
     word: 'victim',
@@ -3848,12 +3847,12 @@ const CONTENTS: Array<Content> = [
   {
     word: 'violence',
     phrase:
-      'They need to learn how to settle their arguments without resorting to violence.',
+      'They need to learn how to settle their arguments without resorting to violence',
     translation: 'violência'
   },
   {
     word: 'visit',
-    phrase: 'She is visiting her aunt in New York.',
+    phrase: 'She is visiting her aunt in New York',
     translation: 'visitar'
   },
   {
@@ -3863,7 +3862,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'vote',
-    phrase: 'They encouraged everyone to vote in the presidential election.',
+    phrase: 'They encouraged everyone to vote in the presidential election',
     translation: 'votar'
   },
   { word: 'wait', phrase: 'wait your turn', translation: 'esperar' },
@@ -3884,7 +3883,7 @@ const CONTENTS: Array<Content> = [
   { word: 'way', phrase: 'a way with words', translation: 'caminho' },
   {
     word: 'we',
-    phrase: 'We would like to order now.',
+    phrase: 'We would like to order now',
     translation: 'nós'
   },
   {
@@ -3910,7 +3909,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'west',
-    phrase: 'They drove west after they got off the highway.',
+    phrase: 'They drove west after they got off the highway',
     translation: 'poente'
   },
   { word: 'western', phrase: 'western music', translation: 'ocidental' },
@@ -3942,7 +3941,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'while',
-    phrase: 'It took them a while to find out what was causing the problem.',
+    phrase: 'It took them a while to find out what was causing the problem',
     translation: 'enquanto'
   },
   { word: 'white', phrase: 'a white rabbit', translation: 'branca' },
@@ -3955,7 +3954,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'whose',
-    phrase: 'This is the book whose cover is torn.',
+    phrase: 'This is the book whose cover is torn',
     translation: 'de quem'
   },
   {
@@ -3966,7 +3965,7 @@ const CONTENTS: Array<Content> = [
   { word: 'wide', phrase: 'industry-wide', translation: 'largo' },
   {
     word: 'wife',
-    phrase: 'We met him and his wife.',
+    phrase: 'We met him and his wife',
     translation: 'esposa'
   },
   {
@@ -3976,13 +3975,13 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'win',
-    phrase: 'The boxer won the match by knockout.',
+    phrase: 'The boxer won the match by knockout',
     translation: 'ganhar'
   },
   { word: 'wind', phrase: '', translation: 'vento' },
   {
     word: 'window',
-    phrase: 'She opened a window to let in some air.',
+    phrase: 'She opened a window to let in some air',
     translation: 'janela'
   },
   {
@@ -3995,7 +3994,7 @@ const CONTENTS: Array<Content> = [
   { word: 'without', phrase: 'left without him', translation: 'sem' },
   {
     word: 'woman',
-    phrase: 'She grew up to become a confident and beautiful woman.',
+    phrase: 'She grew up to become a confident and beautiful woman',
     translation: 'mulher'
   },
   {
@@ -4011,7 +4010,7 @@ const CONTENTS: Array<Content> = [
   { word: 'work', phrase: 'work farmland', translation: 'trabalho' },
   {
     word: 'worker',
-    phrase: 'The company is planning to hire 200 workers.',
+    phrase: 'The company is planning to hire 200 workers',
     translation: 'trabalhador'
   },
   { word: 'world', phrase: 'the digital world', translation: 'mundo' },
@@ -4028,7 +4027,7 @@ const CONTENTS: Array<Content> = [
   { word: 'write', phrase: 'write a check', translation: 'escrever' },
   {
     word: 'writer',
-    phrase: 'She is my favorite French writer.',
+    phrase: 'She is my favorite French writer',
     translation: 'escritor'
   },
   {
@@ -4039,12 +4038,12 @@ const CONTENTS: Array<Content> = [
   { word: 'yard', phrase: '', translation: 'pátio' },
   {
     word: 'yeah',
-    phrase: 'Do you want to come? Yeah, sure.',
+    phrase: 'Do you want to come? Yeah, sure',
     translation: 'sim'
   },
   {
     word: 'year',
-    phrase: "I haven't seen her in a year.",
+    phrase: "I haven't seen her in a year",
     translation: 'ano'
   },
   {
@@ -4054,14 +4053,14 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'yet',
-    phrase: 'His latest novel is his best one yet.',
+    phrase: 'His latest novel is his best one yet',
     translation: 'ainda'
   },
   { word: 'you', phrase: '', translation: 'você' },
   { word: 'young', phrase: 'a young wine', translation: 'jovem' },
   {
     word: 'your',
-    phrase: 'Please wash your hands before dinner.',
+    phrase: 'Please wash your hands before dinner',
     translation: 'tua'
   },
   {

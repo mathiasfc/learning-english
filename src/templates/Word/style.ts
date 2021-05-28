@@ -65,6 +65,7 @@ export const PhraseContainer = styled.div`
   text-align: center;
   border-radius: 6px;
   width: 100%;
+  max-width: 500px;
   height: 160px;
   display: flex;
   align-items: center;

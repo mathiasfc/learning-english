@@ -64,7 +64,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
       if (autoAdvanceWords) {
         setTimeout(() => {
           loadAnotherWord();
-        }, 500);
+        }, 2000);
       }
     });
   };
