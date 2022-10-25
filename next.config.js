@@ -1,13 +1,11 @@
-const withPWA = require('next-pwa');
-const runtimeCaching = require('next-pwa/cache');
+const withPWA = require('next-pwa')({
+  dest: 'public'
+});
+
 const prod = process.env.NODE_ENV === 'production';
 
-module.exports = withPWA({
-  pwa: {
-    disable: !prod,
-    dest: 'public',
-    runtimeCaching
-  },
-
+const nextConfig = {
   trailingSlash: true
-});
+};
+
+module.exports = prod ? withPWA(nextConfig) : nextConfig;

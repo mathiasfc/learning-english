@@ -19,7 +19,8 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "incremental": true
   },
   "exclude": ["node_modules", ".vscode/**/*", "out", ".next"],
   "include": ["**/*.ts", "**/*.tsx"]
