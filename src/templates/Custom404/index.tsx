@@ -7,7 +7,12 @@ import * as s from './style';
 const Custom404 = () => {
   return (
     <s.Custom404PageContainer>
-      <Image src="/gifs/travolta.gif" height="200px" width="200px" />
+      <Image
+        src="/gifs/travolta.gif"
+        height="200px"
+        width="200px"
+        alt="Image representing that nothing was found"
+      />
       <s.InnerMessage>
         A página que você procura não existe{' '}
         <span role="img" aria-label="Emoji pensativo">

@@ -37,7 +37,12 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en-US">
-        <Head />
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,600,700&display=optional"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

@@ -1,39 +1,4 @@
 {
-  "extends": ["airbnb", "plugin:prettier/recommended"],
-  "parserOptions": {
-    "ecmaVersion": 2020
-  },
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["src"]
-      }
-    }
-  },
-  "globals": {
-    "Alerts": "readonly",
-    "localStorage": true,
-    "document": true,
-    "window": true
-  },
-  "rules": {
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        "components": ["Link"],
-        "specialLink": ["to"],
-        "aspects": ["invalidHref", "preferButton"]
-      }
-    ],
-    "react/jsx-props-no-spreading": "off",
-    "react/jsx-curly-newline": "off",
-    "react/jsx-one-expression-per-line": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "import/prefer-default-export": "off",
-    "import/no-named-as-default": 0,
-    "import/no-named-as-default-member": 0,
-    "no-param-reassign": [2, { "props": false }],
-    "no-underscore-dangle": 0,
-    "prefer-destructuring": ["error", { "object": true, "array": false }]
-  }
+  "extends": "next",
+  "root": true
 }

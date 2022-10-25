@@ -27,12 +27,14 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     }
 
     setNextWord(loadNextWord());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [word]);
 
   let advanceTimeout: any;
 
   useEffect(() => {
     if (autoAdvanceWords && !autoPlayAudio) {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       advanceTimeout = setTimeout(() => {
         loadAnotherWord();
       }, 5000);
@@ -110,6 +112,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
             objectFit="cover"
             priority
             src={`/images/words/${word?.word.charAt(0)}/${word?.word}.png`}
+            alt={`Image representing the word: ${word?.word}`}
           />
         </s.ImageWrapper>
 
@@ -119,6 +122,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
             objectFit="cover"
             priority
             src={`/images/words/${nextWord?.charAt(0)}/${nextWord}.png`}
+            alt={`Image representing the word: ${word?.word}`}
           />
         </s.NextWordImageWrapper>
         <s.WordContainer>

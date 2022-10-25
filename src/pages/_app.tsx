@@ -47,10 +47,6 @@ export default function App({ Component, pageProps }: AppProps) {
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
 
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,600,700"
-        />
         <title>Learning English</title>
         <link
           rel="shortcut icon"
