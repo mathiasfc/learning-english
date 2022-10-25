@@ -31,7 +31,7 @@ Please make sure your Pull Request adheres to the following guidelines:
 
 - Add the new word in the file: `src/data/words.ts`, keeping alphabetical order.
 - Add the word's phrase and translation to pt-BR in `src/data/contents.ts`.
-- Add the word's image in `public/images/[initial_letter]/[word].png`.
+- Add the word's image in `public/images/[initial_letter]/[word].png` | make sure the image format is `png`.
 
 > Please keep the alphabetical order in both files, it helps with organization
 
