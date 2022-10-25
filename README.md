@@ -9,11 +9,11 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/mathiasfc/learning-english">
-    <img src="https://github.com/mathiasfc/learning-english/blob/main/public/images/logo.png" alt="Learning English" width="300">
+    <img src="https://github.com/mathiasfc/learning-english/blob/main/public/images/logo.png" alt="Learning English" width="400">
   </a>
 </h1>
 
-<h4 align="center">A simple project, which aims to help english language students to practice the language, through visual and auditory stimuli.</h4>
+<p align="center">A simple project, which aims to help english language students to practice the language, through visual and auditory stimuli.</p>
 
 <h4 align="center"><a href="https://learning-english.vercel.app/"/>🔗 learning-english.vercel.app 🟢</a></h4>
 
