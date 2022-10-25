@@ -8,6 +8,8 @@ Fixes # (issue)
 
 Please delete options that are not relevant.
 
+- [ ] Correction on an existing word
+- [ ] New word (translation, image, phrase)
 - [ ] Bugfix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Documentation (non-breaking change that updates the documentation)
