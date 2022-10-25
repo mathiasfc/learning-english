@@ -9,7 +9,6 @@ module.exports = {
         userAgent: '*',
         allow: '/'
       }
-    ],
-    additionalSitemaps: ['https://learning-english.vercel.app//sitemap.xml']
+    ]
   }
 };

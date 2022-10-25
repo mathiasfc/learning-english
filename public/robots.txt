@@ -7,4 +7,3 @@ Host: https://learning-english.vercel.app/
 
 # Sitemaps
 Sitemap: https://learning-english.vercel.app/sitemap.xml
-Sitemap: https://learning-english.vercel.app//sitemap.xml
