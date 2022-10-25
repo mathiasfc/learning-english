@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     ${({ theme }) => css`
       background-color: ${theme.backgroundColor};
-      color: ${theme.typograph.primaryText};
+      color: ${theme.typography.primaryText};
     `}
 
     #nprogress{
