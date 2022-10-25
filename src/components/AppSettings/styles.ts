@@ -4,7 +4,7 @@ import { ButtonBase } from '@material-ui/core';
 
 export const SettingsContainer = styled.div`
   ${({ theme }) => css`
-    color: ${theme.typograph.primaryText};
+    color: ${theme.typography.primaryText};
   `}
 
   display: flex;
@@ -67,7 +67,7 @@ export const CloseButton = styled(ButtonBase)`
 
   svg {
     ${({ theme }) => css`
-      color: ${theme.typograph.primaryText};
+      color: ${theme.typography.primaryText};
     `}
   }
 `;

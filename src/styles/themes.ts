@@ -9,7 +9,7 @@ export const lightTheme = {
     playAudioButton: '#000',
     playAudioButtonIcon: '#fff'
   },
-  typograph: {
+  typography: {
     primaryText: '#000',
     secondaryText: '#000'
   }
@@ -26,7 +26,7 @@ export const darkTheme = {
     playAudioButton: '#fff',
     playAudioButtonIcon: '#000'
   },
-  typograph: {
+  typography: {
     primaryText: '#FFF',
     secondaryText: '#FFF'
   }

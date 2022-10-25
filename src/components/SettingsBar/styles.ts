@@ -13,7 +13,7 @@ export const SettingsBarContainer = styled.div`
 export const ShowSettingsButton = styled(ButtonBase)`
   svg {
     ${({ theme }) => css`
-      color: ${theme.typograph.primaryText};
+      color: ${theme.typography.primaryText};
     `}
   }
 
