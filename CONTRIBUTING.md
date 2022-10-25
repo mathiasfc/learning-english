@@ -33,7 +33,9 @@ Please make sure your Pull Request adheres to the following guidelines:
 - Add the word's phrase and translation to pt-BR in `src/data/contents.ts`.
 - Add the word's image in `public/images/[initial_letter]/[word].png` | make sure the image format is `png`.
 
-> Please keep the alphabetical order in both files, it helps with organization
+> Please keep the alphabetical order in both files, it helps with organization.
+
+> Ensure that the image makes sense with the sentence and vice versa.
 
 ⚠️ Only free images allowed, take a look at:
 
@@ -41,6 +43,7 @@ Please make sure your Pull Request adheres to the following guidelines:
 - [Storyset](https://storyset.com/)
 - [Rawpixel](https://www.rawpixel.com/free-images?page=1&premium=free&sort=shuffle)
 - [Pexels](https://www.pexels.com/pt-br/)
+- Search images on Google with usage rights filters.
 
 ### Your PR is merged!
 
