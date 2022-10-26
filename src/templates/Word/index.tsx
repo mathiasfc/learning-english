@@ -15,8 +15,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
   const [animateIcon, setAnimateIcon] = useState(false);
   const [nextWord, setNextWord] = useState<string>('');
-  const { autoAdvanceWords, autoPlayAudio,gender } = useSettings();
-  // const [gender,setGender] = useState(false);
+  const { autoAdvanceWords, autoPlayAudio, maleVoice } = useSettings();
 
   const phraseRef = useRef<HTMLSpanElement>(null);
 
@@ -53,9 +52,10 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
 
     const audio = new window.SpeechSynthesisUtterance();
     const voices = window.speechSynthesis.getVoices();
-    audio.voice = gender ? voices[0]: voices[2];
-    audio.volume = 1; 
-    audio.rate = toggleSpeed ? 0.6 : 1;
+
+    audio.voice = maleVoice ? voices[2] : voices[1];
+    audio.volume = 1;
+    audio.rate = toggleSpeed ? 0.7 : 1;
     audio.pitch = 1;
     audio.text = word.phrase;
     audio.lang = 'en-US';
@@ -124,7 +124,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
             priority
             src={`/images/words/${nextWord?.charAt(0)}/${nextWord}.png`}
             alt={`Image representing the word: ${word?.word}`}
-          /> 
+          />
         </s.NextWordImageWrapper>
         <s.WordContainer>
           <s.Word>{word?.word}</s.Word>

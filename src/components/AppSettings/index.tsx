@@ -14,12 +14,12 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
   const {
     showSettings,
     setShowSettings,
-    autoAdvanceWords, 
+    autoAdvanceWords,
     setAutoAdvanceWords,
     autoPlayAudio,
     setAutoPlayAudio,
-    gender,
-    setGender
+    maleVoice,
+    setMaleVoice
   } = useSettings();
 
   const hideSettings = () => {
@@ -44,7 +44,7 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
                 name="switch-dark-mode"
                 inputProps={{ 'aria-label': 'Toggle dark mode' }}
               />
-              <span>{!darkMode?"Light Mode":"Dark Mode"}</span>
+              <span>Dark mode</span>
             </div>
 
             <div>
@@ -70,13 +70,13 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
             </div>
             <div>
               <Switch
-                checked={gender}
-                onChange={e => setGender(e.target.checked)}
-                name="switch-auto-advances"
-                inputProps={{ 'aria-label': 'Auto advances words' }}
+                checked={maleVoice}
+                onChange={e => setMaleVoice(e.target.checked)}
+                name="switch-male-voice"
+                inputProps={{ 'aria-label': 'Male voice' }}
                 className="setting-switch"
               />
-              <span>{gender ? "Male" : "Female"}</span>
+              <span>Male voice</span>
             </div>
           </s.Settings>
         </s.SettingsContainer>
