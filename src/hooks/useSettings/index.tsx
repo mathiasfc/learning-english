@@ -7,6 +7,8 @@ type SettingsContextData = {
   setAutoAdvanceWords: (value: boolean) => void;
   autoPlayAudio: boolean;
   setAutoPlayAudio: (value: boolean) => void;
+  gender:boolean;
+  setGender: (value: boolean) => void;
 };
 
 const SettingsContextDefaultValues = {
@@ -15,7 +17,9 @@ const SettingsContextDefaultValues = {
   autoAdvanceWords: false,
   setAutoAdvanceWords: () => null,
   autoPlayAudio: false,
-  setAutoPlayAudio: () => null
+  setAutoPlayAudio: () => null,
+  gender:false,
+  setGender: () => null
 };
 
 const SettingsContext = createContext<SettingsContextData>(
@@ -30,7 +34,7 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [showSettings, setShowSettings] = useState<boolean>(false);
   const [autoAdvanceWords, setAutoAdvanceWords] = useState<boolean>(false);
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(false);
-
+  const [gender, setGender] = useState<boolean>(false);
   return (
     <SettingsContext.Provider
       value={{
@@ -39,7 +43,9 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         autoAdvanceWords,
         setAutoAdvanceWords,
         autoPlayAudio,
-        setAutoPlayAudio
+        setAutoPlayAudio,
+        gender,
+        setGender
       }}
     >
       {children}
