@@ -25,6 +25,7 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
   const hideSettings = () => {
     setShowSettings(false);
   };
+
   return (
     <>
       {showSettings && (
