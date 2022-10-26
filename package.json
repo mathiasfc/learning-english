@@ -24,9 +24,9 @@
     "next": "^12.3.1",
     "next-pwa": "^5.6.0",
     "next-seo": "^4.17.0",
-    "nextjs-progressbar": "^0.0.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "nextjs-progressbar": "^0.0.16",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-github-corner": "^2.5.0",
     "styled-components": "^5.0.0",
     "workbox-webpack-plugin": "^6.5.4"
