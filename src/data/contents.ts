@@ -1071,7 +1071,7 @@ const CONTENTS: Array<Content> = [
     phrase: 'an interesting development in the case',
     translation: 'desenvolvimento'
   },
-  { word: 'die', phrase: 'die young', translation: 'morrer' },
+  { word: 'die', phrase: 'die a thousand deaths', translation: 'morrer' },
   {
     word: 'difference',
     phrase: 'She knows the difference between right and wrong',
