@@ -2031,7 +2031,7 @@ const CONTENTS: Array<Content> = [
       "I listened as hard as I could, but I couldn't hear a word of what he said over all that noise",
     translation: 'escutar'
   },
-  { word: 'little', phrase: 'little towns', translation: 'putinha' },
+  { word: 'little', phrase: 'little towns', translation: 'pequeno(a)' },
   {
     word: 'live',
     phrase: 'they had always lived in the country',
