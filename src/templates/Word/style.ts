@@ -31,6 +31,7 @@ export const ImageWrapper = styled.div`
 
 export const NextWordImageWrapper = styled.div`
   display: none;
+  position: relative;
 `;
 
 export const WordContainer = styled.div`
@@ -172,34 +173,12 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
   }
 `;
 
-
 export const MeaningContainer = styled.div`
-  ${({ theme }) => css`
-    background: ${theme.phraseContainerColor};
-  `}
-
-  position: relative;
-  padding: 15px;
-  text-align: center;
-  border-radius: 6px;
-  width: 100%;
-  max-width: 700px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 0px 40px -30px rgb(0 0 0 / 75%);
-  margin-bottom: 1rem;
+  margin-left: 10px;
 
   span {
-    font-size: 24px;
-    line-height: 35px;
-
-    :first-letter {
-      text-transform: uppercase;
-    }
-
-    .current-word {
-      font-style: italic;
-    }
+    color: #196fff;
+    font-weight: bold;
+    text-decoration: underline;
   }
 `;

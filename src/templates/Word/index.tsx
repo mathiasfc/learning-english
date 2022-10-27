@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import RefreshIcon from '@material-ui/icons/Refresh';
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
+import Meaning from 'components/Meaning';
 import { loadNextWord, loadWordPage } from 'helpers/index';
 import { Word } from 'types';
 import { useSettings } from 'hooks/useSettings';
@@ -14,7 +15,7 @@ type WordPageTemplateProps = {
 const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
   const [animateIcon, setAnimateIcon] = useState(false);
-  const [meaning, setMeaning] = useState<string>('');
+  const [showMeaning, setShowMeaning] = useState(false);
   const [nextWord, setNextWord] = useState<string>('');
   const { autoAdvanceWords, autoPlayAudio, maleVoice } = useSettings();
 
@@ -79,19 +80,6 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     setAnimateIcon(true);
   };
 
-  const loadWordMeaning = async () => {
-    console.log('loading');
-    const res = await fetch(
-      `https://api.dictionaryapi.dev/api/v2/entries/en/${word?.word}`
-    );
-    const data = await res.json();
-    console.log(data);
-    // console.log(data[0].meanings[0].definitions[0].definition);
-    // word.meaning = JSON.stringify(data);
-    word.meaning = data[0]?.meanings[0]?.definitions[0]?.definition;
-    setMeaning(word.meaning);
-  };
-
   const addClassToWord = () => {
     const regex = new RegExp(`(${word?.word})`, 'gi');
     const phrase = word?.phrase.replace(
@@ -100,7 +88,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     );
 
     if (phraseRef.current !== null) {
-      phraseRef.current.innerHTML = `<span>Example: "${phrase}"</span>`;
+      phraseRef.current.innerHTML = `<span>"${phrase}"</span>`;
     }
   };
 
@@ -117,14 +105,6 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
       }, 500);
     }
   }, [animateIcon]);
-
-  useEffect(() => {
-    if(!word) {
-      return;
-    }
-
-    loadWordMeaning();
-  })
 
   return (
     <s.WordPageContainer>
@@ -151,13 +131,13 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
         <s.WordContainer>
           <s.Word>{word?.word}</s.Word>
           <s.Translation>({word?.translation})</s.Translation>
+          <s.MeaningContainer
+            role="button"
+            onClick={() => setShowMeaning(true)}
+          >
+            <span>meaning?</span>
+          </s.MeaningContainer>
         </s.WordContainer>
-
-        <s.MeaningContainer>
-          <span>
-            Meaning: {meaning === '' ? 'Loading...' : word?.meaning}
-          </span>
-        </s.MeaningContainer>
 
         <s.PhraseContainer>
           <span ref={phraseRef} />
@@ -175,6 +155,10 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
           <RefreshIcon />
         </s.NextButton>
       </s.CommandsBar>
+
+      {showMeaning && (
+        <Meaning word={word?.word} hideMeaning={() => setShowMeaning(false)} />
+      )}
     </s.WordPageContainer>
   );
 };

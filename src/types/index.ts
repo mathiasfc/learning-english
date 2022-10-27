@@ -4,7 +4,6 @@ export type Word = {
   image: string;
   audio: string;
   translation: string;
-  meaning: string;
 };
 
 export type Content = {
