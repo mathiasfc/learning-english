@@ -65,8 +65,7 @@ export const PhraseContainer = styled.div`
   text-align: center;
   border-radius: 6px;
   width: 100%;
-  max-width: 500px;
-  height: 160px;
+  max-width: 700px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,6 +168,38 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
     100% {
       transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
       opacity: 0;
+    }
+  }
+`;
+
+
+export const MeaningContainer = styled.div`
+  ${({ theme }) => css`
+    background: ${theme.phraseContainerColor};
+  `}
+
+  position: relative;
+  padding: 15px;
+  text-align: center;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 40px -30px rgb(0 0 0 / 75%);
+  margin-bottom: 1rem;
+
+  span {
+    font-size: 24px;
+    line-height: 35px;
+
+    :first-letter {
+      text-transform: uppercase;
+    }
+
+    .current-word {
+      font-style: italic;
     }
   }
 `;
