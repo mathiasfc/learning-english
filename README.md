@@ -13,7 +13,7 @@
   </a>
 </h1>
 
-<p align="center">A simple project, which aims to help english language students to practice the language, through visual and auditory stimuli.</p>
+<p align="center">Learning English is a simple project, that aims to help people with interest in learning English language to do so through an interactive, visual and auditory stimuli.</p>
 
 <h4 align="center"><a href="https://learning-english.vercel.app/"/>🔗 learning-english.vercel.app 🟢</a></h4>
 
@@ -25,27 +25,73 @@
   <a href="#license">License</a>
 </p>
 
-## About
+## About the project and its purpose
 
-- Progressive Web App ([PWA](https://web.dev/progressive-web-apps/))
-- Open source
-- Easy to use
+Learning English is a simple project, that aims to help people with interest in learning English language to do so through an interactive, visual and auditory stimuli.
 
-## Getting started
+Besides this project being a [Progressive Web App](https://web.dev/progressive-web-apps/), It's also open-source and accepting contribution to improve its usage and features. 
 
-1. Fork or clone the project and install all dependencies with `npm install`
-2. Just start in development mode with `npm run dev`
-3. If all goes well, the project will be running on: `localhost:9090` ✨
-
-## Features
+Currently some of the incooperated features include: 
 
 - Web Speech API 🔊
 - Dark Mode 🌙
 - Auto play audio ▶️
+- Open source
+- Easy to use 
 
-## Contributing
+Wanna help improve the functionality of this App? Here is how to get involved. 
 
-See our [Contributing Guidelines](CONTRIBUTING.md).
+## Getting started and Contribution guide
+
+To get started with this project, there are some steps you need to follow:
+
+1. Make sure to read the [Contributing Guidelines](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
+2. **Fork this repository**    
+By forking this repository, this will create a copy of this repository in your GitHub account. This is necessary because you need your own copy to work on the project, so that you have your own remote. *The fork button is located at the top right corner of this page.*
+3. **Clone the repository**  
+Cloning the repo will allow you to have the project on your local machine. To clone the repo, run the following command in your terminal: `git clone` followed with the URl that points to your forked repo. This URL can be copied by clicking on the green button that says "Code" and copying the URL. 
+```bash
+git clone <the-url-that-points-to-your-forked-repo>
+```
+4. **Switch to the repository directory**  
+By doing this you will be automatically switched to the project directory. 
+```bash
+cd learning-english
+```
+5. **Create a branch**  
+By creating a separate branch you are isolating your changes from the main branch. This is a good practice because you can always switch back to the main branch if you want to update your forked repo with the original repo. To create a branch, run the following command:   
+```bash
+git checkout -b <branch-name>
+```
+6. **Make necessary changes and commit those changes**  
+After you have created a new branch, you can now make the necessary changes. After you have made the changes, you need to add the changes and commit them. To add and commit all changes, run the following command:   
+*Add changes*
+```bash
+git add .
+```
+*Commit changes*
+```bash
+git commit -m "<commit-message>"
+```
+By default since this is a web app you would want to see if changes you made we rendered correctly, for this you will need to test the project locally first.  
+
+In our case we will need to install all development dependencies of the project using the command:
+```shell
+npm install
+```
+and sfterwards start the development mode using tthe command: 
+```shell
+npm run dev
+``` 
+This will start your project on `localhost:9090` and you can see if your changes are rendered correctly. ✨
+
+7. **Push changes to GitHub**
+Finally if everything turns out fine, you can now proceed to pushing your changes to GitHub. To push your changes, run the following command:   
+```bash
+git push origin <branch-name>
+```
+8. **Submit your changes for review**  
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button. This will open a new page where you can add a title and description to your pull request that explains your contribution. With that, you have submitted your changes for review. 🎉
 
 ## License
 
