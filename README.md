@@ -13,8 +13,6 @@
   </a>
 </h1>
 
-<p align="center">Learning English is a simple project, that aims to help people with interest in learning English language to do so through an interactive, visual and auditory stimuli.</p>
-
 <h4 align="center"><a href="https://learning-english.vercel.app/"/>🔗 learning-english.vercel.app 🟢</a></h4>
 
 <p align="center">
