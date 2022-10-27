@@ -71,7 +71,15 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
                 className="setting-switch"
               />
               <span>Auto advances</span>
-              <Slider disabled={autoAdvanceWords} defaultValue={30} aria-label="Disabled slider" />
+              <Slider 
+                disabled={autoAdvanceWords} 
+                defaultValue={5}
+                marks
+                min={1}
+                max={15}
+                valueLabelDisplay="auto"
+                aria-label="Auto Advance Interval in seconds" step={1}
+              />
             </div>
             <div>
               <Switch

@@ -18,7 +18,7 @@ const SettingsContextDefaultValues = {
   setShowSettings: () => null,
   autoAdvanceWords: false,
   setAutoAdvanceWords: () => null,
-  autoAdvanceWordsInterval: 1000,
+  autoAdvanceWordsInterval: 5000,
   setAutoAdvanceWordsInterval: () => null,
   autoPlayAudio: false,
   setAutoPlayAudio: () => null,
