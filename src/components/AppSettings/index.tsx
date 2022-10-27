@@ -2,6 +2,7 @@ import React from 'react';
 import { Backdrop } from '@material-ui/core';
 import { useSettings } from 'hooks/useSettings';
 import Switch from '@material-ui/core/Switch';
+import Slider from '@material-ui/core/Slider';
 import CloseIcon from '@material-ui/icons/Close';
 import * as s from './styles';
 
@@ -16,6 +17,8 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
     setShowSettings,
     autoAdvanceWords,
     setAutoAdvanceWords,
+    autoAdvanceWordsInterval,
+    setAutoAdvanceWordsInterval,
     autoPlayAudio,
     setAutoPlayAudio,
     maleVoice,
@@ -68,6 +71,7 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
                 className="setting-switch"
               />
               <span>Auto advances</span>
+              <Slider disabled={autoAdvanceWords} defaultValue={30} aria-label="Disabled slider" />
             </div>
             <div>
               <Switch

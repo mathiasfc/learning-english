@@ -5,6 +5,8 @@ type SettingsContextData = {
   setShowSettings: (value: boolean) => void;
   autoAdvanceWords: boolean;
   setAutoAdvanceWords: (value: boolean) => void;
+  autoAdvanceWordsInterval: number;
+  setAutoAdvanceWordsInterval: (value: number) => void;
   autoPlayAudio: boolean;
   setAutoPlayAudio: (value: boolean) => void;
   maleVoice: boolean;
@@ -16,6 +18,8 @@ const SettingsContextDefaultValues = {
   setShowSettings: () => null,
   autoAdvanceWords: false,
   setAutoAdvanceWords: () => null,
+  autoAdvanceWordsInterval: 1000,
+  setAutoAdvanceWordsInterval: () => null,
   autoPlayAudio: false,
   setAutoPlayAudio: () => null,
   maleVoice: false,
@@ -33,6 +37,7 @@ export type SettingsProviderProps = {
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [showSettings, setShowSettings] = useState<boolean>(false);
   const [autoAdvanceWords, setAutoAdvanceWords] = useState<boolean>(false);
+  const [autoAdvanceWordsInterval, setAutoAdvanceWordsInterval] = useState<number>(1000);
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(false);
   const [maleVoice, setMaleVoice] = useState<boolean>(false);
 
@@ -43,6 +48,8 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
         setShowSettings,
         autoAdvanceWords,
         setAutoAdvanceWords,
+        autoAdvanceWordsInterval,
+        setAutoAdvanceWordsInterval,
         autoPlayAudio,
         setAutoPlayAudio,
         maleVoice,
