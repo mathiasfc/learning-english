@@ -45,8 +45,6 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
       advanceTimeout = setTimeout(() => {
         loadAnotherWord();
       }, 5000);
-    } else {
-      clearTimeout(advanceTimeout);
     }
 
     return () => {
