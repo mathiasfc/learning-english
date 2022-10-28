@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import RefreshIcon from '@material-ui/icons/Refresh';
 import VolumeUpIcon from '@material-ui/icons/VolumeUp';
@@ -32,11 +32,16 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [word]);
 
-  let advanceTimeout: any;
+  const loadAnotherWord = useCallback(() => {
+    setToggleSpeed(false);
+    loadWordPage(nextWord);
+    setAnimateIcon(true);
+  }, [nextWord]);
 
   useEffect(() => {
+    let advanceTimeout: any;
+
     if (autoAdvanceWords && !autoPlayAudio) {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
       advanceTimeout = setTimeout(() => {
         loadAnotherWord();
       }, 5000);
@@ -44,9 +49,10 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
       clearTimeout(advanceTimeout);
     }
 
-    () => {
+    return () => {
       clearTimeout(advanceTimeout);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [word, autoAdvanceWords]);
 
   const playAudio = () => {
@@ -69,15 +75,10 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
       if (autoAdvanceWords) {
         setTimeout(() => {
           loadAnotherWord();
+          // Time to wait after reading the phrase
         }, 2000);
       }
     });
-  };
-
-  const loadAnotherWord = () => {
-    setToggleSpeed(false);
-    loadWordPage(nextWord);
-    setAnimateIcon(true);
   };
 
   const addClassToWord = () => {
@@ -135,7 +136,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
             role="button"
             onClick={() => setShowMeaning(true)}
           >
-            <span>meaning?</span>
+            <span>meaning</span>
           </s.MeaningContainer>
         </s.WordContainer>
 
