@@ -175,7 +175,7 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
 `;
 
 export const MeaningContainer = styled.div`
-  margin-left: 10px;
+  margin-left: 15px;
   cursor: pointer;
 
   span {
