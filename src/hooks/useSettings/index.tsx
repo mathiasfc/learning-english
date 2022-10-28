@@ -18,7 +18,7 @@ const SettingsContextDefaultValues = {
   setShowSettings: () => null,
   autoAdvanceWords: false,
   setAutoAdvanceWords: () => null,
-  autoAdvanceWordsInterval: 5000,
+  autoAdvanceWordsInterval: 5,
   setAutoAdvanceWordsInterval: () => null,
   autoPlayAudio: false,
   setAutoPlayAudio: () => null,
@@ -37,7 +37,7 @@ export type SettingsProviderProps = {
 export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   const [showSettings, setShowSettings] = useState<boolean>(false);
   const [autoAdvanceWords, setAutoAdvanceWords] = useState<boolean>(false);
-  const [autoAdvanceWordsInterval, setAutoAdvanceWordsInterval] = useState<number>(1000);
+  const [autoAdvanceWordsInterval, setAutoAdvanceWordsInterval] = useState<number>(5);
   const [autoPlayAudio, setAutoPlayAudio] = useState<boolean>(false);
   const [maleVoice, setMaleVoice] = useState<boolean>(false);
 

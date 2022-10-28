@@ -44,7 +44,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     if (autoAdvanceWords && !autoPlayAudio) {
       advanceTimeout = setTimeout(() => {
         loadAnotherWord();
-      }, autoAdvanceWordsInterval);
+      }, autoAdvanceWordsInterval * 1000);
     } else {
       clearTimeout(advanceTimeout);
     }

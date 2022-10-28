@@ -72,8 +72,9 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
               />
               <span>Auto advances</span>
               <Slider 
-                disabled={autoAdvanceWords} 
+                disabled={!autoAdvanceWords} 
                 defaultValue={5}
+                onChange={(e, value) => setAutoAdvanceWordsInterval(value as number)}
                 marks
                 min={1}
                 max={15}
