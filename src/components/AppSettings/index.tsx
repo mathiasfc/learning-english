@@ -17,7 +17,6 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
     setShowSettings,
     autoAdvanceWords,
     setAutoAdvanceWords,
-    autoAdvanceWordsInterval,
     setAutoAdvanceWordsInterval,
     autoPlayAudio,
     setAutoPlayAudio,
@@ -28,6 +27,11 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
   const hideSettings = () => {
     setShowSettings(false);
   };
+
+  // @ts-ignore event not needed
+  const handleSlideChange = (event: React.ChangeEvent<{}>, value: number | number[]) => {
+    setAutoAdvanceWordsInterval(value as number)
+  }
 
   return (
     <>
@@ -74,7 +78,7 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
               <Slider 
                 disabled={!autoAdvanceWords} 
                 defaultValue={5}
-                onChange={(e, value) => setAutoAdvanceWordsInterval(value as number)}
+                onChange={handleSlideChange}
                 marks
                 min={1}
                 max={15}
