@@ -741,6 +741,7 @@ const WORDS = [
   'science',
   'scientist',
   'score',
+  'scowl',
   'sea',
   'season',
   'seat',

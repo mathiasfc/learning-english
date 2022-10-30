@@ -3103,6 +3103,11 @@ const CONTENTS: Array<Content> = [
     translation: 'pontuação'
   },
   {
+    word: 'scowl',
+    phrase: 'He had a scowl on his face',
+    translation: 'carranca'
+  },
+  {
     word: 'sea',
     phrase: 'the seas of the Southern Hemisphere',
     translation: 'mar'
