@@ -3104,7 +3104,7 @@ const CONTENTS: Array<Content> = [
   },
   {
     word: 'scowl',
-    phrase: 'He had a scowl on his face',
+    phrase: 'She had a scowl on his face',
     translation: 'carranca'
   },
   {
