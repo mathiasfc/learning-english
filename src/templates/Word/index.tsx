@@ -17,7 +17,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
   const [animateIcon, setAnimateIcon] = useState(false);
   const [showMeaning, setShowMeaning] = useState(false);
   const [nextWord, setNextWord] = useState<string>('');
-  const { autoAdvanceWords, autoPlayAudio, maleVoice } = useSettings();
+  const { autoAdvanceWords, autoAdvanceWordsInterval, autoPlayAudio, maleVoice } = useSettings();
 
   const phraseRef = useRef<HTMLSpanElement>(null);
 
@@ -44,7 +44,9 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     if (autoAdvanceWords && !autoPlayAudio) {
       advanceTimeout = setTimeout(() => {
         loadAnotherWord();
-      }, 5000);
+      }, autoAdvanceWordsInterval * 1000);
+    } else {
+      clearTimeout(advanceTimeout);
     }
 
     return () => {
