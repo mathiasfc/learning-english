@@ -42,6 +42,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="google-site-verification" content="KcdmWydmGx-Uu8UWh4to7to067ipde00KF1tBIcRLXQ" />
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
