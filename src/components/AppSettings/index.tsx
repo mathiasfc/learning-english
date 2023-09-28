@@ -94,7 +94,8 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
                 inputProps={{ 'aria-label': 'Male voice' }}
                 className="setting-switch"
               />
-              <span>Male voice</span>
+              <span>Female voice</span> 
+              {/* changed this line text from Male voice to Female voice */}
             </div>
           </s.Settings>
         </s.SettingsContainer>
