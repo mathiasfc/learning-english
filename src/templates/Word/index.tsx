@@ -12,12 +12,14 @@ type WordPageTemplateProps = {
   word: Word;
 };
 
+const AUTO_ADVANCE_WORDS_INTERVAL = 5;
+
 const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
   const [toggleSpeed, setToggleSpeed] = useState(false);
   const [animateIcon, setAnimateIcon] = useState(false);
   const [showMeaning, setShowMeaning] = useState(false);
   const [nextWord, setNextWord] = useState<string>('');
-  const { autoAdvanceWords, autoAdvanceWordsInterval, autoPlayAudio, maleVoice } = useSettings();
+  const { autoAdvanceWords, autoPlayAudio, maleVoice } = useSettings();
 
   const phraseRef = useRef<HTMLSpanElement>(null);
 
@@ -44,7 +46,7 @@ const WordPageTemplate = ({ word }: WordPageTemplateProps) => {
     if (autoAdvanceWords && !autoPlayAudio) {
       advanceTimeout = setTimeout(() => {
         loadAnotherWord();
-      }, autoAdvanceWordsInterval * 1000);
+      }, AUTO_ADVANCE_WORDS_INTERVAL * 1000);
     } else {
       clearTimeout(advanceTimeout);
     }

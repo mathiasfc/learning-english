@@ -1,73 +1,87 @@
 import styled, { css } from 'styled-components';
-import { zIndex } from 'helpers/constants';
 import { ButtonBase } from '@material-ui/core';
+import { zIndex } from 'helpers/constants';
 
 export const SettingsContainer = styled.div`
-  ${({ theme }) => css`
-    color: ${theme.typography.primaryText};
-  `}
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0px;
+  align-items: center;
   z-index: ${zIndex.high};
-
-  .MuiSwitch-root {
-    ${({ theme }) => css`
-      .MuiIconButton-label {
-        color: ${theme.primaryColor};
-      }
-
-      .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
-        background-color: ${theme.primaryColor} !important;
-      }
-    `}
-  }
 `;
 
 export const Settings = styled.div`
-  ${({ theme }) => css`
-    background-color: ${theme.backgroundColor};
-  `}
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 300px;
-  width: 250px;
-  border-radius: 3px;
-  padding: 20px;
+  background: ${({ theme }) => theme.backgroundColor};
+  border-radius: 12px;
+  padding: 24px;
+  min-width: 320px;
+  max-width: 400px;
+  width: 90%;
   position: relative;
-
-  h2 {
-    margin-top: 0px;
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-  }
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
 `;
 
 export const CloseButtonContainer = styled.div`
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 10px;
-  margin-top: -10px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
 `;
 
 export const CloseButton = styled(ButtonBase)`
+  padding: 8px !important;
   border-radius: 50% !important;
+
+  svg {
+    color: ${({ theme }) => theme.typography.primaryText};
+  }
+`;
+
+export const SettingsHeader = styled.h2`
+  margin: 0 0 24px 0;
+  color: ${({ theme }) => theme.typography.primaryText};
+  font-size: 24px;
+  font-weight: 600;
+`;
+
+export const SettingsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`;
+
+export const SettingRow = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+`;
+
+export const SettingLabel = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 12px;
 
   svg {
     ${({ theme }) => css`
       color: ${theme.typography.primaryText};
     `}
+    font-size: 20px;
   }
+
+  span {
+    ${({ theme }) => css`
+      color: ${theme.typography.primaryText};
+    `}
+    font-size: 16px;
+  }
+`;
+
+export const SettingDescription = styled.p`
+  margin: 0;
+  color: ${({ theme }) => theme.typography.secondaryText};
+  font-size: 14px;
 `;

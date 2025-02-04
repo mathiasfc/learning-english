@@ -2,8 +2,11 @@ import React from 'react';
 import { Backdrop } from '@material-ui/core';
 import { useSettings } from 'hooks/useSettings';
 import Switch from '@material-ui/core/Switch';
-import Slider from '@material-ui/core/Slider';
 import CloseIcon from '@material-ui/icons/Close';
+import DarkModeIcon from '@material-ui/icons/Brightness4';
+import VolumeUpIcon from '@material-ui/icons/VolumeUp';
+import RecordVoiceOverIcon from '@material-ui/icons/RecordVoiceOver';
+import SkipNextIcon from '@material-ui/icons/SkipNext';
 import * as s from './styles';
 
 type AppSettingsProps = {
@@ -17,7 +20,6 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
     setShowSettings,
     autoAdvanceWords,
     setAutoAdvanceWords,
-    setAutoAdvanceWordsInterval,
     autoPlayAudio,
     setAutoPlayAudio,
     maleVoice,
@@ -27,11 +29,6 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
   const hideSettings = () => {
     setShowSettings(false);
   };
-
-  // @ts-ignore event not needed
-  const handleSlideChange = (event: React.ChangeEvent<{}>, value: number | number[]) => {
-    setAutoAdvanceWordsInterval(value as number)
-  }
 
   return (
     <>
@@ -44,58 +41,62 @@ const AppSettings = ({ darkMode, setDarkMode }: AppSettingsProps) => {
                 <CloseIcon />
               </s.CloseButton>
             </s.CloseButtonContainer>
-            <h2>Settings</h2>
-            <div>
-              <Switch
-                checked={darkMode}
-                onChange={e => setDarkMode(e.target.checked)}
-                name="switch-dark-mode"
-                inputProps={{ 'aria-label': 'Toggle dark mode' }}
-              />
-              <span>Dark mode</span>
-            </div>
 
-            <div>
-              <Switch
-                checked={autoPlayAudio}
-                onChange={e => setAutoPlayAudio(e.target.checked)}
-                name="switch-auto-play-audio"
-                inputProps={{ 'aria-label': 'Auto play audios' }}
-                className="setting-switch"
-              />
-              <span>Auto play audio</span>
-            </div>
+            <s.SettingsHeader>Settings</s.SettingsHeader>
 
-            <div>
-              <Switch
-                checked={autoAdvanceWords}
-                onChange={e => setAutoAdvanceWords(e.target.checked)}
-                name="switch-auto-advances"
-                inputProps={{ 'aria-label': 'Auto advances words' }}
-                className="setting-switch"
-              />
-              <span>Auto advances</span>
-              <Slider 
-                disabled={!autoAdvanceWords} 
-                defaultValue={5}
-                onChange={handleSlideChange}
-                marks
-                min={1}
-                max={15}
-                valueLabelDisplay="auto"
-                aria-label="Auto Advance Interval in seconds" step={1}
-              />
-            </div>
-            <div>
-              <Switch
-                checked={maleVoice}
-                onChange={e => setMaleVoice(e.target.checked)}
-                name="switch-male-voice"
-                inputProps={{ 'aria-label': 'Male voice' }}
-                className="setting-switch"
-              />
-              <span>Male voice</span>
-            </div>
+            <s.SettingsSection>
+              <s.SettingRow>
+                <s.SettingLabel>
+                  <DarkModeIcon />
+                  <span>Dark mode</span>
+                </s.SettingLabel>
+                <Switch
+                  checked={darkMode}
+                  onChange={e => setDarkMode(e.target.checked)}
+                  name="switch-dark-mode"
+                  inputProps={{ 'aria-label': 'Toggle dark mode' }}
+                />
+              </s.SettingRow>
+
+              <s.SettingRow>
+                <s.SettingLabel>
+                  <VolumeUpIcon />
+                  <span>Auto play audio</span>
+                </s.SettingLabel>
+                <Switch
+                  checked={autoPlayAudio}
+                  onChange={e => setAutoPlayAudio(e.target.checked)}
+                  name="switch-auto-play-audio"
+                  inputProps={{ 'aria-label': 'Auto play audios' }}
+                />
+              </s.SettingRow>
+
+              <s.SettingRow>
+                <s.SettingLabel>
+                  <RecordVoiceOverIcon />
+                  <span>Male voice</span>
+                </s.SettingLabel>
+                <Switch
+                  checked={maleVoice}
+                  onChange={e => setMaleVoice(e.target.checked)}
+                  name="switch-male-voice"
+                  inputProps={{ 'aria-label': 'Male voice' }}
+                />
+              </s.SettingRow>
+
+              <s.SettingRow>
+                <s.SettingLabel>
+                  <SkipNextIcon />
+                  <span>Auto advance</span>
+                </s.SettingLabel>
+                <Switch
+                  checked={autoAdvanceWords}
+                  onChange={e => setAutoAdvanceWords(e.target.checked)}
+                  name="switch-auto-advances"
+                  inputProps={{ 'aria-label': 'Auto advances words' }}
+                />
+              </s.SettingRow>
+            </s.SettingsSection>
           </s.Settings>
         </s.SettingsContainer>
       )}

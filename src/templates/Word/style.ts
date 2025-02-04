@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import ButtonBase from '@material-ui/core/ButtonBase';
+import { zIndex } from 'helpers/constants';
 
 export const WordPageContainer = styled.div`
   height: 100%;
@@ -128,7 +129,7 @@ export const NextButton = styled(ButtonBase)<NextButtonProps>`
   padding: 15px !important;
 
   svg {
-    z-index: 10;
+    z-index: ${zIndex.high};
     font-size: 30px;
     fill: #fff;
     ${({ $animateIcon }) =>
